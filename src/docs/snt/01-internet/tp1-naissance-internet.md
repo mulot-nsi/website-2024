@@ -5,8 +5,6 @@ description: Recherche de l'origine du réseau Internet
 
 # Naissance d'Internet
 
-![Réseau Arpanet](images/reseau.png)
-
 ## Introduction
 
 Ces travaux pratiques consistent à découvrir le réseau informatique à l'origine du réseau Internet.
@@ -118,7 +116,7 @@ Pronote.
 
 !!! note "Dépôt d'une copie sur Pronote"
 
-    1. Connectez-vous à l'**ENT** : [https://ent.iledefrance.fr](https://ent.iledefrance.fr){:target="_blank"}
+    1. Connectez-vous à l'**ENT** : [:material-link: https://monlycee.net](https://monlycee.net){:target="_blank"}
     2. Accédez à l'application **Pronote**
     3. Un *travail à faire* en SNT a été créé par votre enseignant. Il est identifiable sur la page d'accueil par un bouton :<br /> 
        **Déposer ma copie**{:style="display:inline-block;color:#4a1b7f;background-color:#ebdbff;padding:5px 20px;border-radius:10px;"}
