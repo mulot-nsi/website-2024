@@ -5,13 +5,14 @@ description: Projet de création d'une page web de présentation
 
 # Présentez-vous
 
+Page mise à jour le dimanche 15 septembre 2024 à 18h00 
+([:material-github: voir](https://github.com/mulot-nsi/website-2024/commit/ee60667ca75f95d8f9f91c62d89b929d24575e57){:target="_blank"})
+
 ## Introduction
 
 Ce projet consiste en la création d'un mini-site web composé de deux pages.
 Une première page sera consacrée à vous, et une seconde à un ou plusieurs de vos centres d'intérêt.
 Des contraintes techniques sont imposées et vous serez évalué sur le respect de celles-ci.
-
-*Consignes mises à jour le dimanche 15 septembre 2024 à 18h00*
 
 !!! success "Objectifs"
 
@@ -49,7 +50,7 @@ Votre mini-site web ne doit comporter que **deux pages** dont voici les descript
 
     - Seconde page dédiée à présenter un ou plusieurs de vos centres d'intérêt
     - Le code est enregistré dans un fichier dont le nom est libre mais cohérent avec le contenu de la page    
-    - Le contenu est libre mais doit respecter la [:material-link: legislation française](https://www.service-public.fr/particuliers/vosdroits/F32075) 
+    - Le contenu est libre mais doit respecter la [:material-link: legislation française](https://www.service-public.fr/particuliers/vosdroits/F32075){:target="_blank"}
     - Un lien hypertexte doit permettre de retourner vers la page d'accueil 
 
 ### Contraintes d'organisation
@@ -76,7 +77,7 @@ Les fichiers de votre projet doivent être rangés dans un dosser à votre nom.
     ```
 
 !!! warning "Tout en minuscules"
-    
+
     Veillez à ce que vos noms de fichiers et de dossiers soient en minuscules.
     Tout devrait bien fonctionner bien sous Windows ou MacOS.
     Cependant, certains systèmes d'exploitation comme Linux ont un système de fichiers sensible à la casse (qui distingue les minuscules des majuscules).
@@ -84,7 +85,7 @@ Les fichiers de votre projet doivent être rangés dans un dosser à votre nom.
     En cas de sensibilité à la casse, avoir des images stockées dans le dossier `Images/...` et les appeler en HTML avec le chemin `images/...` provoquera une anomalie.
 
 !!! danger "Soyez rigoureux !"
-    
+
     Soyez attentif à la structure des dossiers, aux noms de fichiers et aux différentes contraintes.
     Le nom du dossier contenant l'ensemble fichier de votre site a aussi son importance.
     Ne passez pas à côté de l'exemple d'arboresence ci-dessous *(cliquez dessus pour voir le contenu)*.
@@ -147,17 +148,16 @@ Cependant, vous devez obligatoirement utiliser les éléments de la liste suivan
     </html>
     ```
 
-
 ### Contraintes de code CSS
 
 Vous êtes libres d'utiliser toutes les propriétés CSS que vous jugerez nécessaires.
 Cependant, vous devez obligatoirement faire usage des sélecteurs et propriétés listés ci-après.
 
 !!! info "Sélecteurs CSS obligatoires"
-
-    | Sélecteur           | Syntaxe                    | Commentaire                                                                                                             |
-    |:--------------------|:---------------------------|:------------------------------------------------------------------------------------------------------------------------|
-    | Sélecteur de balise | `#!css p { ... }`          |                                                                                                                         |
+    
+    | Sélecteur           | Syntaxe                    | Commentaire                                                                                                                 |
+    |:--------------------|:---------------------------|:----------------------------------------------------------------------------------------------------------------------------|
+    | Sélecteur de balise | `#!css p { ... }`          |                                                                                                                             |
     | Sélecteur de classe | `#!css .ma-classe { ... }` | Ne pas oublier le `.` devant le nom de la classe.<br/>S'applique à toute balise ayant l'attribut `#!html class="ma-classe"` |
 
 !!! info "Propriétés CSS obligatoires"
@@ -170,7 +170,7 @@ Cependant, vous devez obligatoirement faire usage des sélecteurs et propriété
     | Largeur             | `#!css width:`      | À utiliser pour fixer la largeur des images. |
 
 !!! warning "Feuille de style unique"
-    
+
     **Attention**, vous n'avez droit qu'à un seul fichier CSS pour mettre en forme votre mini-site.
     À vous de définir astucieusement vos sélecteurs CSS afin que certains styles ne s'appliquent qu'à l'une ou l'autre des pages.
 
@@ -181,22 +181,22 @@ qualité à respecter pour chacun d'eux :
 
 !!! info "Qualité du code"
 
-    === "Langage HTML"
+    === ":material-language-html5: Langage HTML"
 
         - Le code HTML de chaque page web doit être indenté de façon à ce qu'on puisse bien identifier l'ouverture et la fermeture des balises
-        - Le code HTML devra être vérifié en chargeant vos pages sur le site [W3C Markup Validation Service](https://validator.w3.org/#validate_by_upload+with_options). Elles ne devront comporter aucune erreur
+        - Le code HTML devra être vérifié en chargeant vos pages sur le site [:material-link: W3C Markup Validation Service](https://validator.w3.org/#validate_by_upload+with_options){:target="_blank"}. Elles ne devront comporter aucune erreur
         - Si vous avez l'anomalie *<< Trailing slash on void elements has no effect and interacts badly with unquoted attribute values >>*, supprimez le `/` de fin des balises auto-fermantes (`meta`, `link`, `ìmg`, ...)
 
-    === "Langage CSS"
+    === ":material-language-css3: Langage CSS"
 
-        - Le code CSS devra être vérifié en chargeant vos fichiers de style sur le [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/#validate_by_upload). Ils ne devront comporter aucune erreur
+        - Le code CSS devra être vérifié en chargeant vos fichiers de style sur le [:material-link: W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/#validate_by_upload){:target="_blank"}. Ils ne devront comporter aucune erreur
 
 ## Envoi du projet
 
 Votre projet sera à déposer dans Pronote selon la date annoncée par votre enseignant. Les contraintes à respecter sont
 les suivantes :
 
-- l'ensemble de votre projet doit être compressé au format ZIP ; 
+- l'ensemble de votre projet doit être compressé au format ZIP ;
 - le poids du fichier ZIP ne doit pas dépasser 4 Mo ;
 - le nom du fichier ZIP est libre.
 
