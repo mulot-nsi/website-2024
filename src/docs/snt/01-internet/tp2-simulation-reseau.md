@@ -1,5 +1,5 @@
 ---
-title: Internet - TP2 Simulation d'un réseau
+title: Internet - Simulation d'un réseau
 description: Construction et simulation d'un réseau informatique
 ---
 
@@ -372,9 +372,9 @@ Suivez les instructions ci-dessous afin d'envoyer votre travail via Pronote.
 !!! note "Dépôt d'une copie sur Pronote"
 
     1. Quitter le mode simulation en cliquant 
-    2. Connectez-vous à l'**ENT** : [https://ent.iledefrance.fr](https://ent.iledefrance.fr){:target="_blank"}
+    2. Connectez-vous à l'**ENT** : [:material-link: https://monlycee.net](https://monlycee.net){:target="_blank"}
     3. Accédez à l'application **Pronote**
-    4. Depuis l'accueil, recherchez le devoir **SNT01 - TP2 Simulation d'un réseau**
+    4. Depuis l'accueil, recherchez le devoir **SNT01 TP - Simulation d'un réseau**
     5. Cliquez sur le bouton **Déposer ma copie**{:style="display:inline-block;color:#4a1b7f;background-color:#ebdbff;padding:5px 20px;border-radius:10px;"}
     6. Cliquez sur le bouton **Un seul fichier (*.pdf, *.doc, ...)**
     7. Choisissez le fichier Filius de votre réseau enregistré précédemment
@@ -385,9 +385,9 @@ Afin de vérifier votre compréhension de ces travaux pratiques, veuillez répon
 
 !!! note "Questionnaire de vérification"
 
-    1. Connectez-vous à l'**ENT** : [https://ent.iledefrance.fr](https://ent.iledefrance.fr){:target="_blank"}
+    1. Connectez-vous à l'**ENT** : [:material-link: https://monlycee.net](https://monlycee.net){:target="_blank"}
     2. Accédez à l'application **Pronote**
-    3. Depuis l'accueil, recherchez le QCM intitulé **SNT01 - TP2 Simulation d'un réseau**
+    3. Depuis l'accueil, recherchez le QCM intitulé **SNT01 TP - Simulation d'un réseau**
     4. Cliquez sur le bouton 
        **Exécuter le QCM**{:style="display:inline-block;color:#4a1b7f;background-color:#ebdbff;padding:5px 20px;border-radius:10px;"}
 
@@ -397,4 +397,4 @@ Une fois que votre réseau fonctionne, qu'il a été déposé sur Pronote et que
 
 ??? tip "Bonus"
 
-    Exercez-vous à la programmation Python de façon ludique sur [Pyrates](https://py-rates.fr/){:target="_blank"}
+    Découvrez la programmation Python de façon ludique sur [:material-link: Pyrates](https://py-rates.fr/){:target="_blank"}
