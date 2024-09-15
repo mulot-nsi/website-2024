@@ -11,6 +11,8 @@ Ce projet consiste en la création d'un mini-site web composé de deux pages.
 Une première page sera consacrée à vous, et une seconde à un ou plusieurs de vos centres d'intérêt.
 Des contraintes techniques sont imposées et vous serez évalué sur le respect de celles-ci.
 
+*Consignes mises à jour le dimanche 15 septembre 2024 à 18h00*
+
 !!! success "Objectifs"
 
     - mesurer votre capacité à suivre des consignes
@@ -47,7 +49,7 @@ Votre mini-site web ne doit comporter que **deux pages** dont voici les descript
 
     - Seconde page dédiée à présenter un ou plusieurs de vos centres d'intérêt
     - Le code est enregistré dans un fichier dont le nom est libre mais cohérent avec le contenu de la page    
-    - Le contenu est libre mais doit respecter la [legislation française](https://www.service-public.fr/particuliers/vosdroits/F32075) 
+    - Le contenu est libre mais doit respecter la [:material-link: legislation française](https://www.service-public.fr/particuliers/vosdroits/F32075) 
     - Un lien hypertexte doit permettre de retourner vers la page d'accueil 
 
 ### Contraintes d'organisation
@@ -55,7 +57,7 @@ Votre mini-site web ne doit comporter que **deux pages** dont voici les descript
 Les fichiers de votre projet doivent être rangés dans un dosser à votre nom.
 À l'intérieur de celui-ci doivent être présents :
 
-- un dossier `css` pour y placer vos fichiers CSS ;
+- un dossier `css` pour y placer votre fichier CSS ;
 - un dossier `images` pour les fichiers des images présentes sur votre mini-site ;
 - vos deux fichiers HTML.
 
@@ -80,8 +82,14 @@ Les fichiers de votre projet doivent être rangés dans un dosser à votre nom.
     Cependant, certains systèmes d'exploitation comme Linux ont un système de fichiers sensible à la casse (qui distingue les minuscules des majuscules).
     
     En cas de sensibilité à la casse, avoir des images stockées dans le dossier `Images/...` et les appeler en HTML avec le chemin `images/...` provoquera une anomalie.
-    
 
+!!! danger "Soyez rigoureux !"
+    
+    Soyez attentif à la structure des dossiers, aux noms de fichiers et aux différentes contraintes.
+    Le nom du dossier contenant l'ensemble fichier de votre site a aussi son importance.
+    Ne passez pas à côté de l'exemple d'arboresence ci-dessous *(cliquez dessus pour voir le contenu)*.
+    
+    Il serait dommage de perdre des points pour ne pas avoir suivi correctement la consigne.
 
 ??? example "Exemple d'arborescence"
 
