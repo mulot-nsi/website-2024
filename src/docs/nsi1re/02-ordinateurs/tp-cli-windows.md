@@ -3,7 +3,7 @@ title: Chapitre 2 - Ordinateurs - TP1 Interpréteur de commandes
 description: Découverte des interpréteurs de commande
 ---
 
-# Interpréteur de commandes
+# Interpréteur de commandes Windows
 
 ## Introduction
 
@@ -19,18 +19,15 @@ simple fenêtre où un curseur clignotant signale l'attente d'une saisie de l'ut
 
 ## Préparation
 
-### Lancement de Linux
+### Lancement de Powershell
 
 Le programme officiel impose de connaître les commandes Linux.
-Vos ordinateurs fonctionnant sous Windows, il est nécessaire de trouver un CLI fonctionnant sous Linux.
-Pour cela, il existe des émulateurs Linux en ligne.
+Au quotidien cependant, vous serez probablement amené à utiliser le CLI Windows.
 
-!!! note "Lancement d'un CLI Linux en ligne"
+!!! note "Lancement d'un CLI Powershell"
 
-    1. Lancez un navigateur Web
-    2. Connectez-vous à l'adresse [https://bellard.org/jslinux](https://bellard.org/jslinux){:target="_blank"}
-    3. Identifiez la version **x86 Alpine Linux 3.12.0 Console**
-    4. Cliquez sur **click here** pour lancer l'émulation
+    1. Recherchez `power` en utilisant le champ de recherche de la barre de tâches Windows
+    2. Lancez l'application **Windows PowerShell**
 
 ### ️Liste des commandes
 
@@ -51,7 +48,6 @@ Parcourez attentivement cette liste et comprenez le rôle de chaque commande ava
 | `cd ..`                        | Place l'utilisateur dans le dossier parent                   |
 | `mkdir` *nom_dossier*          | Crée un dossier nommé *nom_dossier*                          |
 | `rmdir` *nom_dossier*          | Supprime le dossier *nom_dossier*                            |
-| `chmod` *droits* *nom_fichier* | Modification des *droits* d'accès du fichier *nom_fichier*   |
 | `man` *commande*               | Affiche la documentation d'une commande                      |
 
 ## Instructions
@@ -60,11 +56,10 @@ Parcourez attentivement cette liste et comprenez le rôle de chaque commande ava
 
 !!! note "Déplacement dans une arborescence"
 
-    1. Placez-vous à la racine `/`
-    2. Placez-vous dans le dossier `root`
+    1. Placez-vous à la racine `C:\`
+    2. Placez-vous dans le dossier `Windows`
     3. Comment auriez-vous pu faire ça en une seule étape ?
-    4. Listez le contenu du dossier `root`
-    5. Listez le contenu du dossier `root` avec l'option `-al`
+    4. Listez le contenu du dossier `Windows`
 
 !!! tip "Conseil"
     
@@ -74,16 +69,18 @@ Parcourez attentivement cette liste et comprenez le rôle de chaque commande ava
 
 !!! note "Création de dossiers"
 
-    1. Placez-vous dans le dossier `/home`
-    2. Créez un dossier nommé `premiere_nsi`
-    3. Dans ce dossier, créez un dossier nommé `chapitre_1`
+    1. Placez-vous dans votre dossier personnel `C:\Users\prenomnom`
+    2. Placez-vous dans le dossier `Documents`
+    3. Créez un dossier nommé `premiere_nsi`
+    4. Dans ce dossier, créez un dossier nommé `chapitre_1`
+    5. Vérifiez le résultat dans l'explorateur de fichiers
 
 !!! note "Création d'un fichier"
 
-    1. Placez-vous dans le dossier `/home`
+    1. Placez-vous dans le dossier `~\Documents\premiere_nsi`
     2. Entrez la commande suivante :
     ```bash
-    echo Hello, World! > salutations.txt
+    echo "Hello, World!" > salutations.txt
     ```
     3. Listez le contenu du dossier `home`. Un fichier nommé `salutations.txt` doit être maintenant présent
     4. Affichez le contenu du fichier `salutation.txt`
@@ -101,26 +98,3 @@ Parcourez attentivement cette liste et comprenez le rôle de chaque commande ava
 
     1. Supprimez le fichier `salutations.txt` présent dans le dossier `chapitre_1`
     2. Supprimez le dossier `chapitre_1`
-
-### Droits d'accès
-
-!!! note "Modification des droits d'un fichier"
-
-    1. Enlevez les droits en lecture au fichier `salutations_v1.txt` pour tous les utilisateurs en utilisant la commande `chmod`
-    2. Vérifiez les droits du fichier en utilisant la commande `ls -l`
-    3. Redonnez les droits en lecture au fichier `salutations_v1.txt` à votre utilisateur uniquement
-
-
-## Conclusion
-
-### Questionnaire
-
-Afin de vérifier votre compréhension de ces travaux pratiques, veuillez répondre au questionnaire Pronote suivant :
-
-!!! note "Questionnaire de vérification"
-
-    1. Connectez-vous à [:material-link: https://monlycee.net](https://monlycee.net){:target="_blank"}
-    2. Accédez à l'application **Pronote**
-    3. Depuis l'accueil, recherchez le QCM intitulé **NSI1RE02 TP - Interpréteur de commandes**
-    4. Cliquez sur le bouton 
-       **Exécuter le QCM**{:style="display:inline-block;color:#4a1b7f;background-color:#ebdbff;padding:5px 20px;border-radius:10px;"}

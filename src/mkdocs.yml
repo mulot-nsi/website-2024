@@ -39,6 +39,7 @@ nav:
           - TP1 - Création d'une page web: nsi1re/01-langages-web/tp1-creation-page-web.md
       - Chapitre 2 - Architecture des ordinateurs:
           - TP1 - Interpréteur de commandes: nsi1re/02-ordinateurs/tp1-cli.md
+          - TP - CLI Windows: nsi1re/02-ordinateurs/tp-cli-windows.md
       - Chapitre 3 - Bases de la programmation:
           - TP1 - Mode interactif: nsi1re/03-bases-programmation/tp1-python-mode-interactif.md
           - TP2 - Mode script: nsi1re/03-bases-programmation/tp2-python-mode-script.md
