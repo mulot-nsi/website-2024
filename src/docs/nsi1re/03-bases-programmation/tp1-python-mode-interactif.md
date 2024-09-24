@@ -81,7 +81,7 @@ Vous pourrez ainsi verifier la version du langage prise en charge par chacune d'
 
 Python 2 [n'est plus supporté](https://www.python.org/doc/sunset-python-2/){:target="_blank"}
 Vous devez donc veiller à toujours utiliser la version 3.
-Nous en sommes aujourd'hui à la version 3.11, mais la version 3.8 reste amplement suffisante dans le cadre de
+Nous en sommes aujourd'hui à la version 3.12, mais la version 3.8 reste amplement suffisante dans le cadre de
 l'apprentissage de la programmation en NSI.
 
 !!! note "Lancement du programme `python3`"
@@ -367,4 +367,5 @@ Vous pourrez ensuite vous exercer au langage Python en lançant l'activité bonu
 
 ??? tip "Bonus"
 
-    Exercez-vous à la programmation Python de façon ludique avec [Pyrates](https://py-rates.fr/){:target="_blank"}.
+    - Testez un jeu dont vous êtes l'ordinateur avec [Compute-it](https://compute-it.toxicode.fr/){:target="_blank"}
+    - Exercez-vous à la programmation Python avec [Algorea Serious Game](https://parcours.algorea.org/fr/a/algorea-serious-game;a=0){:target="_blank"}
