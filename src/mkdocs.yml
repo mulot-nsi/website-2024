@@ -9,6 +9,7 @@ nav:
   - SNT:
       - snt/index.md
       - Tutoriels:
+          - Ordinateur: snt/tutoriels/ordinateur.md
           - Windows: snt/tutoriels/windows.md
           - Saisie de texte: snt/tutoriels/saisie-de-texte.md
           - ENT: snt/tutoriels/ent.md

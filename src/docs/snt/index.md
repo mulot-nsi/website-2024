@@ -2,6 +2,7 @@
 
 ## Tutoriels
 
+- [L'ordinateur](tutoriels/ordinateur.md)
 - [L'environnement windows](tutoriels/windows.md)
 - [Saisir du texte](tutoriels/saisie-de-texte.md)
 - [L'Environnement Numérique de Travail (ENT)](tutoriels/ent.md)
