@@ -91,8 +91,10 @@ votre mot de passe ENT.
 !!! note "Activation"
 
     1. Lancez l'application Word
-    2. Vérifiez votre état de connexion en haut à droite de la fenêtre qui vient de s'ouvrir
-    3. Si vous n'êtes pas connecté, connectez-vous avec votre adresse **@monlycee.net** et votre mot de passe ENT
+    2. Si le choix des types de fichier par défaut vous est proposé, choisissez **Formats Office Open XML**
+    2. Vérifiez votre état de connexion en haut à droite de la fenêtre
+    3. Si vous n'êtes pas connecté, connectez-vous en utilisant votre adresse email de l'ENT<br>
+       *:material-comment-alert: pour rappel, celle-ci est de la forme `prenom.nom@monlycee.net`*
 
 !!! note "Vérification"
 
@@ -101,7 +103,7 @@ votre mot de passe ENT.
 
     1. Créez un nouveau document Word
     2. Écrivez le texte de votre choix
-    3. Enregistez votre document dans le dossier `SNT\Tutoriels` créé en début de TP
+    3. Enregistez votre document dans le dossier `Documents\SNT\Tutoriels` créé en début de TP
 
 ### Le courrier électronique
 
@@ -117,6 +119,11 @@ Vous allez configurer celle-ci afin d'y ajouter votre boîte mail du lycée.
     1. Saisissez `Courrier` dans le champs de recherche de la **barre de tâches**
     2. Cliquez sur l'option **:material-pin-outline: Épingler à la barre des tâches**
 
+!!! Danger "Remplacement de Courrier par Outlook"
+
+    Pour certains ordinateurs, l'application **Courrier** se ferme automatiquement au profit de **Outlook** qui se lance à la place.
+    Si c'est le cas, passez directement à la rubrique [:material-anchor: La sauvegarde sur le Cloud](#la-sauvegarde-sur-le-cloud)
+
 !!! note "Ajout du compte du lycée"
 
     Vous allez maintenant configurer l'application afin qu'elle puisse récupérer vos emails du lycée :
@@ -125,15 +132,16 @@ Vous allez configurer celle-ci afin d'y ajouter votre boîte mail du lycée.
     2. L'application vous propose d'ajouer un compte, choisissez l'option **Configuration avancée**
     3. Saisissez les différents paramètres en suivant les intructions ci-dessous :
     
-        | Champs                                   | Saisie                                     |
-        |:-----------------------------------------|--------------------------------------------|
-        | Adresse de courrier                      | *Saisissez votre adresse en @monlycee.net* |
-        | Nom d’utilisateur                        | *Saisissez votre adresse en @monlycee.net* |
-        | Mot de passe                             | *Saisissez votre mot de passe ENT*         |
-        | Nom du compte                            | `Lycée`                                    |                                      
-        | Envoyer vos messages en utilisant ce nom | *Saisissez votre prénom et votre nom*      |         
-        | Serveur de courrier entrant              | `imaps.monlycee.net:993`                   |
-        | Serveur de courrier sortant (SMTP)       | `smtps.monlycee.net:465`                   |
+        | Champs                                   | Saisie                                              |
+        |:-----------------------------------------|-----------------------------------------------------|
+        | Adresse de courrier                      | *Saisissez votre adresse `prenom.nom@monlycee.net`* |
+        | Nom d’utilisateur                        | *Saisissez votre adresse `prenom.nom@monlycee.net`* |
+        | Mot de passe                             | *Saisissez votre mot de passe ENT*                  |
+        | Nom du compte                            | `Lycée`                                             |                                      
+        | Envoyer vos messages en utilisant ce nom | *Saisissez votre prénom et votre nom*               |         
+        | Serveur de courrier entrant              | `imaps.monlycee.net:993`                            |
+        | Type de compte                           | `IMAP4`                                             |
+        | Serveur de courrier sortant (SMTP)       | `smtps.monlycee.net:465`                            |
 
     4. Validez la saisie et patientez le temps de la synchronisation
 
@@ -206,7 +214,7 @@ En procédant ainsi et en activant la sauvegarde automatique, vous avez l'assura
 
     <div style="position: relative; padding-bottom: 62.5%; height: 0;"><iframe src="https://www.loom.com/embed/6747e2b6939c4999874fa286a4336b72?sid=0c113062-d3c7-4dbf-8f1f-5d15dc1c0ae5" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
-### Accès depuis le Web
+#### Accès depuis le Web
 
 Imaginons que vous utilisiez un ordinateur sur lequel il vous est impossible d'installer le service OneDrive.
 Pour contourner ce problème, les services de stockage sur le *cloud* fournissent un accès depuis une interface web.
@@ -232,6 +240,9 @@ par **M. Salamat**.
 
 !!! note "Instructions"
 
-    1. Lancez l'application **Courrier**
+    1. Accédez à vous emails via l'application **Courrier** ou via [:material-link: monlycee.net](https://www.monlycee.net){:target="_blank"}
     2. Retrouvez l'email de **M. Salamat**
     3. Suivez les instructions de connexion au réseau du lycéee
+    4. Lancez l'application <i class="icon file-explorer"></i> **Explorateur de fichiers**
+    5. Vérifiez la présence de votre dossier personnel du lycée dans la séction **Réseaux**
+    6. Copiez/collez vos travaux de SNT du début d'année dans le dossier `Documents\SNT` de votre ordinateur
