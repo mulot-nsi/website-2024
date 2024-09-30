@@ -104,6 +104,7 @@ votre mot de passe ENT.
     1. Créez un nouveau document Word
     2. Écrivez le texte de votre choix
     3. Enregistez votre document dans le dossier `Documents\SNT\Tutoriels` créé en début de TP
+    4. Fermez l'application Word
 
 ### Le courrier électronique
 
