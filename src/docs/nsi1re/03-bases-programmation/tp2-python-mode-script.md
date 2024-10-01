@@ -22,16 +22,16 @@ travaux pratiques.
 
     === ":material-laptop: Ordinateur portable"
 
-        1. Lancez l'**explorateur de fichiers**
-        2. Accédez au dossier **Documents**
-        3. Créez un dossier nommé **NSI** *(s'il n'existe pas déjà)*
-        4. Dans le dossier **NSI**, créez un dossier nommé **chapitre_03**
+        1. Lancez l'application <i class="icon file-explorer"></i> **Explorateur de fichiers** 
+           <span class="keys shortcut"><kbd>:fontawesome-brands-windows:</kbd><span>+</span><kbd>E</kbd></span>
+        2. Dans le dossier `Documents`, s'il n'y a pas de dossier nommé `NSI`, créez-le
+        3. Dans le dossier `NSI`, s'il n'y a pas de dossier nommé `chapitre_03`, créez-le
 
     === ":material-desktop-tower: Ordinateur fixe"
 
         1. Depuis le bureau, double-cliquez sur l'icône intitulée **Zone personnelle**
-        2. Dans votre zone personnelle, créez un dossier nommé **NSI** *(s'il n'existe pas déjà)*
-        3. Dans le dossier **NSI**, créez un dossier nommé **chapitre_03**
+        2. Dans votre zone personnelle, s'il n'y a pas de dossier `NSI`, créez-le
+        3. Dans le dossier `NSI`, s'il n'y a pas de dossier nommé `chapitre_03`, créez-le
 
 ### Environnement de développement
 
@@ -45,11 +45,11 @@ Cet IDE a été conçu pour l'apprentissage du langage Python.
     Thonny devrait normalement être déjà installé sur votre ordinateur portable.
     Si ce n'est pas le cas ou si vous utilisez un ordinateur fixe du lycée, voici les instructions pour l'installer :
     
-    1. Rendez vous sur le [site officiel](https://thonny.org/){:targer="_blank"}
-    2. Approchez la souris de *« Windows »* dans la zone de téléchargement
-    3. Téléchargez la version *« Portable variant with 64-bit Python 3.10 »*
+    1. Rendez vous sur le [:material-link: site officiel](https://thonny.org/){:target="_blank"}
+    2. Approchez la souris de **Windows** dans la zone de téléchargement
+    3. Téléchargez la version **Portable variant with 64-bit Python 3.10**
     4. Décompressez l'archive ZIP téléchargée
-    5. Déplacez le dossier décompressé dans votre dossier **Documents**
+    5. Déplacez le dossier décompressé dans votre dossier `Documents`
     6. Lancez Thonny en double-cliquant sur l'exécutable `Thonny.exe`
 
 !!! danger "Ne perdez pas de temps !"
@@ -78,7 +78,7 @@ Cet IDE a été conçu pour l'apprentissage du langage Python.
     Ton année de naissance est 2000
     ```
 
-??? tip "Aide - Obtenir une saisie utilisateur"
+??? help "Aide - Obtenir une saisie utilisateur"
     
     En Python, la fonction `#!python input()` permet de lire des données saisies au clavier (*entrée standard* par défaut).
     Celles-ci sont renvoyées par la fonction sous forme d'une **chaîne de caractères**.
@@ -103,7 +103,7 @@ Cet IDE a été conçu pour l'apprentissage du langage Python.
             print(nom)
             ```
 
-??? tip "Aide - Afficher une chaîne de caractères"
+??? help "Aide - Afficher une chaîne de caractères"
 
     En Python, la fonction `#!python print()` permet d'afficher du texte à l'écran (*sortie standard* par défaut).
     Chaque argument transmis à la fonction est automatiquement converti en chaîne de caractères.
@@ -194,10 +194,10 @@ Cet IDE a été conçu pour l'apprentissage du langage Python.
     <h4>Exemple d'affichage</h4>
     ```
     Indique ton année de naissance : 2000
-    Tu as 23 ans.
+    Tu as 24 ans.
     ```
 
-??? tip "Aide - Conversion d'une chaîne de caractères en nombre"
+??? help "Aide - Conversion d'une chaîne de caractères en nombre"
 
     En Python, la fonction `#!python int()` permet de convertir une chaîne de caractères en nombre.
 
@@ -212,7 +212,7 @@ Cet IDE a été conçu pour l'apprentissage du langage Python.
         2000
         ```
 
-??? tip "Aide - Conversion d'un nombre en chaîne de caractères"
+??? help "Aide - Conversion d'un nombre en chaîne de caractères"
 
     En Python, la fonction `#!python str()` permet de convertir un nombre en chaîne de caractères.
     Il est nécessaire de convertir un nombre en chaîne de caractères si on souhaite le concaténer à une autre chaîne.
@@ -228,7 +228,7 @@ Cet IDE a été conçu pour l'apprentissage du langage Python.
         '2000'
         ```
 
-??? tip "Aide - Obtenir l'année courante *(hors programme)*"
+??? help "Aide - Obtenir l'année courante *(hors programme)*"
 
     Pour les perfectionnistes, vous pouvez obtenir l'année courante en utilisant le module `datetime`.
 
@@ -238,7 +238,7 @@ Cet IDE a été conçu pour l'apprentissage du langage Python.
             ```
             >>> from datetime import date
             >>> date.today().year
-            2023
+            2024
             ```
 
         === ":material-file-document-edit-outline: Fichier"
@@ -254,7 +254,7 @@ Cet IDE a été conçu pour l'apprentissage du langage Python.
 
         ```python
         annee = int(input("Indique ton année de naissance : "))
-        age = 2023 - annee
+        age = 2024 - annee
         print("Tu as", age, "ans")
         ```
 
@@ -262,7 +262,7 @@ Cet IDE a été conçu pour l'apprentissage du langage Python.
 
         ```python
         annee = input("Indique ton année de naissance : ")
-        age = 2023 - int(annee)
+        age = 2024 - int(annee)
         print("Tu as", age, "ans")
         ```
 
@@ -270,14 +270,14 @@ Cet IDE a été conçu pour l'apprentissage du langage Python.
 
         ```python
         annee = input("Indique ton année de naissance : ")
-        print("Tu as", 2023 - int(annee), "ans")
+        print("Tu as", 2024 - int(annee), "ans")
         ```
 
     === "Solution 4"
 
         ```python
         annee = input("Indique ton année de naissance : ")
-        age = 2023 - int(annee)
+        age = 2024 - int(annee)
         affichage = "Tu as " + str(age) + " ans"
         print(affichage)
         ```    
@@ -286,7 +286,7 @@ Cet IDE a été conçu pour l'apprentissage du langage Python.
 
         ```python
         annee = input("Indique ton année de naissance : ")
-        print("Tu as " + str(2023 - int(annee)) + " ans")
+        print("Tu as " + str(2024 - int(annee)) + " ans")
         ```
 
 
@@ -303,16 +303,16 @@ Cet IDE a été conçu pour l'apprentissage du langage Python.
     <h4>Exemples d'affichage</h4>
     ```
     Indique ton année de naissance : 2000
-    Tu as 22 ans et tu es majeur(e)
+    Tu as 24 ans et tu es majeur(e)
     ```
 
     ```
     Indique ton année de naissance : 2010
-    Tu as 13 ans et tu es mineur(e)
+    Tu as 14 ans et tu es mineur(e)
     Tu seras majeur(e) en 2027
     ```
 
-??? tip "Aide - Les structures conditionnelles"
+??? help "Aide - Les structures conditionnelles"
 
     Voici un rappel de la syntaxe des structures conditionnelles en Python.
 
@@ -369,20 +369,20 @@ Cet IDE a été conçu pour l'apprentissage du langage Python.
     <h4>Exemples d'affichage</h4>
     ```
     Indique ton année de naissance : 2040
-    Erreur, saisir une année comprise entre 1900 et 2023
+    Erreur, saisir une année comprise entre 1900 et 2024
     ```
     
     ```
     Indique ton année de naissance : 850
-    Erreur, saisir une année comprise entre 1900 et 2023
+    Erreur, saisir une année comprise entre 1900 et 2024
     ```
     
     ```
     Indique ton année de naissance : hello
-    Erreur, saisir une année comprise entre 1900 et 2023
+    Erreur, saisir une année comprise entre 1900 et 2024
     ```
 
-??? tip "Aide - Vérifier si une chaîne est numériques *(hors programme)*"
+??? help "Aide - Vérifier si une chaîne est numériques *(hors programme)*"
 
     Avant de convertir une chaîne de caractères en un nombre (`#!python int` ou `#!python float`), il est possible de vérifier au préalable que celle-ci ne contienne uniquement des caractères numériques.
     Ceci est possible grâce à la méthode `#!python isdigit()` associée au type `#!python str`.
@@ -404,7 +404,7 @@ Cet IDE a été conçu pour l'apprentissage du langage Python.
         >>> True
         ```
 
-??? tip "Aide - Interrompre l'exécution d'un programme *(hors programme)*"
+??? help "Aide - Interrompre l'exécution d'un programme *(hors programme)*"
 
     Si votre programme se trouve dans un état impropre à la poursuite de son exécution, vous pouvez en forcer la fin grâce à la fonction `#!python exit()`.
     Celle-ci prend optionnellement en argument une chaîne de caractères correspondant au message à afficher.
@@ -471,7 +471,7 @@ Cet IDE a été conçu pour l'apprentissage du langage Python.
 
 ## Le nombre secret
 
-!!! success "Objectif"
+!!! target "Objectif"
     
     Nous souhaitons recréer en Python le jeu consistant à deviner un nombre choisi aléatoirement entre 0 et 100.
 
@@ -481,7 +481,7 @@ Cet IDE a été conçu pour l'apprentissage du langage Python.
 La valeur choisie par l'ordinateur est affichée pour des raisons de débogage.
 Celle-ci devra être masquée une fois le développement du jeu terminé.
 
-??? tip "Aide - Obtenir un entier pseudo-aléatoire"
+??? help "Aide - Obtenir un entier pseudo-aléatoire"
 
     Il est possible d'obtenir un entier aléatoire grâce à la fonction `randint()` du module `random`.
     Ci-dessous, un exemple d'appel de la fonction `randint()` pour obtenir un entier aléatoire  $n$ tel que $1 \leq n \leq 6$.
@@ -519,7 +519,7 @@ Les indications *« Plus petit »* ou *« plus grand »* seront affichées aprè
     Bravo !
     ```
 
-??? tip "Les boucles non bornées"
+??? help "Les boucles non bornées"
 
     Rappel de la syntaxe Python des boucles **while**, ou **boucles non bornées**.
 
@@ -587,7 +587,7 @@ Une fois, les développements terminés, ne plus afficher la valeur stockée en 
     Bravo ! Tu as trouvé en 5 tentatives
     ```
 
-??? tip "Valeur absolue d'un nombre"
+??? help "Valeur absolue d'un nombre"
 
     La fonction Python permettant d'obtenir la valeur d'un nombre est `abs()`.
     
