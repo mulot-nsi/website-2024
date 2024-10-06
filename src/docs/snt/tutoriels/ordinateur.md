@@ -109,42 +109,35 @@ votre mot de passe ENT.
 ### Le courrier électronique
 
 Il vous est possible d'accéder à vos emails en vous connectant à l'ENT depuis un navigateur web.
-Mais il pourrait être pratique de pouvoir consulter les emails directement depuis l'application **Courrier** du système
-d'exploitation Windows.
-Vous allez configurer celle-ci afin d'y ajouter votre boîte mail du lycée.
+Mais il pourrait être pratique de pouvoir consulter les emails directement depuis l'application **Outlook** fournie par
+le système d'exploitation Windows.
+Vous allez configurer celle-ci afin d'y ajouter votre boîte mail du **lycée**.
 
-!!! note "Création d'un raccourci vers l'application"
+!!! note "Instructions"
 
-    Vous allez commencer par créer un raccourci vers l'application **Courrier** afin de pouvoir y accéder rapidement :
+    Vous allez maintenant configurer l'application afin qu'elle puisse récupérer vos emails du lycée.
+    Vous pouvez suivre la vidéo ou les indications textuelles.
 
-    1. Saisissez `Courrier` dans le champs de recherche de la **barre de tâches**
+    <div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.loom.com/embed/6242bd4970594292b8c913538de9f0cf?sid=42b1e979-c850-4c35-b3b1-63b1cc67035e" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+
+    1. Saisissez `Outlook` dans le champs de recherche de la **barre de tâches**
     2. Cliquez sur l'option **:material-pin-outline: Épingler à la barre des tâches**
+    3. Lancez l'application **Outlook** depuis le raccourci de la barre des tâches
+    4. Saisissez votre adresse `prenom.nom@monlycee.net` dans le champ de saisie des comptes suggérés
+    5. Saisissez votre mot de passe de l'ENT
+    6. Cliquez sur **Afficher plus** et renseignez correctement les paramètres ci-dessous :
 
-!!! Danger "Remplacement de Courrier par Outlook"
+        | Paramètre                   | Valeur                                  |
+        |:----------------------------|-----------------------------------------|
+        | Adresse de courrier         | votre adresse `prenom.nom@monlycee.net` |
+        | Mot de passe                | votre mot de passe ENT                  |
+        | Serveur entrant IMAP        | `imaps.monlycee.net`, port `993`        |
+        | Type de connexion sécurisée | SSL/TLS (recommandé)                    |      
+        | Nom d'utilisateur SMTP      | votre adresse `prenom.nom@monlycee.net` |
+        | Serveur sortant SMTP        | `smtps.monlycee.net`, port `465`        |
+        | Type de connexion sécurisée | SSL/TLS (recommandé)                    |   
 
-    Pour certains ordinateurs, l'application **Courrier** se ferme automatiquement au profit de **Outlook** qui se lance à la place.
-    Si c'est le cas, passez directement à la rubrique [:material-anchor: La sauvegarde sur le Cloud](#la-sauvegarde-sur-le-cloud)
-
-!!! note "Ajout du compte du lycée"
-
-    Vous allez maintenant configurer l'application afin qu'elle puisse récupérer vos emails du lycée :
-
-    1. Lancez l'application **Courrier** depuis le raccourci de la barre des tâches
-    2. L'application vous propose d'ajouer un compte, choisissez l'option **Configuration avancée**
-    3. Saisissez les différents paramètres en suivant les intructions ci-dessous :
-    
-        | Champs                                   | Saisie                                              |
-        |:-----------------------------------------|-----------------------------------------------------|
-        | Adresse de courrier                      | *Saisissez votre adresse `prenom.nom@monlycee.net`* |
-        | Nom d’utilisateur                        | *Saisissez votre adresse `prenom.nom@monlycee.net`* |
-        | Mot de passe                             | *Saisissez votre mot de passe ENT*                  |
-        | Nom du compte                            | `Lycée`                                             |                                      
-        | Envoyer vos messages en utilisant ce nom | *Saisissez votre prénom et votre nom*               |         
-        | Serveur de courrier entrant              | `imaps.monlycee.net:993`                            |
-        | Type de compte                           | `IMAP4`                                             |
-        | Serveur de courrier sortant (SMTP)       | `smtps.monlycee.net:465`                            |
-
-    4. Validez la saisie et patientez le temps de la synchronisation
+    7. Cliquez sur **Continuer** et patientez le temps de la synchronisation
 
 ### La sauvegarde sur le Cloud
 
@@ -236,7 +229,8 @@ Pour contourner ce problème, les services de stockage sur le *cloud* fournissen
     L'accès à votre **dossier personnel** du lycée n'est possible que si vous êtes connecté au réseau WIFI du lycée.
     Si l'accès au réseau WIFI ne fonctionne pas et que vous êtes en partage de connexion, votre dossier personnel sera inaccessible.
 
-Les instructions pour vous connecter à votre dossier personnel ainsi qu'à d'autres dossiers du lycée vous ont été transmises par email
+Les instructions pour vous connecter à votre dossier personnel ainsi qu'à d'autres dossiers du lycée vous ont été
+transmises par email
 par **M. Salamat**.
 
 !!! note "Instructions"
