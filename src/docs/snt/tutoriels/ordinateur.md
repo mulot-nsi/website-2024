@@ -235,9 +235,11 @@ par **M. Salamat**.
 
 !!! note "Instructions"
 
-    1. Accédez à vous emails via l'application **Courrier** ou via [:material-link: monlycee.net](https://www.monlycee.net){:target="_blank"}
+    1. Accédez à vous emails via l'application **Outlook** ou via [:material-link: monlycee.net](https://www.monlycee.net){:target="_blank"}
     2. Retrouvez l'email de **M. Salamat**
-    3. Suivez les instructions de connexion au réseau du lycéee
-    4. Lancez l'application <i class="icon file-explorer"></i> **Explorateur de fichiers**
-    5. Vérifiez la présence de votre dossier personnel du lycée dans la séction **Réseaux**
-    6. Copiez/collez vos travaux de SNT du début d'année dans le dossier `Documents\SNT` de votre ordinateur
+    3. Téléchargez la pièce jointe, suivez les instructions de connexion au réseau du lycéee en vous aidant de la vidéo
+
+        <div style="position: relative; padding-bottom: 62.5%; height: 0;"><iframe src="https://www.loom.com/embed/c44c0dd957d64af78e8de247d3a094dd?sid=98785f58-64d3-41fc-8d04-e8ce9c0b4558" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+
+    4. Vérifiez la présence de votre dossier personnel du lycée dans la séction **Ce PC**
+    5. Copiez/collez vos travaux de SNT du début d'année dans le dossier `Documents\SNT` de votre ordinateur
