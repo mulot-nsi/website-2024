@@ -18,6 +18,8 @@ Dans le cadre de ces travaux pratiques, vous allez découvrir ce langage HTML et
 
 ## Préparation
 
+### Création du dossier de travail
+
 Vous allez créer des dossiers afin de ne pas mélanger vos productions numériques entre vos différentes matières et
 travaux pratiques.
 
@@ -39,6 +41,28 @@ travaux pratiques.
         3. Dans le dossier `SNT`, s'il n'y a pas de dossier `web`, créez-le
         4. Dans le dossier `web`, créez le dossier `langage_html`
 
+### Configuration de l'ordinateur
+
+Afin de mieux pouvoir identifier le type d'un fichier, il est nécessaire d'activer l'option **Extensions de noms de fichiers**
+de l'explorateur de fichiers Windows
+
+!!! note "Organisation de l'espace travail"
+
+    === ":material-laptop: Ordinateur portable"
+
+        1. Lancez l'application <i class="icon file-explorer"></i> **Explorateur de fichiers** 
+           <span class="keys shortcut"><kbd>:fontawesome-brands-windows:</kbd><span>+</span><kbd>E</kbd></span>
+        2. Accédez à l'entrée **Afficher** de la barre d'outils
+        3. Accédez au sous-menu **Afficher**
+        4. Vérifiez que l'option **Extensions de noms de fichiers** soit bien cochée
+
+            ![Afficher les extensoons de fichiers](images/file_explorer_show_extensions.png)
+
+    === ":material-desktop-tower: Ordinateur fixe"
+
+        Appelez votre enseignant afin qu'il vous montre comment activer l'option
+
+
 ## Code source d'une page web
 
 ### Affichage du code source
@@ -56,7 +80,7 @@ C'est une application capable d'afficher une page web à partir de son code HTML
 
     1. Rendez-vous sur la page de démonstration en cliquant sur ce lien : [:material-link: demo.html](assets/demo.html){:target="_blank"}
     2. Une fois sur cette page, utilisez le raccourci clavier ++ctrl+u++
-    3. Observez et essayez de faire la distinction entre le contenu et le code permettant de structurer ce contenu
+    3. **Observez** et essayez de faire la distinction entre le contenu et le code permettant de structurer ce contenu
 
 !!! info "Cours - Les balises HTML"
 
