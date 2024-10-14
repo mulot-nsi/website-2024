@@ -29,8 +29,8 @@ travaux pratiques.
 
         1. Lancez l'application <i class="icon file-explorer"></i> **Explorateur de fichiers** 
            <span class="keys shortcut"><kbd>:fontawesome-brands-windows:</kbd><span>+</span><kbd>E</kbd></span>
-        2. Accédez à votre dossier <i class="icon onedrive"></i> **OneDrive**
-        3. Dans le dossier `OneDrive`, s'il n'y a pas de dossier nommé `SNT`, créez-le
+        2. Accédez à votre dossier `Documents`
+        3. Dans le dossier `Documents`, s'il n'y a pas de dossier nommé `SNT`, créez-le
         4. Dans le dossier `SNT`, s'il n'y a pas de dossier `web`, créez-le
         5. Dans le dossier `web`, créez le dossier `langage_html`
 
@@ -44,7 +44,7 @@ travaux pratiques.
 ### Configuration de l'ordinateur
 
 Afin de mieux pouvoir identifier le type d'un fichier, il est nécessaire d'activer l'option **Extensions de noms de fichiers**
-de l'explorateur de fichiers Windows
+de l'explorateur de fichiers Windows.
 
 !!! note "Organisation de l'espace travail"
 
@@ -80,7 +80,8 @@ C'est une application capable d'afficher une page web à partir de son code HTML
 
     1. Rendez-vous sur la page de démonstration en cliquant sur ce lien : [:material-link: demo.html](assets/demo.html){:target="_blank"}
     2. Une fois sur cette page, utilisez le raccourci clavier ++ctrl+u++
-    3. **Observez** et essayez de faire la distinction entre le contenu et le code permettant de structurer ce contenu
+    3. **Observez** et distinguez le contenu en français et le code HTML permettant de le structurer.
+       Essayez cerner la logique du code en comprenant l'intéret d'avoir écrit `<h1>`, `<strong>` et `<em>`.
 
 !!! info "Cours - Les balises HTML"
 
