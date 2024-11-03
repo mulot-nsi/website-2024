@@ -7,7 +7,7 @@ description: Découverte du langage CSS
 
 ## Introduction
 
-L’activité « [:material-link: TP1 - Langage HTML](tp1-langage-html.md) » a consisté à utiliser le langage HTML pour
+L’activité « [:material-link: TP1 - Langage HTML](langage-html/index.md) » a consisté à utiliser le langage HTML pour
 définir le **contenu
 et la structure** d'une page web.
 
