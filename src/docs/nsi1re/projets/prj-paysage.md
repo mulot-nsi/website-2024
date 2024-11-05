@@ -26,7 +26,7 @@ Les paramètres doivent donc permettre d'ajuster le tracé de l'objet et potenti
 
 <h3>Nombre de paramètres</h3>
 
-Le nombre de paramètres attendus, indépendamment des paramètres de positionnement, est de six (quatre paramètres de tracé et deux paramètres de couleur).
+Le nombre de paramètres attendus, indépendamment des paramètres de positionnement `x` et `y`, est de six (quatre paramètres de tracé et deux paramètres de couleur).
 C'est un critère d'évaluation. Vous pouvez en implémenter moins, mais la note maximale sera ajustée en conséquence.
 Voici les configurations de paramètres envisageables triées par difficulté décroissante.
 
@@ -37,7 +37,7 @@ Voici les configurations de paramètres envisageables triées par difficulté d�
 
 !!! example "Exemple d'habitation à deux paramètres"
 
-    L'objet que nous souhaitons dessiner dans le cadre de cet exemple est une maison.
+    Dans cet exemple, nous souhaitons dessiner une maison.
     Le tracé de celle-ci est ajustable selon deux paramètres : le nombre d'étages et le nombre de fenêtres par étage.
     
     ```python
@@ -52,7 +52,7 @@ Voici les configurations de paramètres envisageables triées par difficulté d�
         """
     ```
 
-    Voici un exemple de paysage construit à partir de plusieurs appels d'une fonction de tracé d'une habitation à **deux paramètres** tracé :
+    Voici un exemple de paysage construit à partir de plusieurs appels d'une fonction de tracé d'une habitation à **deux paramètres** `nb_etages` et `nb_fenetres` de tracé :
     
     ```python
     def dessiner_paysage():
@@ -95,7 +95,7 @@ Un module appelé `main.py` contiendra la configuration Turtle et l'appel à la 
 
     - Déposé sur Pronote à l'heure
     - Envoyé sous forme d'un fichier ZIP
-    - Tous les auteurs sont mentionnées dans le code source
+    - Tous les auteurs sont mentionnés dans le code source
     - Le programme s'exécute depuis le fichier `main.py`
     - Le programme s'exécute sans anomalie
     - La fenêtre reste ouverte à la fin du tracé
@@ -105,7 +105,7 @@ Un module appelé `main.py` contiendra la configuration Turtle et l'appel à la 
     - Fonction unique de génération du paysage
     - Appel de la fonction de génération du paysage depuis le fichier `main.py`
     - Fonction dédiée au tracé de l'habitation
-    - Fonction de tracé de l'habitation comportant, des paramètres de tracé (hors `x` et `y`) et des paramètres de couleur
+    - Fonction de tracé de l'habitation comportant des paramètres de tracé (hors `x` et `y`) et des paramètres de couleur
 
 !!! success "Programmation"
 
