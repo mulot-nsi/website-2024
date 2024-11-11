@@ -7,21 +7,13 @@ description: Découverte du langage CSS
 
 ## Introduction
 
-L’activité « [:material-link: TP1 - Langage HTML](langage-html/index.md) » a consisté à utiliser le langage HTML pour
+L’activité « [:material-link: TP1 - Langage HTML](../langage-html/index.md) » a consisté à utiliser le langage HTML pour
 définir le **contenu
 et la structure** d'une page web.
 
 Ces travaux pratiques ont pour objectif de vous faire découvrir la **mise en forme** d'une page web.
 Pour cela, vous apprendrez à utiliser le langage CSS *(Cascading Style Sheets)* aussi appelé *feuilles de style* en
 français.
-
-!!! target "Objectifs"
-
-    - Comprendre le rôle du langage CSS
-    - Savoir faire la distinction entre le langage HTML et le langage CSS
-    - Comprendre la structure du langage CSS
-    - Savoir ce qu'est un selecteur
-    - Savoir ce qu'est une propriété CSS
 
 ## Préparation
 
@@ -33,15 +25,6 @@ travaux pratiques.
 !!! note "Organisation de l'espace travail"
 
     === ":material-laptop: Ordinateur portable"
-
-        <h5>Étape 1 - Activation de la sauvegarde sur le cloud OneDrive</h5>
-        
-        1. Connectez-vous en cliquant sur le nuage situé en bas à droite à proximité de l'heure
-        2. Acceptez d'utiliser votre adresse **@monlycee.net**
-        3. Acceptez la synchronisation automatique des dossiers de votre ordinateur
-        4. Une fois la connection réussie, le nuage doit devenir bleu <i class="icon onedrive"></i> 
-
-        <h5>Étape 2 - Créaction des dossiers</h5>
 
         1. Lancez l'application <i class="icon file-explorer"></i> **Explorateur de fichiers**
         2. Dans le dossier `Document`, s'il n'y a pas de dossier nommé `SNT`, créez-le

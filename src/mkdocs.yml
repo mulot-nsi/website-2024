@@ -24,7 +24,10 @@ nav:
               - Analyse d'une page web : snt/02-web/langage-html/activite1.md
               - Programmation HTML : snt/02-web/langage-html/activite2.md
               - Création d'une page web : snt/02-web/langage-html/activite3.md
-          - Le Langage CSS: snt/02-web/tp2-langage-css.md
+          - Le Langage CSS:
+              - snt/02-web/langage-css/index.md
+              - Activité 1A : snt/02-web/langage-css/activite1a.md
+              - Activité 1B : snt/02-web/langage-css/activite1b.md
           - Confidentialité: snt/02-web/tp3-confidentialite.md
           - Projet - Minisite web: snt/02-web/prj-minisite.md
       - Réseaux sociaux:
