@@ -5,6 +5,13 @@ description: Création d'un minisite web
 
 # Minisite web
 
+!!! danger "Important avant de commencer"
+
+    Pour être en mesure de réaliser ce projet dans de bonnes conditions, vous devez avoir réussi et compris les travaux pratiques suivants :
+
+    - [:material-link: Le langage HTML - Activité 3 *(création d'une page web)*](langage-html/activite3.md){:target="_blank"}
+    - [:material-link: Le langage CSS - Activité 1A *(mise en forme d'une page web)*](langage-css/activite1a.md){:target="_blank"}
+
 Ce projet a pour finalité la création d'un minisite web. Il peut être réalisé seul ou en équipe (3 élèves maximum).
 Les contraintes techniques doivent être respectées et impliquent la présence de certaines balises.
 Le site doit disposer d'un nombre minimum de pages, variable selon la taille de l'équipe :
@@ -85,22 +92,27 @@ Les fichiers fournis comme point de départ pour la création de votre minisite 
 
 Pour visualiser les pages, vous utiliserez un navigateur Web comme Chrome, Firefox ou Edge.
 Le contenu des pages peut être modifié à l'aide de l'application **Bloc-notes** de Windows.
-Ce n'est cependant pas l'application la plus ergonomique et on lui préfèrera le logiciel **Notepad++** dont voici les
-instructions de téléchargement.
+Ce n'est cependant pas l'application la plus ergonomique et on lui préfèrera le logiciel **Notepad++**.
 
-!!! note "Installation du logiciel Notepad++"
+!!! danger "Important"
+
+    Notepad++ est **installé sur votre ordinateur portable** et les ordinateurs du lycée, cherchez-le dans vos applications.
+
+    Si l'application est en anglais, vous pouvez la passer en français en allant dans **Settings** puis **Preferences...** et choisir *« Français »* au niveau du champ **Localization**
+
+??? note "Installation du logiciel Notepad++ (si nécessaire)"
     
     <h5>Étape 1 - Récupération du logiciel</h5>
 
-    1. Téléchargez [:material-download: Notepad++ v8.6 **version portable** (zip)](https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.6/npp.8.6.portable.x64.zip)
+    1. Téléchargez [:material-download: Notepad++ v8.7.1 **version portable** (zip)](https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.7.1/npp.8.7.1.portable.x64.zip)
     2. Lancez l'application <i class="icon file-explorer"></i> **Explorateur de fichiers**
     3. Rendez-vous dans le dossier `Téléchargenment`
-    4. Faites un **clic-droit** sur `npp.8.6.portable.x64.zip` et choisir l'option **Extraire tout...**
-    5. Supprimez le fichier `npp.8.6.portable.x64.zip`
+    4. Faites un **clic-droit** sur `npp.8.7.1.portable.x64.zip` et choisir l'option **Extraire tout...**
+    5. Supprimez le fichier `npp.8.7.1.portable.x64.zip`
     
     <h5>Étape 2 - Lancement et configuration du logiciel</h5>
 
-    1. Lancez l'application `notepad++.exe` depuis le dossier `npp.8.6.portable.x64`
+    1. Lancez l'application `notepad++.exe` depuis le dossier `npp.8.7.1.portable.x64`
     2. Passez l'application en français en allant dans **Settings** puis **Preferences...** et choisir *Français* au niveau du champ **Localization**
 
 ### Développement
@@ -168,7 +180,7 @@ Vous êtes libre de la modifier entièrement. Elle devra cependant contenir au m
 Les sous-pages correspondent au fichier `page-exemple.html` et à toutes les autres pages web que vous pourriez ajouter
 et nommer librement.
 
-!!! warning "Renommer et modifier les exemples"
+!!! danger "Renommer et modifier les exemples"
 
     Attention, le fichier `page-exemple.html` est un exemple, vous devez le renommer et modifier son contenu.
 
