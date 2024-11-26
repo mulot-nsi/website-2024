@@ -252,7 +252,7 @@ Cette fonction calcule et renvoie la somme des entiers du tableau.
     1. Écrivez le code de la fonction dans le fichier `ex22_somme.py` *(voir l'algorithme en cas de difficulté)*
     2. Écrivez la *docstring* de la fonction
     3. Écrivez les *doctest* que vous jugerez pertinents
-       *(voir [:material-link: Chapitre 4 - Programmation défensive](../04-fonctions/tp2-programmation-defensive.md){:target="_blank"})*
+       *(voir [:material-link: Chapitre 4 - Programmation défensive - Activité 1](../04-fonctions/programmation-defensive/activite1.md){:target="_blank"})*
     4. Testez la fonction en utilisant uniquement les *doctests*
 
 ??? success "Algorithme"
