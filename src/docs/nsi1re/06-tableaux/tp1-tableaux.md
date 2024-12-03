@@ -480,9 +480,9 @@ Suivez les instructions ci-dessous afin d'envoyer votre travail via Pronote.
 !!! note "Dépôt d'une copie sur Pronote"
 
     1. Compressez votre dossier `NSI\chapitre_06\tp1` au format **ZIP**
-    2. Connectez-vous à l'**ENT** : [https://ent.iledefrance.fr](https://ent.iledefrance.fr){:target="_blank"}
+    2. Connectez-vous à l'**ENT** : [:material-link: https://monlycee.net](https://monlycee.net){:target="_blank"}
     3. Accédez à l'application **Pronote**
-    4. Depuis l'accueil, recherchez le devoir **NSI1RE06 - TP1 - Tableaux**
+    4. Depuis l'accueil, recherchez le devoir **NSI1RE06 TP - Introduction aux tableaux**
     5. Cliquez sur le bouton **Déposer ma copie**{:style="display:inline-block;color:#4a1b7f;background-color:#ebdbff;padding:5px 20px;border-radius:10px;"}
     6. Cliquez sur le bouton **Un seul fichier (*.pdf, *.doc, ...)**
     7. Déposez votre fichier ZIP
