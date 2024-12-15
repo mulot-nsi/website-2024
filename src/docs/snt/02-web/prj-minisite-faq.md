@@ -7,6 +7,23 @@ description: Création d'un minisite web
 
 ## Création du minisite
 
+!!! info "J'ai des difficultés avec le langage HTML et CSS"
+
+    Avez-vous bien effectué, terminé et compris les travaux pratiques dédiés à ces langages ?
+
+    <strong>Introduction au langage HTML</strong><br>
+    Travaux pratiques consistant à créer une page web sur votre film préféré.<br>
+    [:material-text-box-outline: Énoncé](./langage-html/activite3.md){ .md-button target="_blank" }
+    [:material-video: Correction](https://tube-sciences-technologies.apps.education.fr/w/x7WEXEZSC76MU3V6JDAVHP){ .md-button target="_blank" }
+
+    <strong>Introduction au langage CSS</strong><br>
+    Travaux pratiques consistant à mettre en forme une page Web depuis l'environnement de programmation Capytale.<br>
+    [:material-text-box-outline: Énoncé](./langage-css/activite1a.md){ .md-button target="_blank" }
+    [:material-video: Correction](https://tube-sciences-technologies.apps.education.fr/w/iHRMSAobxSdASFLEt3FUm6){ .md-button target="_blank" }
+
+
+
+
 !!! info "Comment ajouter des pages à mon minisite web ?"
 
     Pour créer une page supplémentaire à votre site, vous devez : 
@@ -44,7 +61,7 @@ description: Création d'un minisite web
 
 !!! info "Je ne peux pas déposer mon site, il est trop volumineux. Comment faire ?"
 
-    Le fichier ZIP de votre site ne doit pas dépasser 4Mo. Si c'est le cas, plusieurs options s'offre à vous :
+    Le fichier ZIP de votre site ne doit pas dépasser 5Mo. Si c'est le cas, plusieurs options s'offre à vous :
 
     - Faites le ménage et supprimez tous les fichiers inutiles
     - Réduisez la taille des images en utilisant l'application « **Photo** » de Windows.

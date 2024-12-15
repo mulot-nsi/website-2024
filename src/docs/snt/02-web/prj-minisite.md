@@ -249,7 +249,7 @@ au format ZIP. Suivez les instructions selon l'ordinateur utilisé :
 
 !!! danger "Attention au poids du fichier ZIP"
 
-    Attention, votre fichier ZIP doit faire **4 Mo maximum** sans quoi il ne vous sera pas possible de le déposer sur Pronote.
+    Attention, votre fichier ZIP doit faire **5 Mo maximum** sans quoi il ne vous sera pas possible de le déposer sur Pronote.
     Vous devez donc être attentif au poids des médias (images, vidéos, sons) ajoutés à votre minisite.
 
 
@@ -261,7 +261,7 @@ Une fois votre fichier ZIP créé, vous pouvez le déposer sur Pronote.
 
     1. Connectez-vous à l'ENT : [:material-link: https://ent.iledefrance.fr](https://ent.iledefrance.fr){:target="_blank"}
     3. Accédez à l'application **Pronote**
-    4. Depuis l'accueil, recherchez le devoir **SNT02 - PRJ - Mini-site web**
+    4. Depuis l'accueil, recherchez le devoir **SNT02 Projet - Mini-site web**
     5. Cliquez sur le bouton <span class="pronote-button">Déposer ma copie</span>
     6. Cliquez sur le bouton **Un seul fichier (*.pdf, *.doc, ...)**
     7. Déposez votre fichier ZIP
