@@ -2,3 +2,8 @@
 .DS_Store
 src/site
 .vercel
+
+src/site/
+
+# Dependency directories
+node_modules/
