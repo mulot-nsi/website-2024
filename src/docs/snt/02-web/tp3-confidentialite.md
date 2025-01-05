@@ -99,48 +99,33 @@ vous allez modifier le moteur de recherche utilisé par défaut par votre naviga
 
 !!! note "Instructions"
 
-    1. Accédez aux paramètres du navigateur pour choisir **Qwant** comme moteur de recherche<br> 
+    1. Accédez aux paramètres du navigateur pour choisir **Qwant** ou **Ecosia** comme moteur de recherche<br> 
        *(Consulter l'aide :material-lightbulb-on-outline: ci-après en suivant les instructions correspondant à votre navigateur)*
     2. Ouvrez un nouvel onglet
-    3. Testez une recherche quelconque depuis le **champs de recherche** présent sur la page
+    3. Testez une recherche quelconque depuis le **champs de recherche** *(si présent sur la page)*
     4. Testez une recherche quelconque depuis la **barre d'adresse**
 
 !!! help "Changer de moteur de recherche pour Qwant"
 
     === ":material-firefox: Firefox"
 
-        - Se rendre dans **Paramètres**
+        - Se rendre dans **Paramètres** *(de l'application Firefox)*
         - Se rendre dans **:material-magnify: Recherche**
-        - Choisir **Qwant** pour **Moteur de recherche par défaut**
+        - Choisir un autre moteur de recherche pour **Moteur de recherche par défaut**
 
     === ":material-google-chrome: Chrome"
 
-        <h5>Accès aux paramètres</h5>
-
-        - Se rendre dans **:material-cog-outline: Paramètres**
-        - Se rendre dans **:material-magnify: Moteur de recherche**<br>
-          :material-alert: Qwant n'est pas proposé dans la liste des moteurs, il faut l'ajouter
-
-        <h5>Ajout d'un nouveau moteur de recherche</h5>
-
-        - Se rendre dans **Gérer les moteurs de recherche et la recherche sur les sites**
-        - En face de **Recherche sur le site**, cliquer sur **Ajouter**
-        - Saisir les informations suivantes :
-        <table>
-            <tbody>
-                <tr><th>Moteur de recherche</th><td>`Qwant`</td></tr>
-                <tr><th>Raccourci</th><td>`q`</td></tr>
-                <tr><th>URL</th><td>`https://www.qwant.com/?q=%s`</td></tr>
-            </tbody>
-        </table>
-        - Cliquer enfin sur :material-dots-vertical: en face de Qwant et choisir **utiliser par défaut**
+        - Se rendre dans **:material-cog-outline: Paramètres** *(de l'application Chrome)*
+        - Se rendre dans **:material-magnify: Moteur de recherche**
+        - Choisir un autre moteur de recherche
+        - Cliquer sur **Définir par défaut**  
 
     === ":material-microsoft-edge: Edge"
         
-        - Se rendre dans **:material-cog-outline: Paramètres**
+        - Se rendre dans **:material-cog-outline: Paramètres** *(de l'application Edge)*
         - Se rendre dans **:material-lock-outline: Confidentialité, recherche et services**
         - Se rendre dans **Barre d'adresse et recherche** *(faire défiler jusqu'en bas pour voir l'entrée)*
-        - Choisir **Qwant** pour **Moteur de recherche utilisé dans la barre d'adresses**
+        - Choisir un autre moteur de recherche pour **Moteur de recherche utilisé dans la barre d'adresses**
 
 !!! question "Question"
     3 - Décrivez les changements observés après avoir modifié les paramètres de votre navigateur et testé des recherches
@@ -261,7 +246,7 @@ Cependant, ils se révèlent indispensables dans d'autres situations.
 
 !!! note "Instructions"
 
-    - Connectez-vous à l'ENT : [:material-link: https://ent.iledefrance.fr](https://ent.iledefrance.fr/){:target="_blank"}
+    - Connectez-vous à l'ENT : [:material-link: https://monlycee.net](https://monlycee.net/){:target="_blank"}
     - Consultez les cookies déposés par l'ENT<br>
       *(Consulter l'aide ci-dessous :material-lightbulb-on-outline: en suivant les instructions correspondant à votre navigateur)*
 
@@ -282,15 +267,16 @@ Cependant, ils se révèlent indispensables dans d'autres situations.
     === ":material-microsoft-edge: Edge"
 
         - Cliquer sur l'icône :material-lock-outline: à gauche de la barre d'adresse
-        - Cliquer sur **Cookies (... en cours d'utilisation)**
+        - Cliquer sur **Cookies et données du site**
+        - Cliquer sur **Cookies (? en cours d'utilisation)**
 
-Vous devez observer qu'un cookie a été déposé pour le domaine `ent.iledefrance.fr`.
+Vous devez observer qu'un cookie a été déposé pour le domaine `monlycee.net`.
 Essayons de découvrir pour quelle raison en observant les conséquences de sa suppression sur la navigation.
 
 !!! note "Instructions"
 
     - Revenez à la fenêtre de consultation des cookies
-    - Supprimez tous les cookies du domaine `ent.iledefrance.fr`
+    - Supprimez tous les cookies du domaine `monlycee.net`
     - Rechargez la page
 
 !!! question "Questions"
@@ -359,13 +345,14 @@ Vous allez modifier les paramètres de confidentialité de votre navigateur et o
 
         - Se rendre dans **:material-cog-outline: Paramètres**
         - Se rendre dans **:material-security: Confidentialité et sécurité**
-        - Choisir de **Bloquer les cookies tiers** en tant que **comportement par défaut**
+        - Se rendre dans **:material-cookie-outline: Cookies tiers**
+        - Choisir de **Bloquer les cookies tiers**
 
     === ":material-microsoft-edge: Edge"
 
         - Se rendre dans **:material-cog-outline: Paramètres**
         - Se rendre dans **:material-lock-outline: Confidentialité, recherche et services**
-        - Choisir **Stricte** comme **Protection contre le suivi**
+        - Choisir **Strict** comme **Protection contre le suivi**
 
 !!! question "Questions"
     11 - Qu'observez-vous au niveau des cookies après avoir modifié les paramètres du navigateur ?
