@@ -80,7 +80,7 @@ nav:
           - Projet 3 - Tableau 2D: nsi1re/projets/prj-tableau-2d.md
 not_in_nav: |
   snt/02-web/prj-minisite-faq.md
-
+  dev/form.md  
 
 
 # Configuration du thème
@@ -148,10 +148,12 @@ markdown_extensions:
       toc_depth: 3
 
 extra_javascript:
+  - assets/js/exercise.js
   - assets/js/katex.js
   - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.js
   - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/contrib/auto-render.min.js
 
 extra_css:
   - assets/css/style.css
+  - assets/css/exercise.css
   - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.css
