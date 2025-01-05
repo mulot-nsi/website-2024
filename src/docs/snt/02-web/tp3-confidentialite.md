@@ -3,6 +3,9 @@ title: La confidentialité
 description: Savoir configurer son navigateur web
 ---
 
+<form id="exercise" method="POST" markdown="1" action="/api/save">
+<input type="hidden" name="exercise_id" value="snt_web_confidentialite">
+
 # La confidentialité
 
 ## Introduction
@@ -12,46 +15,53 @@ afin de modifier le moteur de recherche par défaut et contrôler les cookies.
 
 !!! warning "Attention"
 
-    Ces travaux pratiques ont été conçus pour les navigateurs ci-dessous.
-    Vous êtes libres d'utiliser tout autre navigateur cependant, vous devrez seul retrouver les fonctionnalités requises 
-    dans les différents exercices
+    Ces travaux pratiques ont été conçus pour les navigateurs suivant :
 
     - Le navigateur **Firefox** créé par [:material-link: Mozilla](https://www.mozilla.org/fr/){:target="_blank"}, une fondation sans but lucratif
     - Le navigateur **Chrome** créé par la société [:material-link: Google](https://about.google/intl/ALL_fr/){:target="_blank"}
     - Le navigateur **Edge** créé par la société [:material-link: Microsoft](https://www.microsoft.com/fr-tn/){:target="_blank"}
 
-## Préparation
+    Vous êtes libres d'utiliser tout autre navigateur cependant, vous devrez seul retrouver les fonctionnalités requises 
+    pour effectuer les différents exercices.
 
-### Espace de travail
+## Identification
 
-Vous allez créer des dossiers afin de ne pas mélanger vos productions numériques entre vos différentes matières et
-travaux pratiques.
+Avant de commencer les travaux pratiques, identifiez-vous via le formulaire suivant.
+Par la suite, vous répondrez aux questions directement dans les champs prévus à cet effet.
+Pas d'inquiétude pour la sauvegarde : vos réponses sont automatiquement enregistrées !
 
-!!! note "Organisation de l'espace travail"
-
-    === ":material-laptop: Ordinateur portable"
-
-        1. Lancez l'application <i class="icon file-explorer"></i> **Explorateur de fichiers**
-        2. Dans le dossier `Document`, s'il n'y a pas de dossier nommé `SNT`, créez-le
-        3. Dans le dossier `SNT`, s'il n'y a pas de dossier `web`, créez-le
-        4. Dans le dossier `web`, créez le dossier `Confidentialité`
-
-    === ":material-desktop-tower: Ordinateur fixe"
-
-        1. Depuis le bureau, double-cliquez sur l'icône intitulée **Zone personnelle**
-        2. Dans la **zone personnelle**, s'il n'y a pas de dossier nommé `SNT`, créez-le
-        3. Dans le dossier `SNT`, s'il n'y a pas de dossier `web`, créez-le
-        4. Dans le dossier `web`, créez le dossier `Confidentialité`
-
-### Téléchargement des fichiers
-
-Pour effectuer ces travaux pratiques, il est nécessaire de télécharger certains fichiers :
-
-!!! note "Récupération des fichiers"
-
-    1. Téléchargez le document de comptre rendu : [:material-download: télécharger](assets/SNT02_TP_confidentialite.docx){:download="SNT02_TP_confidentialité.docx"}
-    2. Déplacez le document dans le dossier `Confidentialité`
-    3. Ouvrez le document afin de pouvoir répondre aux questions tout au long des travaux pratiques
+!!! info "Indentifiez-vous"
+    <div>
+        <label for="firstname">Prénom</label>
+        <input id="firstname" type="text" name="firstname">
+    </div>
+    
+    <div>
+        <label for="lastname">Nom</label>
+        <input id="lastname" type="text" name="lastname">
+    </div>
+    
+    <div>
+        <label for="group">Classe</label>
+        <select id="group" name="group">
+            <option value="SEC01">Seconde 1</option>
+            <option value="SEC02">Seconde 2</option>
+            <option value="SEC03">Seconde 3</option>
+            <option value="SEC04">Seconde 4</option>
+            <option value="SEC05">Seconde 5</option>
+            <option value="SEC06">Seconde 6</option>
+            <option value="SEC07">Seconde 7</option>
+            <option value="SEC08">Seconde 8</option>
+            <option value="SEC09">Seconde 9</option>
+            <option value="SEC10">Seconde 10</option>
+            <option value="SEC11">Seconde 11</option>
+            <option value="SEC12">Seconde 12</option>
+            <option value="SEC13">Seconde 13</option>
+            <option value="SEC14">Seconde 14</option>
+            <option value="SEC15">Seconde 15</option>
+            <option value="SEC16">Seconde 16</option>
+        </select>
+    </div>
 
 ## Les moteurs de recherche
 
@@ -64,19 +74,18 @@ Vous allez commencer par simplement faire le choix d'un navigateur web et effect
     - Savoir faire la distinction entre le navigateur web et le moteur de recherche
     - Savoir identifier le navigateur web
     - Savoir identifier le moteur de recherche
-    
 
 !!! note "Instructions"
     
-    1. Lancez le navigateur web de votre choix
+    1. Lancez le navigateur web de votre choix ou ouvrez un nouvel onglet
     2. Effectuez une recherche quelconque depuis la **barre d'adresse**
-    3. Répondez aux deux questions suivantes dans le document de compte rendu
 
 !!! question "Questions"
+    1 - Quel navigateur web utilisez-vous pour ces travaux pratiques ?<br>
+    <input type="text" name="q1">
 
-    - Quel navigateur web utilisez-vous pour ces travaux pratiques ?
-    - Avec quel moteur de recherche votre navigateur web a-t-il traité votre requête ?
-
+    2 - Avec quel moteur de recherche votre navigateur web a-t-il traité votre requête ?<br>
+    <input type="text" name="q2">
 
 ### Changer de moteur de recherche
 
@@ -92,8 +101,9 @@ vous allez modifier le moteur de recherche utilisé par défaut par votre naviga
 
     1. Accédez aux paramètres du navigateur pour choisir **Qwant** comme moteur de recherche<br> 
        *(Consulter l'aide :material-lightbulb-on-outline: ci-après en suivant les instructions correspondant à votre navigateur)*
-    2. Faites une recherche quelconque **depuis la barre d'adresse**<br>
-       *(Cette fois-ci c'est Qwant qui doit avoir été appelé par votre navigateur web)*
+    2. Ouvrez un nouvel onglet
+    3. Testez une recherche quelconque depuis le **champs de recherche** présent sur la page
+    4. Testez une recherche quelconque depuis la **barre d'adresse**
 
 !!! help "Changer de moteur de recherche pour Qwant"
 
@@ -132,6 +142,10 @@ vous allez modifier le moteur de recherche utilisé par défaut par votre naviga
         - Se rendre dans **Barre d'adresse et recherche** *(faire défiler jusqu'en bas pour voir l'entrée)*
         - Choisir **Qwant** pour **Moteur de recherche utilisé dans la barre d'adresses**
 
+!!! question "Question"
+    3 - Décrivez les changements observés après avoir modifié les paramètres de votre navigateur et testé des recherches
+    <textarea name="q3"></textarea>
+
 ### Utilisation de vos données par les moteurs de recherche
 
 Nous souhaitons comparer les moteurs de recherche Google et Qwant sur l'usage des données personnelles.
@@ -144,80 +158,83 @@ propriétaires de ces moteurs.
 
 !!! note "Instructions"
 
-    1. Lisez les politiques de confidentialité de Google et Qwant ci-dessous
-    2. Répondez aux trois questions dans le document de compte rendu
+    Lisez les politiques de confidentialité de Google et Qwant :
 
-??? info "Google - Règles de confidentialité"
-
-    *Les extraits ci-après proviennent tous de la page [Règles de confidentialité](https://policies.google.com/privacy?hl=fr#infocollect){:target="_blank"} du site officiel de Google.*
-
-    <h3>Votre activité</h3>
-
-    Nous collectons des informations relatives à votre activité au sein de nos services.
-    Celles-ci nous permettent par exemple de vous recommander une vidéo YouTube susceptible de vous intéresser.
-    Les informations relatives à votre activité que nous recueillons peuvent inclure les éléments suivants :
-
-    - Les termes que vous recherchez.
-    - Les vidéos que vous regardez.
-    - Vos vues de contenu et d'annonces ainsi que vos interactions avec ces derniers.
-    - Informations audio et vocales
-    - L'activité relative aux achats.
-    - Les personnes avec lesquelles vous communiquez ou partagez du contenu.
-    - L'activité sur des applications et sites tiers qui utilisent nos services.
-    - L'historique de navigation Chrome que vous avez synchronisé avec votre compte Google.
+    ??? info "Google - Règles de confidentialité"
     
-    Si vous utilisez nos services pour passer et recevoir des appels ou envoyer et recevoir des messages,
-    nous sommes susceptibles de collecter des informations sur les appels et les messages, tels que votre numéro de téléphone,
-    celui de l'émetteur, celui du destinataire, les numéros de transfert, l'adresse e-mail de l'émetteur et du destinataire,
-    l'heure et la date des appels et des messages, la durée des appels, les données de routage,
-    ainsi que les types et volumes d'appels et de messages.
-
-    <h3>Informations relatives à votre position géographique</h3>
-
-    Nous collectons des informations sur votre position lorsque vous utilisez nos services,
-    car ces données nous permettent de proposer des fonctionnalités telles que des itinéraires,
-    des résultats de recherche concernant des éléments à proximité, ainsi que des annonces en fonction de votre position générale.
-
-    Votre position géographique peut être déterminée avec des degrés de précision différents à l'aide des éléments suivants :
-
-    - GPS et autres données des capteurs de votre appareil
-    - Adresse IP
-    - Activité sur les services Google, comme vos recherches et les lieux auxquels vous ajoutez un libellé (domicile ou travail, par exemple)
-    - Des informations relatives à des éléments à proximité de votre appareil, tels que des points d'accès Wi-Fi, des antennes-relais et des appareils sur lesquels le Bluetooth est activé
-
-    <h3>Proposer des services personnalisés, notamment en matière de contenu et d'annonces</h3>
-
-    Nous utilisons les informations que nous collectons pour personnaliser nos services en fonction de vous, notamment 
-    pour vous proposer des recommandations, du contenu personnalisé et des résultats de recherche personnalisés. [...]
-
-    En fonction de vos paramètres, nous pouvons également vous proposer des annonces personnalisées sur la base de vos centres d'intérêt.
-    Par exemple, si vous recherchez "vélos tout-terrain", vous verrez peut-être des annonces pour des équipements sportifs sur YouTube.
-    [...]
-
-??? info "Qwant - Politique de Confidentialité"
-
-    *Les extraits ci-après proviennent tous de la page [Politique de Confidentialité](https://about.qwant.com/legal/confidentialite/){:target="_blank"} du site officiel de Qwant.*
-
-    <h3>Un moteur de recherche qui respecte votre vie privée</h3>
-    Chez Qwant, nous ne savons pas qui vous êtes. Pas de ciblage, ni de conservation de votre historique de recherche : votre âge, votre sexe et vos centres d’intérêts n’appartiennent qu’à vous. A chaque requête, vous partez d’une page blanche.
-
-    <h3>Un web ouvert et neutre à votre service</h3>
-    En ne traçant pas nos utilisateurs, notre moteur de recherche vous propose une vision panoramique du web et vous garantit des résultats neutres, sans bulle de filtre. Il ne vous enferme pas dans vos certitudes. Vos recherches précédentes n’influenceront pas les prochaines !
-
-    <h3>Une navigation sans publicité ciblée !</h3>
-    Qwant ne place aucun cookie publicitaire sur votre navigateur. De cette façon, la publicité qui apparaitra dans votre navigation sera liée à vos mots clés de recherche, et non à votre profil utilisateur.
-
-    <h3>Vos données ne sont pas une monnaie d’échange</h3>
-    Il est commun d’entendre aujourd’hui que les données sont le nouvel « or noir ». Pas chez Qwant. Nous ne vendons pas vos données à des organismes tiers, à des fins publicitaires ou pour tout autre usage.
-
-    <h3>Une alternative made in France qui applique la législation européenne</h3>
-    Soucieux de respecter le cadre législatif français et européen, Qwant applique rigoureusement le RGPD. Nous respectons les droits fondamentaux, y compris celui du droit à l’oubli qui vous offre la possibilité d’obtenir l’effacement de vos données.
+        *Les extraits ci-après proviennent tous de la page [Règles de confidentialité](https://policies.google.com/privacy?hl=fr#infocollect){:target="_blank"} du site officiel de Google.*
+    
+        <h3>Votre activité</h3>
+    
+        Nous collectons des informations relatives à votre activité au sein de nos services.
+        Celles-ci nous permettent par exemple de vous recommander une vidéo YouTube susceptible de vous intéresser.
+        Les informations relatives à votre activité que nous recueillons peuvent inclure les éléments suivants :
+    
+        - Les termes que vous recherchez.
+        - Les vidéos que vous regardez.
+        - Vos vues de contenu et d'annonces ainsi que vos interactions avec ces derniers.
+        - Informations audio et vocales
+        - L'activité relative aux achats.
+        - Les personnes avec lesquelles vous communiquez ou partagez du contenu.
+        - L'activité sur des applications et sites tiers qui utilisent nos services.
+        - L'historique de navigation Chrome que vous avez synchronisé avec votre compte Google.
+        
+        Si vous utilisez nos services pour passer et recevoir des appels ou envoyer et recevoir des messages,
+        nous sommes susceptibles de collecter des informations sur les appels et les messages, tels que votre numéro de téléphone,
+        celui de l'émetteur, celui du destinataire, les numéros de transfert, l'adresse e-mail de l'émetteur et du destinataire,
+        l'heure et la date des appels et des messages, la durée des appels, les données de routage,
+        ainsi que les types et volumes d'appels et de messages.
+    
+        <h3>Informations relatives à votre position géographique</h3>
+    
+        Nous collectons des informations sur votre position lorsque vous utilisez nos services,
+        car ces données nous permettent de proposer des fonctionnalités telles que des itinéraires,
+        des résultats de recherche concernant des éléments à proximité, ainsi que des annonces en fonction de votre position générale.
+    
+        Votre position géographique peut être déterminée avec des degrés de précision différents à l'aide des éléments suivants :
+    
+        - GPS et autres données des capteurs de votre appareil
+        - Adresse IP
+        - Activité sur les services Google, comme vos recherches et les lieux auxquels vous ajoutez un libellé (domicile ou travail, par exemple)
+        - Des informations relatives à des éléments à proximité de votre appareil, tels que des points d'accès Wi-Fi, des antennes-relais et des appareils sur lesquels le Bluetooth est activé
+    
+        <h3>Proposer des services personnalisés, notamment en matière de contenu et d'annonces</h3>
+    
+        Nous utilisons les informations que nous collectons pour personnaliser nos services en fonction de vous, notamment 
+        pour vous proposer des recommandations, du contenu personnalisé et des résultats de recherche personnalisés. [...]
+    
+        En fonction de vos paramètres, nous pouvons également vous proposer des annonces personnalisées sur la base de vos centres d'intérêt.
+        Par exemple, si vous recherchez "vélos tout-terrain", vous verrez peut-être des annonces pour des équipements sportifs sur YouTube.
+        [...]
+    
+    ??? info "Qwant - Politique de Confidentialité"
+    
+        *Les extraits ci-après proviennent tous de la page [Politique de Confidentialité](https://about.qwant.com/legal/confidentialite/){:target="_blank"} du site officiel de Qwant.*
+    
+        <h3>Un moteur de recherche qui respecte votre vie privée</h3>
+        Chez Qwant, nous ne savons pas qui vous êtes. Pas de ciblage, ni de conservation de votre historique de recherche : votre âge, votre sexe et vos centres d’intérêts n’appartiennent qu’à vous. A chaque requête, vous partez d’une page blanche.
+    
+        <h3>Un web ouvert et neutre à votre service</h3>
+        En ne traçant pas nos utilisateurs, notre moteur de recherche vous propose une vision panoramique du web et vous garantit des résultats neutres, sans bulle de filtre. Il ne vous enferme pas dans vos certitudes. Vos recherches précédentes n’influenceront pas les prochaines !
+    
+        <h3>Une navigation sans publicité ciblée !</h3>
+        Qwant ne place aucun cookie publicitaire sur votre navigateur. De cette façon, la publicité qui apparaitra dans votre navigation sera liée à vos mots clés de recherche, et non à votre profil utilisateur.
+    
+        <h3>Vos données ne sont pas une monnaie d’échange</h3>
+        Il est commun d’entendre aujourd’hui que les données sont le nouvel « or noir ». Pas chez Qwant. Nous ne vendons pas vos données à des organismes tiers, à des fins publicitaires ou pour tout autre usage.
+    
+        <h3>Une alternative made in France qui applique la législation européenne</h3>
+        Soucieux de respecter le cadre législatif français et européen, Qwant applique rigoureusement le RGPD. Nous respectons les droits fondamentaux, y compris celui du droit à l’oubli qui vous offre la possibilité d’obtenir l’effacement de vos données.
 
 !!! question "Questions"
+    4 - **En résumant**, quelles sont les données collectées par Google et comment le justifie-t-il ?
+    <textarea name="q4" rows="3"></textarea>
 
-    - **En résumant**, quelles sont les données collectées par Google et comment le justifie-t-il ?
-    - Quelles sont les données collectées par Qwant et comment le justifie-t-il ?
-    - Quels avantages et inconvénients voyez-vous à utiliser l'un ou l'autre de ces moteurs de recherche ?
+    5 - Quelles sont les données collectées par Qwant et comment le justifie-t-il ?
+    <textarea name="q5" rows="3"></textarea>
+
+    6 - Quels avantages et inconvénients voyez-vous à utiliser chacun de ces moteurs de recherche ?
+    <textarea name="q6" rows="3"></textarea>
 
 ## Les cookies
 
@@ -227,16 +244,11 @@ Enfin, les cookies sont renvoyés au serveur lors de chaque requête HTTP.
 
 !!! target "Objectif"
 
-    Comprendre la perception qu'on les élèves des cookies.
-
-!!! note "Instructions"
-
-    - Répondez à la question ci-desous dans le document de compte rendu
-    - Ne faites pas de recherche sur le web
+    Comprendre la perception qu'ont les élèves des cookies.
 
 !!! question "Question"
-
-    Selon vos connaissances, quelle est l'utilité des cookies ? À quoi servent-ils lorsque vous naviguez sur le web ?
+    7 - Selon vos connaissances, quelle est l'utilité des cookies ? À quoi servent-ils lorsque vous naviguez sur le web ?
+    <textarea name="q7" rows="3"></textarea>
 
 ### Les cookies nécessaires
 
@@ -279,13 +291,14 @@ Essayons de découvrir pour quelle raison en observant les conséquences de sa s
 
     - Revenez à la fenêtre de consultation des cookies
     - Supprimez tous les cookies du domaine `ent.iledefrance.fr`
-    - Rechargez la page et répondre aux deux questions ci-dessous
+    - Rechargez la page
 
 !!! question "Questions"
+    8 - Quelle conséquence a eu la suppression des cookies ?
+    <input type="text" name="q8">
 
-    - Quelle conséquence a eu la suppression des cookies ?
-    - Quelle explication donneriez-vous à l'utilisation des cookies par l'ENT ?
-
+    9 - Quelle explication donneriez-vous à l'utilisation des cookies par l'ENT ?
+    <input type="text" name="q9">
 
 ### Les cookies tiers
 
@@ -306,8 +319,8 @@ Ces cookies sont généralement utilisés pour suivre votre activité pour des r
 pour la personnalisation des contenus ou pour la publicité ciblée.
 
 !!! question "Question"
-
-    Donnez un exemple de cookie tiers déposé sur le site web du journal Le Monde
+    10 - Donnez un exemple de cookie tiers déposé sur le site web du journal Le Monde
+    <input type="text" name="q10">
 
 ### Contrôler les cookies
 
@@ -354,42 +367,16 @@ Vous allez modifier les paramètres de confidentialité de votre navigateur et o
         - Se rendre dans **:material-lock-outline: Confidentialité, recherche et services**
         - Choisir **Stricte** comme **Protection contre le suivi**
 
-
 !!! question "Questions"
+    11 - Qu'observez-vous au niveau des cookies après avoir modifié les paramètres du navigateur ?
+    <input type="text" name="q11">
 
-    - Qu'observez-vous au niveau des cookies après avoir modifié les paramètres du navigateur ?
-    - Souhaiteriez-vous être moins pisté par les sites web ? Si oui, pour quelle raison ?
-    - La politique de confidentialité de Qwant évoque « une vision du Web sans bulle de filtre ».<br>
-      Qu'est-ce qu'une **bulle de filtre** et voyez-vous un danger à ce phénomène ?<br>
-      *(vous pouvez effectuer une recherche sur le Web et ne faites pas de copier/coller pour répondre)*
+    12 - Souhaiteriez-vous être moins pisté par les sites web ? Si oui, pour quelle raison ?
+    <input type="text" name="q12">
 
+    13 - La politique de confidentialité de Qwant évoque « une vision du Web sans bulle de filtre ».<br>
+    Qu'est-ce qu'une **bulle de filtre** et voyez-vous un danger à ce phénomène ?<br>
+    *(vous pouvez effectuer une recherche sur le Web mais ne faites pas de copier/coller pour répondre)*
+    <textarea name="q13" rows="3"></textarea>
 
-## Envoi du document
-
-### Export au format PDF
-
-Exportez votre document vers le format PDF en suivant les instructions correspondant au logiciel de traitement de texte
-utilisé.
-
-!!! note "Export au format PDF"
-
-    === "Word"
-
-        - Enregistrer le document via la fonction **Enregistrer sous...**
-        - Choisir le format de fichier **PDF** au lieu de *Document Word (.docx)*
-
-    === "LibreOffice"
-
-        - Cliquer sur l'entrée **Fichier** de la *barre de menus*
-        - Choisir l'option **Exporter vers > Exporter directement au format PDF**
-
-### Dépôt du travail
-
-!!! note "Dépôt d'une copie sur Pronote"
-
-    1. Connectez-vous à l'**ENT** : [:material-link: https://ent.iledefrance.fr](https://ent.iledefrance.fr){:target="_blank"}
-    2. Accédez à l'application **Pronote**
-    3. Un *travail à faire* en SNT a été créé par votre enseignant. Il est identifiable sur la page d'accueil par un bouton :<br /> 
-       **Déposer ma copie**{:style="display:inline-block;color:#4a1b7f;background-color:#ebdbff;padding:5px 20px;border-radius:10px;"}
-    4. Cliquez sur le bouton **Déposer ma copie**
-    5. Cliquez sur le bouton **Un seul fichier (*.pdf, *.doc, ...)**
+</form>
