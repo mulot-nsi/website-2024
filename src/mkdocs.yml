@@ -140,6 +140,7 @@ markdown_extensions:
         up: Haut
         space: Espace
         enter: Entrée
+        suppr: Suppr
   - pymdownx.snippets
   - pymdownx.superfences
   - pymdownx.tabbed:

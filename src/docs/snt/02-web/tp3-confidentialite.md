@@ -26,7 +26,7 @@ afin de modifier le moteur de recherche par défaut et contrôler les cookies.
 
 ## Identification
 
-Avant de commencer les travaux pratiques, identifiez-vous via le formulaire suivant.
+Avant de commencer les travaux pratiques, identifiez-vous via le formulaire ci-dessous.
 Par la suite, vous répondrez aux questions directement dans les champs prévus à cet effet.
 Pas d'inquiétude pour la sauvegarde : vos réponses sont automatiquement enregistrées !
 
@@ -77,7 +77,7 @@ Vous allez commencer par simplement faire le choix d'un navigateur web et effect
 
 !!! note "Instructions"
     
-    1. Lancez le navigateur web de votre choix ou ouvrez un nouvel onglet
+    1. Lancez le navigateur web de votre choix *(ou ouvrez un nouvel onglet dans l'actuel)*
     2. Effectuez une recherche quelconque depuis la **barre d'adresse**
 
 !!! question "Questions"
@@ -102,10 +102,11 @@ vous allez modifier le moteur de recherche utilisé par défaut par votre naviga
     1. Accédez aux paramètres du navigateur pour choisir **Qwant** ou **Ecosia** comme moteur de recherche<br> 
        *(Consulter l'aide :material-lightbulb-on-outline: ci-après en suivant les instructions correspondant à votre navigateur)*
     2. Ouvrez un nouvel onglet
-    3. Testez une recherche quelconque depuis le **champs de recherche** *(si présent sur la page)*
-    4. Testez une recherche quelconque depuis la **barre d'adresse**
+    3. Testez une recherche quelconque depuis la **barre d'adresse**    
+    4. Testez une recherche quelconque depuis la **page d'accueil** *(si celle-ci présente un champ de recherche)*
+    
 
-!!! help "Changer de moteur de recherche pour Qwant"
+!!! help "Changer de moteur de recherche"
 
     === ":material-firefox: Firefox"
 
@@ -213,6 +214,8 @@ propriétaires de ces moteurs.
 
 !!! question "Questions"
     4 - **En résumant**, quelles sont les données collectées par Google et comment le justifie-t-il ?
+    Google se contente-t-il des données obtenues par son moteur de recherche ou en collecte-t-il ailleurs ?
+    Donnez en exemple la donnée collectée que vous trouvez la plus surprenante.
     <textarea name="q4" rows="3"></textarea>
 
     5 - Quelles sont les données collectées par Qwant et comment le justifie-t-il ?
@@ -275,9 +278,9 @@ Essayons de découvrir pour quelle raison en observant les conséquences de sa s
 
 !!! note "Instructions"
 
-    - Revenez à la fenêtre de consultation des cookies
-    - Supprimez tous les cookies du domaine `monlycee.net`
-    - Rechargez la page
+    - Supprimez tous les cookies en utilisant la fonction de suppression des données de navigation via le raccourci clavier 
+    ++ctrl+shift+suppr++ et en ne gardant cochée que l'option **Cookies et autres données des sites**
+    - Rechargez l'onglet de l'ENT
 
 !!! question "Questions"
     8 - Quelle conséquence a eu la suppression des cookies ?
@@ -295,7 +298,7 @@ Essayons de découvrir pour quelle raison en observant les conséquences de sa s
 !!! note "Instructions"
 
     - Rendez-vous sur le site [:material-link: www.lemonde.fr](https://www.lemonde.fr){:target="_blank"}
-    - Il vous sera proposé d'accepter l'utisation des cookies. Cliquez sur **Accepter et continuer**
+    - Il vous sera proposé d'accepter l'utilisation des cookies. Cliquez sur **Accepter et continuer**
     - Consultez les cookies présents sur le site
     - Répondez à la question ci-après
 
@@ -366,4 +369,7 @@ Vous allez modifier les paramètres de confidentialité de votre navigateur et o
     *(vous pouvez effectuer une recherche sur le Web mais ne faites pas de copier/coller pour répondre)*
     <textarea name="q13" rows="3"></textarea>
 
+!!! target "Bilan"
+    Concluez en détaillant ce que vous avez appris de ces travaux pratiques. 
+    <textarea name="conclusion" rows="3"></textarea>
 </form>
