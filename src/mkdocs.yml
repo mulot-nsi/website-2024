@@ -62,6 +62,7 @@ nav:
       - Chapitre 6 - Les tableaux:
           - TP1 - Tableaux: nsi1re/06-tableaux/tp1-tableaux.md
           - TP2 - Tableaux 2D: nsi1re/06-tableaux/tp2-tableaux-2d.md
+          - TP3 - Morpion: nsi1re/06-tableaux/tp3-morpion.md
       - Chapitre 7 - Logique booléenne:
           - TP1 - Circuits combinatoires: nsi1re/07-logique-boolenne/tp1-circuits-combinatoires.md
       - Chapitre 11 - Les dictionnaires:
