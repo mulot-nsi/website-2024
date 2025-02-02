@@ -21,7 +21,7 @@ d'un graphe.
     Le travail réalisé dans le cadre de ces travaux pratiques est à rendre en fin de séance selon les modalités décrites dans la section **Envoi du travail**.
     Deux documents seront à rendre :
 
-    - La représentation sous forme de graphe du réseau social, réalisée à l'aide des fonctions graphiques des logiciels de création de diaporama
+    - La représentation sous forme de graphe du réseau social, réalisée à l'aide d'un outil en ligne de réalisation de diagrammes
     - Un tableau des caractéristiques du graphe, réalisé à l'aide d'un logiciel tableur
 
 ## Préparation
@@ -54,6 +54,8 @@ Le symbole **✓** signifie que l'acteur a joué dans le film mentionné en en-t
 Nous observons ainsi que **Tom Hardy** a joué dans le film *Inception* avec **Cillian Murphy** et **Michael Cain**. Ces
 trois personnes se connaissent.
 
+<div class="custom-table" markdown>
+
 |                       | Le Prestige | Inception | Interstellar | Dunkerque | Tenet | Oppenheimer |
 |:---------------------:|:-----------:|:---------:|:------------:|:---------:|:-----:|:-----------:|
 |    Christian Bale     |      ✓      |           |              |           |       |             |
@@ -64,35 +66,33 @@ trois personnes se connaissent.
 |     Anne Hathaway     |             |           |      ✓       |           |       |             |
 | John David Washington |             |           |              |           |   ✓   |             |
 
+</div>
+
 !!! note "Consigne"
 
     À partir des informations du tableau, construire un graphe dont les sommets représentent **les acteurs**
-    et dont les arêtes représentent le fait que deux acteurs **se connaissent** (c'est-à-dire qu'ils ont joué au moins une fois dans le même film).
+    et dont les arêtes représentent le fait que deux acteurs **se connaissent**.
+    On considère que deux acteurs se connaissent s'ils ont joué au moins une fois dans un même film.
 
-    1. Téléchargez l'amorce de graphe : [:material-download: télécharger](assets/SNT03_graphe.odp){:download="SNT03_graphe.odp"}
-    2. Déplacez le fichier `SNT03_graphe.odp` téléchargé dans le dossier `Réseaux sociaux`
-    3. Ouvrez le fichier avec **LibreOffice Impress** (ou à défaut, *Microsoft PowerPoint*) :
-        - *Christian B.* et *Michael C.* sont liés car ils se connaissent pour avoir joué dans *Le Prestige*
-        - *Michael C.* et *Anne H.* sont liés car ils se connaissent pour avoir joué dans *Interstellar*
-    4. Complétez le graphe après avoir lu le bloc **:material-lightbulb-on-outline: aide à la construction du graphe** ci-après
+    1. Rendez vous sur l'outil en ligne [:material-link: Digidiagram](https://ladigitale.dev/digidiagram/#/){:target="_blank"} de La Digitale
+    2. Cliquez sur **Créer un diagramme**
+    3. Saisissez **Réseau social** comme nom de diagramme
+    4. Choisissez **Quel est mon mot préféré ?** comme question secrète
+    5. Saisissez **SNT** comme réponse secrète
 
 !!! help "Aide à la construction du graphe"
 
-    - Construire le graphe en utilisant des **rectangles** et des **connecteurs directs**
-    - Il est possible d'insérer du texte dans un rectangle en **double-cliquant dessus**
-    - Les connecteurs restent attachés aux rectangles même lorsqu'ils sont déplacés
+    <div style="position: relative; padding-top: 56.25%;"><iframe title="SNT - Réseaux sociaux - Création d'un graphe" width="100%" height="100%" src="https://tube-sciences-technologies.apps.education.fr/videos/embed/b1b6e526-fa4a-4e46-967a-6e71587efdca?warningTitle=0" frameborder="0" allowfullscreen="" sandbox="allow-same-origin allow-scripts allow-popups allow-forms" style="position: absolute; inset: 0px;"></iframe></div>
 
-    <figure markdown>
-        ![selecteur_type](images/graphe_impress_instructions.png){:style="max-width:100%;border:1px solid black;"}
-    </figure>
+    Dans la vidéo, nous créons une arête entre **Christian Bale** et **Michael Caine** car ceux-ci se connaissent pour avoir jouer ensemble dans le film **Le Prestige**
 
-!!! warning "Attention"
+!!! note "Consigne"
 
-    Pensez à enregistrer **fréquemment** votre travail. Nommez correctement votre fichier en précisant votre classe, votre
-    nom ainsi qu'un mot-clé en rapport avec son contenu. Exemple :
+    Maintenant que votre graphe est terminé, il vous faut l'exporter :
 
-    - `SEC01_Mark_Zukerberg_graphe.odp` *(.odp est l'extension des fichiers LibreOffice Impress)*<br />
-    - `SEC01_Mark_Zukerberg_graphe.ppt` *(.ppt est l'extension des fichiers Microsoft Powerpoint)*
+    1. Cliquez sur l'icône de partage :material-share-variant: située en haut à droite
+    2. Cliquez sur le bouton **Exporter**
+    3. Déplacez l'image téléchargée, **sans la renommée**, dans le dossier de travail `SNT\Réseaux sociaux`
 
 ## Tableau des propriétés
 
@@ -114,22 +114,10 @@ Une fois le(s) centre(s) trouvé(s), il vous restera à préciser le rayon et le
 | 4  |      Rayon      | Plus petit écartement du graphe (écartement d'un centre)                   |
 | 4  |    Diamètre     | Plus grand écartement du graphe                                            |
 
-!!! note "Consigne"
+!!! help "Tableau des caractéristiques du graphe"
 
-    Vous trouverez en téléchargement ci-dessous un début de tableau de caractéristiques
-    qu'il vous faut compléter avec l'ensemble des acteurs et des caractéristiques demandées.
-    Pensez à consulter l'aide pour voir ce à quoi doit ressembler votre tableau une fois terminé.
-
-    1. Téléchargez l'amorce du tableau des caractéristiques : [:material-download: télécharger](assets/SNT03_caracteristiques.ods){:download="SNT03_caractéristiques.ods"}
-    2. Déplacez le fichier `SNT03_caractéristiques.ods` téléchargé dans le dossier `Réseaux sociaux`
-    3. Ouvrez le fichier avec **LibreOffice Calc** (ou à défaut, *Microsoft Excel*) :
-        - Il y a une distance de 2 entre *Christian B.* et *Cillian M.* car deux arêtes les séparent sur le graphe  
-        - Il y a une distance de 1 entre *Cillian M.* et *Tom H.* car ils sont directement liés par une arête
-    4. Complétez le tableau après avoir lu le bloc **:material-lightbulb-on-outline: aide à la construction du tableau des distances** ci-après
-
-!!! help "Aide à la construction du tableau des distances"
-
-    Voici ce à quoi pourrait ressembler votre tableau des caractéristiques.
+    Vous allez construire le tableau des caractéristiques du graphe à l'aide d'un tableaur.
+    Voici en image ce à quoi celui-ci pourrait ressembler.
     La numérotation en surimpression correspond à la liste des caractéristiques mentionnées plus haut et à déterminer pour
     votre propre graphe :
 
@@ -141,6 +129,24 @@ Une fois le(s) centre(s) trouvé(s), il vous restera à préciser le rayon et le
     <figure markdown>
         ![selecteur_type](images/specification_table.png){:style="max-width:100%;border:1px solid black;"}
     </figure>
+
+
+!!! note "Consigne"
+
+    Vous trouverez en téléchargement ci-dessous un début de tableau de caractéristiques
+    qu'il vous faut compléter avec l'ensemble des acteurs et des caractéristiques demandées.
+    Pensez à consulter l'aide pour voir ce à quoi doit ressembler votre tableau une fois terminé.
+
+    1. Téléchargez l'amorce du tableau des caractéristiques : [:material-download: télécharger](assets/SNT03_caracteristiques.ods){:download="SNT03_caractéristiques.ods"}
+    2. Déplacez le fichier `SNT03_caractéristiques.ods` téléchargé dans le dossier `Réseaux sociaux`
+    3. Ouvrez le fichier avec **LibreOffice Calc** (ou à défaut, *Microsoft Excel*) :
+        - Il y a une distance de 2 entre *Christian B.* et *Cillian M.* car deux arêtes les séparent sur le graphe  
+        - Il y a une distance de 1 entre *Cillian M.* et *Tom H.* car ils sont directement liés par une arête
+    4. Complétez le tableau
+
+    <div style="position: relative; padding-top: 56.25%;"><iframe title="SNT - Réseaux sociaux - Caractéristiques" width="100%" height="100%" src="https://tube-sciences-technologies.apps.education.fr/videos/embed/7ff5da4a-4847-420f-b3a9-af227522c01f?warningTitle=0&amp;p2p=0" frameborder="0" allowfullscreen="" sandbox="allow-same-origin allow-scripts allow-popups allow-forms" style="position: absolute; inset: 0px;"></iframe></div>
+
+
 
 !!! warning "Attention"
 
@@ -167,14 +173,17 @@ au format ZIP. Suivez les instructions selon l'ordinateur utilisé :
         - Effectuez un clic droit sur le dossier `Réseaux sociaux` afin d'afficher son menu contextuel
         - Choisissez l'option :material-folder-zip-outline: **Compresser dans un fichier ZIP**
         - Conservez `Réseaux sociaux.zip` comme nom de fichier
-    
+
     === ":material-desktop-tower: Ordinateur fixe"
 
         - Lancez l'application <i class="icon file-explorer"></i> **Explorateur de fichiers**
+          <span class="keys shortcut"><kbd>:fontawesome-brands-windows:</kbd><span>+</span><kbd>E</kbd></span>
         - Depuis votre dossier personnel, accédez au dossier `SNT`
         - Effectuez un clic droit sur le dossier `Réseaux sociaux` afin d'afficher son menu contextuel
         - Choisissez l'option **Envoyer vers ▸ Dossier compressé**
         - Conservez `Réseaux sociaux.zip` comme nom de fichier
+
+    <div style="position: relative; padding-top: 56.25%;"><iframe title="SNT - Réseaux sociaux - Compressiond'un dossier" width="100%" height="100%" src="https://tube-sciences-technologies.apps.education.fr/videos/embed/4591a407-fcb8-4c3d-9021-a322a14fba27?warningTitle=0&amp;p2p=0" frameborder="0" allowfullscreen="" sandbox="allow-same-origin allow-scripts allow-popups allow-forms" style="position: absolute; inset: 0px;"></iframe></div>
 
 ### Envoi du fichier ZIP
 
@@ -182,7 +191,7 @@ Une fois votre fichier ZIP créé, vous pouvez le déposer sur Pronote.
 
 !!! info "Dépot du travail sur Pronote"
 
-    1. Connectez-vous à l'ENT : [:material-link: https://ent.iledefrance.fr](https://ent.iledefrance.fr){:target="_blank"}
+    1. Connectez-vous à l'ENT : [:material-link: https://monlycee.net](https://monlycee.net/){:target="_blank"}
     3. Accédez à l'application **Pronote**
     4. Depuis l'accueil, recherchez le devoir **SNT03 - TP1 Modélisation**
     5. Cliquez sur le bouton <span class="pronote-button">Déposer ma copie</span>

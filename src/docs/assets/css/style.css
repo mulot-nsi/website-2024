@@ -123,3 +123,24 @@ Help admonition
     -webkit-mask-image: var(--md-admonition-icon--help);
     mask-image: var(--md-admonition-icon--help);
 }
+
+/*
+Custom tables
+ */
+
+.md-typeset .custom-table thead th {
+    vertical-align: middle;
+    min-width: 4em;
+}
+
+.md-typeset .custom-table tbody td {
+    vertical-align: middle;
+}
+
+.md-typeset .custom-table tbody tr:nth-child(odd) {
+   background-color: var(--md-typeset-table-color--light);
+}
+
+.md-typeset .custom-table table:not([class]) tbody tr:hover {
+    background-color: rgba(68, 138, 255, 0.1);
+}
