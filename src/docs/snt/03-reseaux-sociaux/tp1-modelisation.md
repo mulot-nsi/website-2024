@@ -84,7 +84,8 @@ trois personnes se connaissent.
 
     <div style="position: relative; padding-top: 56.25%;"><iframe title="SNT - Réseaux sociaux - Création d'un graphe" width="100%" height="100%" src="https://tube-sciences-technologies.apps.education.fr/videos/embed/b1b6e526-fa4a-4e46-967a-6e71587efdca?warningTitle=0" frameborder="0" allowfullscreen="" sandbox="allow-same-origin allow-scripts allow-popups allow-forms" style="position: absolute; inset: 0px;"></iframe></div>
 
-    Dans la vidéo, nous créons une arête entre **Christian Bale** et **Michael Caine** car ceux-ci se connaissent pour avoir jouer ensemble dans le film **Le Prestige**
+    Dans la vidéo, nous créons une arête entre **Christian Bale** et **Michael Caine** car ceux-ci se connaissent pour avoir jouer ensemble dans le film **Le Prestige**.
+    Cette vidéo est un exemple et vous devez bien entendu construire un graphe avec tous les individus.
 
 !!! note "Consigne"
 
