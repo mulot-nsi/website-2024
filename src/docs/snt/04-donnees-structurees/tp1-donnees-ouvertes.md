@@ -36,9 +36,9 @@ travaux pratiques.
 
 !!! note "Consigne"
 
-    1. Rendez-vous sur le site [data.gouv.fr](https://data.gouv.fr){:target="_blank"}
-    2. Repérez le menu principal *(le bandeau de liens en haut de page ou l'icône :material-menu:)*
-    3. Depuis le menu principal, cliquez sur l'entrée **Commencer sur data.gouv.fr** puis **Qu'est-ce que data.gouv.fr ?**
+    1. Rendez-vous sur le site [:material-link: data.gouv.fr](https://data.gouv.fr){:target="_blank"}
+    2. Repérez le menu principal (le bandeau de liens en haut de page ou bien l'icône :material-menu:)
+    3. Depuis le menu principal, cliquez sur l'entrée **Démarrer sur data.gouv.fr** puis **Qu'est-ce que data.gouv.fr ?**
     4. Lisez le contenu de la page intitulée **À propos de data.gouv.fr**
 
 !!! question "Question"
@@ -47,8 +47,12 @@ travaux pratiques.
 
 ??? success "Réponse"
 
-    Data.gouv.fr est une plateforme en ligne qui a pour objectif de faciliter le partage, l'accès et la réutilisation des données publiques. 
-    On y trouve par exemple des données relatives aux élections, la santé ou l'enseignement.
+    Data.gouv.fr est la plateforme officielle française où l'État partage gratuitement ses données avec tous les citoyens.
+    Ce site a été créé pour favoriser la transparence gouvernementale et permettre à chacun d'accéder et réutiliser ces informations.
+    En tant qu'élève, vous pouvez y trouver des données utiles comme les résultats du bac, les taux d'emploi en sortie d'études, les indices de position sociale dans les lycées, ...
+
+
+
 
 ### Découverte d'un jeu de données
 
@@ -56,8 +60,8 @@ travaux pratiques.
 
 !!! note "Consigne"
     
-    1. Restez sur le site [data.gouv.fr](https://data.gouv.fr){:target="_blank"}
-    2. Depuis le menu principal, cliquez sur l'entrée **Données**
+    1. Retournez sur la page d'accueil [:material-link: data.gouv.fr](https://data.gouv.fr){:target="_blank"}
+    2. Cliquez sur l'entrée **Découvrez les jeux de données**
     3. Une fois sur la page **Jeux de données**, trouvez la mention du nombre total de jeux de données disponibles
 
 !!! question "Question"
@@ -66,15 +70,15 @@ travaux pratiques.
 
 ??? success "Réponse"
 
-    À l'heure où ses travaux pratiques ont été rédigés, le site data.gouv.fr disposait de **47 508** jeux de données
+    En mars 2025, le site data.gouv.fr disposait de **61 522** jeux de données.
 
 #### :material-magnify: Recherche d'un jeu de données
 
 !!! note "Consigne"
     
-    1. Restez sur la page [Jeux de données](https://www.data.gouv.fr/fr/datasets/){:target="_blank"}
+    1. Restez sur la page [:material-link: Jeux de données](https://www.data.gouv.fr/fr/datasets/){:target="_blank"}
     2. Effectuez la recherche de jeux de données suivante : `films million entrées`<br>
-       *:material-comment-alert: Attention, ne confondez pas avec le champ de recherche du site*
+       :material-comment-alert: **Attention :** ne confondez pas avec le champ de recherche du site
     3. Cliquez sur le résultat intitulé [Films ayant réalisé plus d'un million d'entrées](https://www.data.gouv.fr/fr/datasets/films-ayant-realise-plus-dun-million-dentrees/){:target="_blank"}
     4. Trouvez sur la page descriptive du jeu de données les réponses aux questions ci-après
 
@@ -82,22 +86,22 @@ travaux pratiques.
     
     - Qui a produit et partagé ce jeu de données ?
     - Quelle est la période couverte par ces données ?<br>
-      *:material-comment-alert: consultez le contenu de l'onglet **Informations** pour répondre à cette question*
+      :material-comment-alert: Consultez le contenu de l'onglet **Informations** pour répondre à cette question
 
 ??? success "Réponses"
 
     - Ce jeu de données a été produites et partagées par le CNC *(Centre National du Cinéma et de l'image animée)*
     - Il est indiqué que la période couverte par le jeu de données est **2003 à 2013**.
-      Cependant ce jeu de données a été mis à jour en 2023. Vous constaterez en l'étudiant que la période couverte est finalement **2003 à 2022**.
+      Cependant ce jeu de données a été mis à jour en 2024. Vous constaterez en l'étudiant que la période couverte est finalement **2003 à 2022**.
 
 #### :material-download: Téléchargement des données
 
 !!! note "Consigne"
 
-    1. Restez sur la page [Films ayant réalisé plus d'un million d'entrées](https://www.data.gouv.fr/fr/datasets/films-ayant-realise-plus-dun-million-dentrees/){:target="_blank"}
+    1. Restez sur la page [:material-link: Films ayant réalisé plus d'un million d'entrées](https://www.data.gouv.fr/fr/datasets/films-ayant-realise-plus-dun-million-dentrees/){:target="_blank"}
     2. Accédez à l'onglet **Fichiers**
-    3. Cliquez sur le bouton :material-download: pour télécharger le fichier au format `xlsx`<br> 
-       *:material-comment-alert: le format `xlsx` correspond au format de l'application Microsoft Excel*
+    3. Cliquez sur le bouton :material-download:XLSX pour télécharger le fichier<br> 
+       :material-comment-alert: Le format `xlsx` correspond au format de l'application Microsoft Excel
 
 !!! danger "Le téléchargement ne fonctionne pas ?"
 
@@ -106,11 +110,11 @@ travaux pratiques.
 
 !!! note "Consigne"
 
-    1. **Fermez le fichier téléchargé** si celui-ci est ouvert<br>
-       *:material-comment-alert: il n'est pas possible de déplacer un fichier ouvert*
+    1. **Fermez le fichier téléchargé** si celui-ci s'est automatiquement ouvert<br>
+       :material-comment-alert: Il ne vous sera pas possible de le déplacer par la suite s'il est ouvert
     2. Déplacez le fichier vers le dossier de travail `SNT\Données structurées\TP1 - Données ouvertes`
     3. Double-cliquez sur le fichier pour l'ouvrir<br>
-       *:material-comment-alert: l'application Microsoft Excel ou LibreOffice Calc doit se lancer*
+       :material-comment-alert: L'application Microsoft Excel ou LibreOffice Calc doit se lancer
 
 ## Les tableurs
 
@@ -119,7 +123,7 @@ travaux pratiques.
     - Un **tableur** est un logiciel permettant la manipulation de données organisées sous forme de tableaux.
       Il est possible d'appliquer sur ces données divers traitements tels que : des tris, des filtres ou des calculs.
     - Un document créé via un tableur *(LibreOffice Calc, Microsoft Excel, ...)* est appelé **classeur**.
-      Un classeur contient des feuilles de calcul organisées en onglets.
+      Un classeur contient une ou plusieurs feuilles de calcul accessibles via des onglets.
     - Une **feuille de calcul** correspond à un tableau pouvant contenir des valeurs ou des formules de calcul.
       Les cases du tableau sont appelées cellules.
     - Chaque **cellule** est identifiable par sa **référence**.
@@ -135,21 +139,20 @@ travaux pratiques.
 
     1. S'il n'est pas déjà ouvert, ouvrez le classeur des **films ayant réalisé plus d'un million d'entées**
     2. Naviguez entre les années en cliquant sur les onglets pour changer de feuille de calcul<br>
-       *:material-comment-alert: les onglets se trouvent en bas de la fenêtre*
+       :material-comment-alert: Les onglets se trouvent en bas de la fenêtre
     3. Trouvez les réponses aux questions ci-après en explorant le classeur
 
 !!! question "Préparation du QCM"
 
     - Quel film a fait le plus d'entrées en 2020 ?
     - Quel film français a fait le plus d'entrées en 2013 ?
-    - Quelle est la nationalité du film ayant fait le plus d'entrées en 2005 ?
+    - Quelle est la nationalité du film ayant fait le plus d'entrées en 2023 ?
 
 ??? success "Réponses"
 
     - Le film ayant fait le plus d'entrées en 2020 est **Tenet**
     - Le film français ayant fait le plus d'entrées en 2013 est **Les Profs**
-    - Le film ayant fait le plus d'entrées en 2005 est **américain** 
-
+    - Le film ayant fait le plus d'entrées en 2023 est **américain** 
 
 ### Filtrage des données
 
@@ -167,22 +170,23 @@ travaux pratiques.
 
     1. **Activez la modification** si le classeur est en mode protégé
     2. Rendez-vous sur la feuille de calcul de l'année **2018**
-    3. Sélectionnez l'intégralité de la 7<sup>ème</sup> ligne. Celle-ci contient les en-têtes du tableau<br>
-       *:material-comment-alert: cliquez sur la case grise contenant le numéro de la ligne. Ne confondez pas avec le film de rang 7*
+    3. Sélectionnez l'intégralité de la 7<sup>ème</sup> ligne en cliquant sur la **cellule grisée** située en bordure gauche et contenant le numéro 7.
+       Cette ligne contient les en-têtes du tableau<br>
+       :material-comment-alert: **Attention :** Ne confondez pas avec la ligne décrivant le film classé 7<sup>ème</sup>
     4. Activez les tris et les filtres en sélectionnant la fonction appropriée selon le logiciel utilisé<br>
-       *:material-comment-alert: consultez l'aide ci-dessous*
+       :material-comment-alert: consultez l'aide ci-dessous
 
-!!! help "Activer les filtres"
+!!! help "Aide - Activer les filtres"
 
     === ":material-microsoft-excel: Microsoft Excel"
 
         - *menu* ▸ Données ▸ Filtrer
-        - raccourci clavier ++ctrl+shift+l++
+        - vous pouvez aussi utiliser le raccourci clavier ++ctrl+shift+l++
 
     === ":material-table: Libre office Calc"
 
         - *menu* ▸ Données ▸ Filtre automatique
-        - raccourci clavier ++ctrl+shift+l++
+        - vous pouvez aussi utiliser le raccourci clavier ++ctrl+shift+l++
 
 #### Utiliser les filtres
 
@@ -192,7 +196,7 @@ travaux pratiques.
 
     - Cliquez sur le triangle qui est apparu à droite de l'en-tête de colonne **Nationalité**
     - Décochez tout sauf **FR** et répondez à la question<br>
-      *:material-comment-alert: seuls les films français doivent désormais être visibles*
+      :material-comment-alert: Seuls les films français doivent désormais être visibles
 
 !!! question "Question"
     
@@ -218,14 +222,17 @@ travaux pratiques.
     1. Retournez sur la feuille de calcul de 2018
     2. Sélectionnez la cellule `C51`
     3. Saisissez-y la formule `=SOUS.TOTAL(3;C8:C49)`<br>
-       *:material-comment-alert: respectez bien chaque élément de ponctuation (`=`, `;` et `:`)*<br>
-       *:material-comment-alert: une fois la formule saisie, le nombre de films affichés devrait apparaître dans la cellule `C51`.*
+       :material-comment-alert: Respectez bien chaque élément de ponctuation (`=`, `;` et `:`)<br>
+       :material-comment-alert: Une fois la formule saisie, le nombre de films affichés devrait apparaître dans la cellule `C51`.
 
 !!! info "Explications"
 
     La fonction `SOUS.TOTAL` permet d'appliquer un traitement (le traitement numéro 3) sur un groupe de cellules
     (`C8:C49`). Ici `C8` correspond à la cellule du coin supérieur gauche de la sélection et `C49` celle du coin inférieur droit.
     Ces deux cellules faisant partie de la même colonne `C`, nous appliquons donc finalement le traitement sur les cellules de la ligne `8` à la ligne `49` de la colonne `C`.
+
+    :material-alert: **Attention :** La cellule contenant la formule doit être séparée des données utilisées pour les calcul par au moins une ligne vide.
+    C'est la raison pour laquelle nous avons écrit la formule en ligne 51 et non en ligne 50.
 
     La documentation complète de cette fonction est disponible sur le [:material-link: support Microsoft](https://support.microsoft.com/fr-fr/office/sous-total-sous-total-fonction-7b027003-f060-4ade-9040-e478765b9939)
 
@@ -247,7 +254,7 @@ travaux pratiques.
     1. Retournez sur la feuille de calcul de 2018
     2. Sélectionnez la cellule `E51`
     3. Saisissez-y la formule `=SOUS.TOTAL(9;E8:E49)`<br>
-       *:material-comment-alert: une fois la formule saisie, le nombre d'entrées cumulées devrait apparaître dans la cellule `E51`*
+       :material-comment-alert: Une fois la formule saisie, le nombre d'entrées cumulées devrait apparaître dans la cellule `E51`
 
 !!! question "Questions"
     
@@ -262,7 +269,7 @@ travaux pratiques.
 
 #### Filtres et tris
 
-!!! warning "Attention"
+!!! warning "Attention - Cellules contenant ###"
 
     Si la colonne **sortie** contient des `###`, cela signifie qu'elle n'est pas assez large pour afficher correctement les données.
     Il est possible de l'élargir. Pour cela :
@@ -276,7 +283,7 @@ travaux pratiques.
     1. Retournez sur la feuille de calcul de 2018
     2. Réinitialisez tous les filtres de façons à afficher tous les films de 2018 **(important)**
     3. Triez les films selon leur date de sortie croissante<br>
-        *:material-comment-alert: Cliquez sur le triangle à droite de l'en-tête de colonne « sortie »*
+       :material-comment-alert: Cliquez sur le triangle à droite de l'en-tête de colonne « sortie »
     4. Vous devez constater la présence de quatre films sortis en 2017
     5. Appliquez le filtre permettant de les masquer
     6. En ajustant les autres filtres et le tri, répondez aux questions ci-après.
@@ -295,13 +302,13 @@ travaux pratiques.
 
 !!! note "Consigne"
 
-    1. Rendez-vous sur la page des jeux de données de [data.gouv.fr](https://www.data.gouv.fr/fr/datasets/){:target="_blank"}
+    1. Rendez-vous sur la page des jeux de données de [:material-link: data.gouv.fr](https://www.data.gouv.fr/fr/datasets/){:target="_blank"}
     2. Dans le champ de recherche, saisissez les mots-clés : `salles cinéma`
     3. Accédez au jeu de données **Les salles de cinéma en Île-de-France**<br>
-       *:material-comment-alert: celui fourni par la région Ile-de-France et mis à jour le 6 décembre 2021*
+       :material-comment-alert: Celui fourni par la région Île-de-France et mis à jour le 6 décembre 2021
     4. Téléchargez le fichier au format `csv` et ouvrez-le avec un tableur
     5. **En utilisant les fonctionnalités de filtrage et de calcul**, répondez aux questions ci-après<br>
-        *:material-comment-alert: conservez cette fois vos réponses dans un fichier texte*
+       :material-comment-alert: **Attention :** Conservez vos réponses dans un fichier texte ou sur une feuille, elles vous seront utiles pour répondre à un QCM Pronote.
 
 !!! danger "Le téléchargement ne fonctionne pas ?"
 
@@ -324,4 +331,4 @@ travaux pratiques.
     2. Accédez au **Cahier de textes**
     3. Accédez à **Contenu et ressources**
     4. Affichez le contenu des séances de **SC.NUMERIQ.TECHNOL.**
-    5. Trouvez la séance **Chapitre 4 - TP1 - Données ouvertes** et exécuter le QCM
+    5. Trouvez la séance **SNT04 TP - Données ouvertes** et exécuter le QCM
