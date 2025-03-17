@@ -319,7 +319,7 @@ travaux pratiques.
 
     - Quelle est la salle de cinéma en Île-de-France ayant le plus de fauteuils ? Donner la ville, le nom de la salle et le nombre de fauteuils.
     - Combien d'écrans et de fauteuils dispose l'unique cinéma de Chelles ?
-    - Combien de cinémas « Art et Essai » y a-t-il en Île-de-France ?
+    - Combien de cinémas « Art et Essai » y a-t-il en Île-de-France ? (voir colonne Z)
     - Combien de fauteuils ont l'ensemble des dix plus gros cinémas d'Île-de-France (en nombre de fauteuils) ?
     - Combien de fauteuils ont l'ensemble des cinémas « Art et Essai » à Paris ?
 
