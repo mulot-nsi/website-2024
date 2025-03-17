@@ -331,4 +331,4 @@ travaux pratiques.
     2. Accédez au **Cahier de textes**
     3. Accédez à **Contenu et ressources**
     4. Affichez le contenu des séances de **SC.NUMERIQ.TECHNOL.**
-    5. Trouvez la séance **SNT04 TP - Données ouvertes** et exécuter le QCM
+    5. Trouvez la séance **SNT04 - Les données ouvertes** et exécuter le QCM
