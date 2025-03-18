@@ -180,12 +180,12 @@ travaux pratiques.
 
     === ":material-microsoft-excel: Microsoft Excel"
 
-        - *Barre de menu* ▸ Données ▸ Filtrer
+        - *Barre de menu* ▸ Données ▸ Filtrer :material-filter:
         - vous pouvez aussi utiliser le raccourci clavier ++ctrl+shift+l++
 
     === ":material-table: Libre office Calc"
 
-        - *Barre de menu* ▸ Données ▸ Auto Filtre
+        - *Barre de menu* ▸ Données ▸ AutoFiltre :material-filter:
         - vous pouvez aussi utiliser le raccourci clavier ++ctrl+shift+l++
 
 #### Utiliser les filtres
