@@ -1,5 +1,5 @@
 ---
-title: Projet 1 - Présentez-vous
+title: Projet - Présentez-vous
 description: Projet de création d'une page web de présentation 
 ---
 

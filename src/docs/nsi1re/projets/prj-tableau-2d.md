@@ -1,5 +1,5 @@
 ---
-title: Projet 3 - Tableau 2D
+title: Projet - Tableau 2D
 description: Projet de création d'un programme dont la structure de données principale est un tableau à deux dimensions
 ---
 

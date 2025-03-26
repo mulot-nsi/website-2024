@@ -1,5 +1,5 @@
 ---
-title: Projet 2 - Paysage aléatoire
+title: Projet - Paysage aléatoire
 description: Projet de génération d'un paysage urbain aléatoire 
 ---
 
