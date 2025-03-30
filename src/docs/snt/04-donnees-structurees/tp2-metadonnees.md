@@ -75,7 +75,7 @@ Ces informations sont potentiellement renseignées dans les métadonnées du fic
     2. Faites un clic droit sur le fichier dont vous souhaitez consulter les métadonnés
     3. Cliquez sur *Propriétés* puis accédez à l'onglet *Détails*
 
-    <div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.loom.com/embed/a61268f9fc514ca6b22da92fa1066715?sid=e31f121e-6aef-45d0-9532-4df302abe86f" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+    <div style="position: relative; padding-top: 56.25%;"><iframe title="Métadonnées d'un fichier MP3" width="100%" height="100%" src="https://tube-sciences-technologies.apps.education.fr/videos/embed/12bbb589-555e-4788-aa07-7b68d8cadc40?title=0&amp;warningTitle=0&amp;peertubeLink=0&amp;p2p=0" frameborder="0" allowfullscreen="" sandbox="allow-same-origin allow-scripts allow-popups allow-forms" style="position: absolute; inset: 0px;"></iframe></div>
 
 
 
@@ -104,7 +104,7 @@ Ces informations sont potentiellement renseignées dans les métadonnées du fic
         2. Double-cliquez sur le fichier image pour l'ouvrir
         3. Cliquez sur l'icône :material-information-outline:
 
-        <div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.loom.com/embed/0444b50af11244c3aad7d2b05443eb18?sid=6d636910-037a-4713-aff0-07af95cec612" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+        <div style="position: relative; padding-top: 56.25%;"><iframe title="Métadonnées d'une image" width="100%" height="100%" src="https://tube-sciences-technologies.apps.education.fr/videos/embed/4c792d3b-f49c-44f0-9594-3f5e1b35fdff?title=0&amp;warningTitle=0&amp;peertubeLink=0&amp;p2p=0" frameborder="0" allowfullscreen="" sandbox="allow-same-origin allow-scripts allow-popups allow-forms" style="position: absolute; inset: 0px;"></iframe></div>
 
     === ":material-web: Web"
         
@@ -144,17 +144,17 @@ Cette information est potentiellement renseignée dans les métadonnées du fich
         2. Faites un clic droit sur le fichier puis *Ouvrir avec :material-menu-right: Firefox*
         3. Depuis le menu de la visionneuse de PDF, cliquez sur *:material-information-outline: Propriétés du document...*
     
-        <div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.loom.com/embed/f84c0af71ded4948bc0973ef87a193ce?sid=04355c75-396b-4943-adbb-8e34215a65f5" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+        <div style="position: relative; padding-top: 56.25%;"><iframe title="Métadonnées d'un fichier PDF (Firefox)" width="100%" height="100%" src="https://tube-sciences-technologies.apps.education.fr/videos/embed/7e4646fc-7fdf-4b07-a23e-d71f5c1b6c81?title=0&amp;warningTitle=0&amp;peertubeLink=0&amp;p2p=0" frameborder="0" allowfullscreen="" sandbox="allow-same-origin allow-scripts allow-popups allow-forms" style="position: absolute; inset: 0px;"></iframe></div>
 
     === ":material-google-chrome: Chrome"
 
-        Pour accéder aux métadonnés d'un fichier PDF en utilisant Firefox :
+        Pour accéder aux métadonnés d'un fichier PDF en utilisant Chrome :
     
         1. Lancez l'explorateur de fichiers
-        2. Faites un clic droit sur le fichier puis *Ouvrir avec* :material-menu-right: *Firefox*
-        3. Depuis le menu de la visionneuse de PDF, cliquez sur *:material-information-outline: Propriétés du document...*
+        2. Faites un clic droit sur le fichier puis *Ouvrir avec* :material-menu-right: *Google Chrome*
+        3. Depuis le menu de la visionneuse de PDF, cliquez sur :material-dots-vertical: puis *Propriétés du document*
 
-        <div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.loom.com/embed/efd3d7b6de654db6936301d60c50586e?sid=c1d30e0f-d3f0-465a-8b0e-43d0494657b5" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+        <div style="position: relative; padding-top: 56.25%;"><iframe title="Métadonnées d'un fichier PDF (Chrome)" width="100%" height="100%" src="https://tube-sciences-technologies.apps.education.fr/videos/embed/0b30d3b9-9e64-4bc8-bab5-78d7f402cd43?title=0&amp;warningTitle=0&amp;peertubeLink=0&amp;p2p=0" frameborder="0" allowfullscreen="" sandbox="allow-same-origin allow-scripts allow-popups allow-forms" style="position: absolute; inset: 0px;"></iframe></div>
 
 !!! info "Explications"
 
@@ -195,7 +195,7 @@ Les informations présentes dans les métadonnées des fichiers pourraient nous 
         2. Faites un clic droit sur le fichier puis *Ouvrir avec :material-menu-right: Microsoft Excel*
         3. Depuis le menu cliquez sur *Fichier :material-menu-right: Informations*
 
-        <div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.loom.com/embed/afb44b870edc4d43a39725af74fbfe14?sid=a7f42df8-ee1b-4316-b0ab-eefcc06c8582" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+        <div style="position: relative; padding-top: 56.25%;"><iframe title="Métadonnées d'une page web" width="100%" height="100%" src="https://tube-sciences-technologies.apps.education.fr/videos/embed/0c3ad4a2-60cc-47ed-ac00-417d9a8d622f?title=0&amp;warningTitle=0&amp;peertubeLink=0&amp;p2p=0" frameborder="0" allowfullscreen="" sandbox="allow-same-origin allow-scripts allow-popups allow-forms" style="position: absolute; inset: 0px;"></iframe></div>
 
 
 
@@ -258,7 +258,7 @@ Celui que vous allez utiliser dans le cadre de ces travaux pratique permet notam
     
     Exemple de visualisation des métadonnées d'une page web avec le site de la ville de Chelles :
 
-    <div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.loom.com/embed/64ce068a23ba4e828ad7aea4326f7a84?sid=2ebb7738-60ec-49f6-8bb0-1f6f8b03364f" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+    <div style="position: relative; padding-top: 56.25%;"><iframe title="Métadonnées d'une page web" width="100%" height="100%" src="https://tube-sciences-technologies.apps.education.fr/videos/embed/0c3ad4a2-60cc-47ed-ac00-417d9a8d622f?title=0&amp;warningTitle=0&amp;peertubeLink=0&amp;p2p=0" frameborder="0" allowfullscreen="" sandbox="allow-same-origin allow-scripts allow-popups allow-forms" style="position: absolute; inset: 0px;"></iframe></div>
 
 ## Bilan
 
@@ -291,5 +291,5 @@ Vous allez maintenant tester votre maîtrise d'accès aux métadonnées en réal
 
     1. Transférez une photo prise avec votre téléphone vers l'ordinateur<br>
        *:material-comment-alert: utilisez un câble ou trouvez un moyen de la transérer via Internet*
-    2. Vérifiez les métadonnées de la photo<br>
+    2. Consultez les métadonnées de la photo<br>
        *:material-comment-alert: vous devez au moins voir indiqué le nom du modèle de téléphone utilisé pour la prise de vue*
