@@ -111,7 +111,9 @@ Ces informations sont potentiellement renseignées dans les métadonnées du fic
         Certains site web offrent la possibilité de consulter les métadonnées d'une photo.<br>
         **:material-alert: N'envoyez jamais de photos personnelles** car rien ne garantit qu'elles ne soient pas réexploitées.
 
-        1. 31/03/2025 - Site hors service...
+        1. Rendez-vous sur [:material-link: www.exifdata.com](https://www.exifdata.com/){:target="_blank"}
+        2. Chargez la photo
+
 
 !!! info "Explications"
 
