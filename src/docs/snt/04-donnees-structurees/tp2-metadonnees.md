@@ -102,7 +102,7 @@ Ces informations sont potentiellement renseignées dans les métadonnées du fic
         
         1. Lancez l'explorateur de fichiers
         2. Double-cliquez sur le fichier image pour l'ouvrir
-        3. Cliquez sur l'icône :material-information-outline:
+        3. Cliquez sur l'icône :material-information-outline: *(elle a potentiellement changer de place par rapport à la vidéo et se trouver en bas à gauche)*
 
         <div style="position: relative; padding-top: 56.25%;"><iframe title="Métadonnées d'une image" width="100%" height="100%" src="https://tube-sciences-technologies.apps.education.fr/videos/embed/4c792d3b-f49c-44f0-9594-3f5e1b35fdff?title=0&amp;warningTitle=0&amp;peertubeLink=0&amp;p2p=0" frameborder="0" allowfullscreen="" sandbox="allow-same-origin allow-scripts allow-popups allow-forms" style="position: absolute; inset: 0px;"></iframe></div>
 
