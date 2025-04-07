@@ -63,8 +63,8 @@ Ces informations sont potentiellement renseignées dans les métadonnées du fic
     2. Lancez l'application <i class="icon file-explorer"></i> **Explorateur de fichiers** 
        <span class="keys shortcut"><kbd>:fontawesome-brands-windows:</kbd><span>+</span><kbd>E</kbd></span>
     3. Déplacez le fichier vers le dossier de travail `SNT\Données structurées\TP2 - Métadonnées`
-    4. Depuis l'explorateur de fichier, trouvez comment accéder aux métadonnés du fichier<br>
-       *:material-comment-alert: il n'est pas nécessaire d'ouvrir le fichier en double-cliquant dessus*
+    4. Depuis l'explorateur de fichier, consultez les propriétés du fichier pour accéder aux métadonnés<br>
+       :material-comment-alert: il n'est pas nécessaire d'ouvrir le fichier. Consultez l'aide :material-lightbulb-on-outline: ci-dessous en cas de difficultés.
     5. Notez les trois informations recherchées en vue de répondre au QCM Pronote
 
 ??? help "Aide - Accès aux métadonnées"
@@ -83,7 +83,7 @@ Ces informations sont potentiellement renseignées dans les métadonnées du fic
 ### Métadonnées d'une image
 
 Nous disposons d'une photographie numérique au format [:material-link: JPEG](https://fr.wikipedia.org/wiki/JPEG){:target="_blank"}.
-Nous souhaitons connaître l'appareil utilisé ainsi que la date et le lieu précis de la prise de vue.
+Nous souhaitons connaître l'appareil utilisé ainsi que la date et le nom de l'établissement où a été faite la prise de vue.
 Ces informations sont potentiellement renseignées dans les métadonnées du fichier.
 
 !!! note "Instructions"
@@ -91,7 +91,8 @@ Ces informations sont potentiellement renseignées dans les métadonnées du fic
     1. Téléchargez le fichier [:material-download: SNT04_photo.jpg](assets/SNT04_photo.jpg){:download="SNT04_photo.jpg"}
     2. Déplacez le fichier vers le dossier de travail `SNT\Données structurées\TP2 - Métadonnées`
     3. Double-cliquez sur le fichier pour l'ouvrir
-    4. Depuis l'application de visualisation, trouvez comment consulter les métadonnées
+    4. Depuis l'application de visualisation, trouvez comment consulter les métadonnées<br>
+       :material-comment-alert: Consultez l'aide :material-lightbulb-on-outline: ci-dessous si besoin
     5. Notez les trois informations recherchées en vue de répondre au QCM Pronote
 
 ??? help "Aide - Accès aux métadonnées"
@@ -276,6 +277,18 @@ Celui que vous allez utiliser dans le cadre de ces travaux pratique permet notam
 
 Vous allez maintenant tester votre maîtrise d'accès aux métadonnées en réalisant les tâches ci-dessous.
 
+!!! note "Instructions - Vérification des métadonnées d'une photographie"
+
+    1. Transférez une photo prise avec votre téléphone vers l'ordinateur<br>
+       *:material-comment-alert: utilisez un câble ou trouvez un moyen de la transérer via Internet*
+    2. Consultez les métadonnées de la photo<br>
+       *:material-comment-alert: vous devez au moins voir indiqué le nom du modèle de téléphone utilisé pour la prise de vue*
+
+!!! note "Instructions - Modification des métadonnées d'un fichier Word ou Excel"
+
+    1. Trouvez un devoir au format Word ou Excel
+    2. Modifiez les métadonnés pour lui ajouter un titre, une description et à vérifiez que vous en soyez bien l'auteur
+
 !!! note "Instructions - Modification des métadonnées d'un fichier PDF"
 
     1. Rendez-vous sur le site [https://digipdf.app/](https://digipdf.app/){:target="_blank"}
@@ -283,14 +296,3 @@ Vous allez maintenant tester votre maîtrise d'accès aux métadonnées en réal
     3. Modifier les métadonnées de l'un de vos devoirs au format PDF<br>
        *:material-comment-alert: à défaut, modifiez les métadonnées du fichier PDF de ces travaux pratiques*
 
-!!! note "Instructions - Modification des métadonnées d'un fichier Word ou Excel"
-
-    1. Trouvez un devoir au format Word ou Excel
-    2. Modifiez les métadonnés pour lui ajouter un titre, une description et à vérifiez que vous en soyez bien l'auteur
-
-!!! note "Instructions - Vérification des métadonnées d'une photographie"
-
-    1. Transférez une photo prise avec votre téléphone vers l'ordinateur<br>
-       *:material-comment-alert: utilisez un câble ou trouvez un moyen de la transérer via Internet*
-    2. Consultez les métadonnées de la photo<br>
-       *:material-comment-alert: vous devez au moins voir indiqué le nom du modèle de téléphone utilisé pour la prise de vue*
