@@ -9,6 +9,15 @@ Nouvelle version du site web pour l'année scolaire 2023-2024.
 - [Markdown extensions](https://facelessuser.github.io/pymdown-extensions/)
 
 ## Développement
+
+Initialisation de l'environnement de développement :
+```shell
+mkdir .venv
+poetry install --no-root
+```
+
+
+
 Lancement du serveur de développement :
 
 ```bash
