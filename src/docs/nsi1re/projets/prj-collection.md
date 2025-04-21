@@ -10,8 +10,8 @@ Celle-ci permettra donc d'organiser et de manipuler des informations structurée
 
 !!! info "Mise à jour"
 
-    Dernière mise à jour de l'énoncé le : **mercredi 16 avril 2025 à 16h00**
-    ([:material-link: voir les modifications](https://github.com/mulot-nsi/website-2024/commit/ee60667ca75f95d8f9f91c62d89b929d24575e57){:target="_blank"})
+    Dernière mise à jour de l'énoncé le : **mercredi 21 avril 2025 à 09h30**
+    ([:material-link: voir les modifications](https://github.com/mulot-nsi/website-2024/commit/daa4c7bc606d07d2af7b8d968ca8f4234fd950ba){:target="_blank"})
 
 ## Généralités
 
