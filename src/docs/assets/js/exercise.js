@@ -43,6 +43,12 @@ class ExerciseForm {
             }
         });
 
+        this.form.addEventListener('click', (e) => {
+            if (e.target.matches('button')) {
+                this.uploadFile(e.target);
+            }
+        });
+
         this.form.addEventListener('change', (e) => {
             if (e.target.matches('select')) {
                 this.saveFormData();
@@ -56,6 +62,39 @@ class ExerciseForm {
                 this.doSendForm();
             }
         }, true);
+    }
+
+    uploadFile(element) {
+        console.log("Uploader - Start");
+        const uploader = element.closest('.uploader');
+        const fileInput = uploader.querySelector('input');
+        const output = uploader.querySelector('.output');
+
+        if (fileInput.files.length === 0) {
+            output.textContent = 'Vous devez choisir un fichier à transmettre';
+            output.classList.add('error');
+            return;
+        }
+
+        const data = this.getFormData();
+        const file = fileInput.files[0];
+
+        // Récupération d'extension du fichier
+        const fileName = fileInput.files[0].name;
+        const extension = fileName.split('.').pop().toLowerCase();
+
+        const formData = new FormData();
+        formData.append('firstname', data.firstname);
+        formData.append('lastname', data.lastname);
+        formData.append('group', data.group);
+        formData.append('exercise_id', data.exercise_id);
+        formData.append('extension', extension);
+        formData.append('suffix', element.getAttribute('data-suffix'));
+        formData.append('file', file);
+
+        const xhr = new XMLHttpRequest();
+        xhr.open('POST', '/api/upload', true);
+        xhr.send(formData);
     }
 
     saveFormData() {

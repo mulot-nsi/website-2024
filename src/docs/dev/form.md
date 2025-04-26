@@ -45,11 +45,25 @@
     Pourquoi utilisez-vous ce moteur de recherche ?<br>
     <textarea name="q2"></textarea>
 
-!!! note Dépôt de fichier
-    Déposez votre image ici<br>
-    <input name="visuel" type="file">
-    <input type="button" value="Envoyer">
+!!! note "Transmission d'un fichier A"
+    Déposez votre image<br>
+    <div class="uploader">
+        <div class="components">
+            <input type="file">
+            <button type="button" data-suffix="rendu">Envoyer</button>
+        </div>
+        <div class="output"></div>
+    </div>
 
+!!! note "Transmission d'un fichier B"
+    Déposez votre image<br>
+    <div class="uploader">
+        <div class="components">
+            <input type="file">
+            <button type="button" data-suffix="capture">Envoyer</button>
+        </div>
+        <div class="output"></div>
+    </div>
 
 <input type="submit" value="Terminer">
 </form>

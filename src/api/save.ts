@@ -31,13 +31,16 @@ async function prepareData(formData: FormData) {
         data[key] = value;
     });
 
+    const firstname = data.firstname.toLowerCase();
+    const lastname = data.lastname.toLowerCase();
+
     const record: Record<string, any> = {
-        firstname: data.firstname,
-        lastname: data.lastname,
+        firstname: firstname,
+        lastname: lastname,
         group: data.group,
         exercise_id: data.exercise_id,
         data: data,
-        version: await nextVersion(data.firstname, data.lastname, data.exercise_id)
+        version: await nextVersion(firstname, lastname, data.exercise_id)
     };
 
     return record;

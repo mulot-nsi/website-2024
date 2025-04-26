@@ -64,3 +64,29 @@
 #exercise textarea:invalid {
     border-color: #ef4444;
 }
+
+#exercise .uploader .components {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+#exercise .uploader input {
+    margin-top: 0;
+    padding: 8px 16px;
+}
+
+#exercise .uploader button {
+    background-color: #448aff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+#exercise .uploader .output.error {color:red}
+#exercise .uploader .output.success {color:green}

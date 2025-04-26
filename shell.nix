@@ -6,7 +6,7 @@ in
 pkgs.mkShellNoCC {
   packages = [
     pkgs.git
-    pkgs.python3Full
+    pkgs.python312Full
     pkgs.pyenv
     pkgs.poetry
   ];
