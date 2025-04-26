@@ -45,5 +45,11 @@
     Pourquoi utilisez-vous ce moteur de recherche ?<br>
     <textarea name="q2"></textarea>
 
+!!! note Dépôt de fichier
+    Déposez votre image ici<br>
+    <input name="visuel" type="file">
+    <input type="button" value="Envoyer">
+
+
 <input type="submit" value="Terminer">
 </form>
