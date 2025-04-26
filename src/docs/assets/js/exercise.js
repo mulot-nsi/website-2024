@@ -70,6 +70,10 @@ class ExerciseForm {
         const fileInput = uploader.querySelector('input');
         const output = uploader.querySelector('.output');
 
+        // Réinitialisation du champ output
+        output.classList.remove('error');
+        output.classList.remove('success');
+
         if (fileInput.files.length === 0) {
             output.textContent = 'Vous devez choisir un fichier à transmettre';
             output.classList.add('error');
@@ -92,9 +96,20 @@ class ExerciseForm {
         formData.append('suffix', element.getAttribute('data-suffix'));
         formData.append('file', file);
 
-        const xhr = new XMLHttpRequest();
-        xhr.open('POST', '/api/upload', true);
-        xhr.send(formData);
+        output.textContent = "Envoi du fichier en cours...";
+
+        fetch('/api/upload', {method: 'POST', body: formData})
+            .then(response => {
+                output.classList.add(response.ok ? 'success' : 'error');
+                return (response.status !== 404) ? response.text() : 'Erreur technique : l\'API n\'est pas disponible';
+            })
+            .then(text => {
+                output.textContent = text;
+            })
+            .catch(error => {
+                output.classList.add('error');
+                output.textContent = error;
+            });
     }
 
     saveFormData() {

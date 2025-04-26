@@ -35,9 +35,9 @@ export async function POST(request: Request) {
 
         console.log(blob);
 
-        return new Response(`Fichier chargé avec succès`, {status: 200});
+        return new Response(`Le fichier a été envoyé avec succès`, {status: 200});
     } catch (error) {
-        console.error('Error saving exercise data:', error.message);
-        return new Response(`Error during saving data`, {status: 500});
+        console.error('Error saving file:', error.message);
+        return new Response(`Une erreur s'est produite lors du traitement du fichier`, {status: 500});
     }
 }
