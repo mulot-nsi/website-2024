@@ -3,6 +3,9 @@ title: TP1 - Manipulation d'une image
 description: Manipulation d'une image
 ---
 
+<form id="exercise" method="POST" markdown="1" action="/api/save">
+<input type="hidden" name="exercise_id" value="snt_photo_manipulation">
+
 # Manipulation d'une image
 
 ## Introduction
@@ -10,9 +13,43 @@ description: Manipulation d'une image
 Ces travaux pratiques ont pour objectif de vous faire manipuler les pixels et les couleurs d'une image à l'aide du
 langage de programmation Python.
 
-!!! danger "Travail à rendre"
+## Identification
 
-    Un compte rendu sera à rédiger et à transmettre en fin de séance.
+Avant de commencer les travaux pratiques, identifiez-vous via le formulaire ci-dessous.
+Par la suite, vous répondrez aux questions directement dans les champs prévus à cet effet.
+
+!!! info "Indentifiez-vous"
+    <div>
+        <label for="firstname">Prénom</label>
+        <input id="firstname" type="text" name="firstname">
+    </div>
+    
+    <div>
+        <label for="lastname">Nom</label>
+        <input id="lastname" type="text" name="lastname">
+    </div>
+    
+    <div>
+        <label for="group">Classe</label>
+        <select id="group" name="group">
+            <option value="SEC01">Seconde 1</option>
+            <option value="SEC02">Seconde 2</option>
+            <option value="SEC03">Seconde 3</option>
+            <option value="SEC04">Seconde 4</option>
+            <option value="SEC05">Seconde 5</option>
+            <option value="SEC06">Seconde 6</option>
+            <option value="SEC07">Seconde 7</option>
+            <option value="SEC08">Seconde 8</option>
+            <option value="SEC09">Seconde 9</option>
+            <option value="SEC10">Seconde 10</option>
+            <option value="SEC11">Seconde 11</option>
+            <option value="SEC12">Seconde 12</option>
+            <option value="SEC13">Seconde 13</option>
+            <option value="SEC14">Seconde 14</option>
+            <option value="SEC15">Seconde 15</option>
+            <option value="SEC16">Seconde 16</option>
+        </select>
+    </div>
 
 ## Préparation
 
@@ -34,12 +71,6 @@ travaux pratiques.
         2. Dans la **zone personnelle**, s'il n'y a pas de dossier nommé `SNT`, créez-le
         3. Dans le dossier `SNT`, créez-le dossier `Photographie`
         4. Dans le dossier `Photographie`, créez-le dossier `TP1 - Manipulation`
-
-!!! note "Préparation du document de compte rendu"
-
-    1. Créez un document texte en utilisant un logiciel de traitement de texte *(LibreOffice Writer, Microsoft Word, ...)*
-    2. Ajoutez un titre, une date, votre classe, votre prénom et votre nom
-    3. Enregistrez immédiatement le document dans le dossier `TP1 - Manipulation`
 
 ## Exercices
 
@@ -82,18 +113,25 @@ plus de deux millions de pixels.
         print(largeur, "x", hauteur)
         ```
 
-    <div style="position: relative; padding-bottom: 62.5%; height: 0;"><iframe src="https://www.loom.com/embed/0601dc53f37c428cbadd9e33b4ec30a8?sid=4942ffdc-71d6-4db9-8a06-aff3c2aade25" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+    <div style="position: relative; padding-top: 62.5%;"><iframe title="SNT - Photographie - Définition d'une image" width="100%" height="100%" src="https://tube-sciences-technologies.apps.education.fr/videos/embed/dde21be4-c257-42ad-bbbb-9aed54bc250c?title=0&amp;warningTitle=0&amp;peertubeLink=0&amp;p2p=0" frameborder="0" allowfullscreen="" sandbox="allow-same-origin allow-scripts allow-popups allow-forms" style="position: absolute; inset: 0px;"></iframe></div>
 
 
 !!! note "Instructions de travail"
 
     1. Cliquez sur le bouton **Exécuter**
     2. Lisez les dimensions de l'image
-    3. Reportez dans votre compte rendu les informations suivantes en ne faisant qu'une seule phrase :
-        - Largeur en pixels
-        - Hauteur en pixels
-        - Nombre total de pixels que contient l'image *(à calculer)*
-    4. Fermez l'onglet contenant Basthon
+    3. Répondez aux questions ci-dessous puis fermez l'onglet contenant Basthon
+
+!!! question "Questions"
+    1 - Quelle est la hauteur en pixels de l'image ?
+    <input type="text" name="q1">
+
+    2 - Quelle est la largeur en pixels de l'image ?
+    <input type="text" name="q2">
+
+    3 - Combien de pixels contient l'image ? *(à vous de calculer)*
+    <input type="text" name="q3">
+
 
 ### 2. Manipuler les pixels
 
@@ -137,7 +175,7 @@ Vous devez trouver où se trouve le point de coordonnées `(0, 0)` *(l'origine)*
         img.show()
         ```
     
-    <div style="position: relative; padding-bottom: 62.5%; height: 0;"><iframe src="https://www.loom.com/embed/84738957fc5f41559b05b6f5c4283bb3?sid=55815f37-d543-4364-aacb-15d3bfa879e9" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+    <div style="position: relative; padding-top: 62.5%;"><iframe title="SNT - Photographie - Manipuler les pixels" width="100%" height="100%" src="https://tube-sciences-technologies.apps.education.fr/videos/embed/7d3e9799-1406-4fa6-bd88-6b88375c0a0b?title=0&amp;warningTitle=0&amp;peertubeLink=0&amp;p2p=0" frameborder="0" allowfullscreen="" sandbox="allow-same-origin allow-scripts allow-popups allow-forms" style="position: absolute; inset: 0px;"></iframe></div>
 
 
 !!! note "Instructions de travail"
@@ -146,12 +184,18 @@ Vous devez trouver où se trouve le point de coordonnées `(0, 0)` *(l'origine)*
        <br>*:material-comment-alert: ce sont les pixels représentant les yeux du smiley et ceux-ci sont mal placés*
     2. Modifiez les coordonnées des pixels afin de les placer correctement sur le smiley pour lui rendre ses yeux 
        <br>*:material-comment-alert: faites plusieurs essais afin de comprendre l'orientation des axes X et Y*
-    4. Ajoutez les nouvelles coordonnées des pixels des yeux au compte rendu
-    5. Par déduction des déplacements que vous avez appliqués aux pixels, ajoutez au compte rendu la proposition correspondant à la position de l'origine et l'orientation des axes du plan représenté par l'image :
+
+!!! question "Questions"
+    4 - Quelles nouvelles coordonnées avez-vous données aux pixels ?
+     <textarea name="q4" rows="2"></textarea>
+
+    5 - Par déduction des déplacements que vous avez appliqués aux pixels, laquelle de ces propositions correspond à la position de l'origine et à l'orientation des axes du plan représenté par l'image :
 
     <figure markdown>
     ![plan](images/plans.png){:style="max-width:100%;"}
     </figure>
+
+    <input type="text" name="q5">
 
 
 ### 3. Manipuler la couleur
@@ -188,16 +232,34 @@ Chaque intensité est codée sous forme d'une valeur entière comprise entre 0 e
 
 !!! note "Instructions de travail"
 
-    1. Modifiez la ligne `#!python couleur = (0, 0, 0)` afin de tester les couleurs :
-        - `(255,0, 0)`
+    1. Modifiez la ligne `#!python couleur = (0, 0, 0)` afin de tester les couleurs suivantes :
+        - `(255, 0, 0)`
         - `(0, 255, 0)`
         - `(0, 0, 255)`
-    2. Reportez les couleurs trouvées dans votre compte rendu
-    3. Complétez votre compte rendu en effectuant les tâches suivantes :
-        - Trouvez et reportez le code couleur du blanc, du jaune et du magenta *(rose/violet vif)*
-        - Recherchez sur le web le nombre de couleurs visibles par l'œil humain
-        - Calculez le nombre total de couleurs possibles sachant que chacune des 3 intensités peut prendre 256 valeurs. Notez le calcul et la valeur trouvée dans le compte rendu
-        - Comparez sur le nombre de couleurs qu'il est possible de générer avec le nombre de couleurs visibles par l'œil humain et conclure. Que pouvez-vous conclure de la capacité du numérique à représenter les couleurs du monde.
+
+!!! question "Questions"
+
+    6 - Quelles couleurs avez-vous trouvées ?
+    <textarea name="q6" rows="4">
+    (255, 0, 0) = 
+    (0, 255, 0) = 
+    (0, 0, 255) = 
+    </textarea>
+
+    7 - Trouvez les valeurs permettant d'obtenir du blanc, du jaune et du magenta *(rose/violet vif).
+    <textarea name="q7" rows="4">
+    blanc   = ( , , ) 
+    jaune   = ( , , ) 
+    magenta = ( , , )
+    </textarea>
+
+    8 - Calculez le nombre total de couleurs qu'il est possible de générer, sachant que chacune des 3 intensités peut prendre 256 valeurs. 
+        Vous indiquerez le calcul et la valeur trouvée.
+    <input type="text" name="q8">
+
+    9 - Recherchez sur le web le nombre de couleurs visibles par l'œil humain en indiquant l'url de la page où vous avez trouvé une réponse.
+        Que pouvez-vous conclure de la capacité du numérique à représenter les couleurs du monde ?
+    <textarea name="q9" rows="4"></textarea>
 
 ### 4. Manipuler une image
 
@@ -258,7 +320,7 @@ Vous commencerez par suivre quelques instructions d'expérimentation avant de la
 
 !!! note "Instructions d'expérimentation"
 
-    Les éléments d'expérimentation ne sont pas à intégrer au compte rendu. Vous devez cependant tout essayer.
+    Testez toutes les altérations de couleur suivantes :
 
     1. Modifiez les couleurs telles que : `couleur = (b, r, v)`
     2. Modifiez les couleurs telles que : `couleur = (v, v, b)`
@@ -269,21 +331,45 @@ Vous commencerez par suivre quelques instructions d'expérimentation avant de la
     7. Créez une image en noir et blanc en affectant aux 3 composantes le calcul de l'intensité moyenne : 
        <br>`couleur = ((r+v+b)//3, (r+v+b)//3, (r+v+b)//3) `
 
-!!! note "Instructions de travail"
+!!! question "Questions"
 
-    1. Inventez votre propre "filtre" de couleurs et copier/coller votre "formule" et l'image générée dans votre compte rendu
-    2. Testez un nouveau filtre sur l'image de votre choix récupérée sur le Web (au format jpg ou png)
-       <br>*:material-comment-alert: trouver une image de faible définition afin que les traitements ne provoquent pas d'anomalies*
-    3. Copiez/collez l'image obtenue dans votre compte rendu
+    10a - Inventez votre propre « filtre » de couleurs et saisissez votre « formule » dans le champ ci-dessous :
+    
+    <input type="text" name="q10" placeholder="Exemple : couleur = (255-r, 255-v, 255-b) ">
 
-## Envoi du travail
+    10b - Enregistrez l'image obtenue dans votre dossier `TP1 - Manipulation` puis envoyez-la via le champ ci-dessous.
+    <br>:material-comment-alert: N'oubliez pas de cliquer sur le bouton « Envoyer »
 
-!!! note "Dépot du travail sur Pronote"
+    <div class="uploader">
+        <div class="components">
+            <input type="file">
+            <button type="button" data-suffix="filtre">Envoyer</button>
+        </div>
+        <div class="output"></div>
+    </div>
 
-    1. Enregistrez votre compte rendu et exportez-le au **format PDF**
-    1. Connectez-vous à l'ENT : [:material-link: https://ent.iledefrance.fr](https://ent.iledefrance.fr){:target="_blank"}
-    3. Accédez à l'application **Pronote**
-    4. Depuis l'accueil, recherchez le devoir **SNT05 - TP - Manipulation d'une image**
-    5. Cliquez sur le bouton <span class="pronote-button">Déposer ma copie</span>
-    6. Cliquez sur le bouton **Un seul fichier (*.pdf, *.doc, ...)**
-    7. Déposez votre fichier PDF
+!!! question "Questions"
+
+    11a - Testez un nouveau filtre sur l'image de votre choix récupérée sur le Web (au format jpg ou png)
+        <br>*:material-comment-alert: trouvez une image de faible définition (500x500) ou réduiser sa taille afin que les traitements ne provoquent pas d'anomalies*
+    
+    Saisissez votre nouvelle « formule » dans le champ ci-dessous :
+
+    <input type="text" name="q10" placeholder="Exemple : couleur = (255-r, 255-v, 255-b) ">
+
+    11b - Enregistrez l'image obtenue dans votre dossier `TP1 - Manipulation` puis envoyez-la via le champ ci-dessous.
+    <br>:material-comment-alert: N'oubliez pas de cliquer sur le bouton « Envoyer »
+
+    <div class="uploader">
+        <div class="components">
+            <input type="file">
+            <button type="button" data-suffix="perso">Envoyer</button>
+        </div>
+        <div class="output"></div>
+    </div>
+
+!!! target "Bilan"
+    Concluez en détaillant ce que vous avez appris de ces travaux pratiques. 
+    <textarea name="conclusion" rows="3"></textarea>
+
+</form>
