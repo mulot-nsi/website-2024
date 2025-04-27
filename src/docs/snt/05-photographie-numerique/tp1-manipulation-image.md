@@ -187,7 +187,10 @@ Vous devez trouver où se trouve le point de coordonnées `(0, 0)` *(l'origine)*
 
 !!! question "Questions"
     4 - Quelles nouvelles coordonnées avez-vous données aux pixels ?
-     <textarea name="q4" rows="2"></textarea>
+     <textarea name="q4" rows="3" style="font-family:monospace;">
+     oeil_gauche = ( , )
+     oeil_droit = ( , )
+     </textarea>
 
     5 - Par déduction des déplacements que vous avez appliqués aux pixels, laquelle de ces propositions correspond à la position de l'origine et à l'orientation des axes du plan représenté par l'image :
 
@@ -195,7 +198,7 @@ Vous devez trouver où se trouve le point de coordonnées `(0, 0)` *(l'origine)*
     ![plan](images/plans.png){:style="max-width:100%;"}
     </figure>
 
-    <input type="text" name="q5">
+    <input type="text" name="q5" placeholder="Il s'agit de la proposition ...">
 
 
 ### 3. Manipuler la couleur
@@ -240,26 +243,30 @@ Chaque intensité est codée sous forme d'une valeur entière comprise entre 0 e
 !!! question "Questions"
 
     6 - Quelles couleurs avez-vous trouvées ?
-    <textarea name="q6" rows="4">
+    <textarea name="q6" rows="4" style="font-family:monospace;">
     (255, 0, 0) = 
     (0, 255, 0) = 
     (0, 0, 255) = 
     </textarea>
 
     7 - Trouvez les valeurs permettant d'obtenir du blanc, du jaune et du magenta *(rose/violet vif).
-    <textarea name="q7" rows="4">
+    <textarea name="q7" rows="4" style="font-family:monospace;">
     blanc   = ( , , ) 
     jaune   = ( , , ) 
     magenta = ( , , )
     </textarea>
 
     8 - Calculez le nombre total de couleurs qu'il est possible de générer, sachant que chacune des 3 intensités peut prendre 256 valeurs. 
-        Vous indiquerez le calcul et la valeur trouvée.
+        Vous indiquerez le calcul effectué et la valeur trouvée.
     <input type="text" name="q8">
 
-    9 - Recherchez sur le web le nombre de couleurs visibles par l'œil humain en indiquant l'url de la page où vous avez trouvé une réponse.
-        Que pouvez-vous conclure de la capacité du numérique à représenter les couleurs du monde ?
-    <textarea name="q9" rows="4"></textarea>
+    9 - Combien de couleurs différentes l'œil humain peut-il distinguer ? Faites une recherche sur internet et indiquez l'adresse (URL) du site où vous avez trouvé cette information.
+    <textarea name="q9" rows="3"></textarea>
+
+    10 - En comparant ce nombre avec celui calculé en question 8, que pouvez-vous conclure sur la capacité des technologies numériques à reproduire fidèlement toutes les couleurs du monde réel ?
+    <textarea name="q10" rows="3"></textarea>
+
+
 
 ### 4. Manipuler une image
 
@@ -333,11 +340,11 @@ Vous commencerez par suivre quelques instructions d'expérimentation avant de la
 
 !!! question "Questions"
 
-    10a - Inventez votre propre « filtre » de couleurs et saisissez votre « formule » dans le champ ci-dessous :
+    11a - Inventez votre propre « filtre » de couleurs et saisissez votre « formule » dans le champ ci-dessous :
     
-    <input type="text" name="q10" placeholder="Exemple : couleur = (255-r, 255-v, 255-b) ">
+    <input type="text" name="q11" placeholder="Exemple : couleur = (255-r, 255-v, 255-b)" style="font-family:monospace;">
 
-    10b - Enregistrez l'image obtenue dans votre dossier `TP1 - Manipulation` puis envoyez-la via le champ ci-dessous.
+    11b - Enregistrez l'image obtenue dans votre dossier `TP1 - Manipulation` puis envoyez-la via le champ ci-dessous.
     <br>:material-comment-alert: N'oubliez pas de cliquer sur le bouton « Envoyer »
 
     <div class="uploader">
@@ -350,14 +357,14 @@ Vous commencerez par suivre quelques instructions d'expérimentation avant de la
 
 !!! question "Questions"
 
-    11a - Testez un nouveau filtre sur l'image de votre choix récupérée sur le Web (au format jpg ou png)
+    12a - Testez un nouveau filtre sur l'image de votre choix récupérée sur le Web (au format jpg ou png)
         <br>*:material-comment-alert: trouvez une image de faible définition (500x500) ou réduiser sa taille afin que les traitements ne provoquent pas d'anomalies*
     
     Saisissez votre nouvelle « formule » dans le champ ci-dessous :
 
-    <input type="text" name="q10" placeholder="Exemple : couleur = (255-r, 255-v, 255-b) ">
+    <input type="text" name="q12" placeholder="Exemple : couleur = (255-r, 255-v, 255-b)" style="font-family:monospace;">
 
-    11b - Enregistrez l'image obtenue dans votre dossier `TP1 - Manipulation` puis envoyez-la via le champ ci-dessous.
+    12b - Enregistrez l'image obtenue dans votre dossier `TP1 - Manipulation` puis envoyez-la via le champ ci-dessous.
     <br>:material-comment-alert: N'oubliez pas de cliquer sur le bouton « Envoyer »
 
     <div class="uploader">
