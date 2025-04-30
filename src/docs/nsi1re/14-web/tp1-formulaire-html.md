@@ -29,7 +29,7 @@ Pour l'acquisition des données, nous faisons le choix de développer un formula
 !!! target "Caractéristiques des champs"
 
     Voici les caractéristiques HTML des champs que vous allez devoir créer.
-    Ne vous inquiétez pas si vous ne comprenez pas immédiatement le contenu du tableau, il vous sera demandé de le consuleter à plusieurs reprises au cours de ces travaux pratiques.
+    Ne vous inquiétez pas si vous ne comprenez pas immédiatement le contenu du tableau, il vous sera demandé de le consulter à plusieurs reprises au cours de ces travaux pratiques.
     
 
     | Libellé                | Balise            | Attribut `type` | Attribut `name`  |
