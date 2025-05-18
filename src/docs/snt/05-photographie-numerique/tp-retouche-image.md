@@ -101,13 +101,13 @@ Chaque pic correspond au nombre de pixels pour une de luminosité donnée. Plus 
 
 !!! note "Activité 1"
     
-    Observez l'histogramme de l'image de *La Joconde* et déduisez-en la luminosité globale de l'image *(claire, neutre ou sombre)*.
+    Observez l'histogramme de l'image de *La Joconde* ci-dessus et déduisez-en la luminosité globale de l'image *(claire, neutre ou sombre)*.
     Écrivez votre réponse dans le compte rendu **en justifiant**.
 
 #### Construction d'un histogramme
 
 Voici une image de 8x8 pixels de définition représentant un rectangle gris.
-Celle-ci a une profondeur de couleurs de 8 bits, mais ses pixels n'ont finalement que 3 nuances de gris sur les 256 possibles :
+Celle-ci a une profondeur de couleurs de 8 bits, mais elle ne contient que trois nuances parmi les 256 possibles.
 
 <div style="display:flex; margin:3em; justify-content:center; align-items: center; gap:50px;" markdown>
 <div markdown>
@@ -126,18 +126,20 @@ Celle-ci a une profondeur de couleurs de 8 bits, mais ses pixels n'ont finalemen
 
 !!! note "Activité 2"
 
-    Construire l'histogramme correspondant à l'image ci-dessus. Pour cela :
+    Vous allez construire à la main, l'histogramme de l'image **ci-dessus**.
+    Cette activité à pour but de vérifier votre bonne compréhension de ce que représente un histogramme. Pour celà : 
 
     1. Accédez au dossier `SNT\Photographie\TP2 - Retouche\histogramme_construction`
-    2. Complétez le fichier `SNT05_histogramme.ods` en indiquant dans la colonne **Nombre de pixels**, le nombre de pixels que contient l'image pour chaque luminosité
+    2. Modifiez le fichier `SNT05_histogramme.ods` en complétant la colonne **Nombre de pixels** par le **nombre de pixels** que contient l'image pour chaque luminosité (consultez l'exemple ci-après en cas de difficultés)
     3. Faites une capture d'écran de l'histogramme obtenu  <span class="shortcut">++win+shift+s++</span>
     4. Collez la capture dans votre compte rendu
 
-    ??? help "Aide vidéo"
-        
-        Exemple pour une image contenant 60 pixels noirs (intensité de 0) et 4 pixels gris (intensité de 150) :
+??? example "Exemple en vidéo"
+    
+    Voici un exemple pour une image **fictive** qui contiendrait 60 pixels noirs (intensité lumineuse de 0) et 4 pixels gris (intensité lumineuse de 150) :
 
-        <div style="position: relative; padding-bottom: 62.5%; height: 0;"><iframe src="https://www.loom.com/embed/8fbaf0b9522648b89ddb657d3f511280?sid=962af908-8d4c-4a3d-9b24-6c54bc410691" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+    <div style="position: relative; padding-bottom: 62.5%; height: 0;"><iframe src="https://www.loom.com/embed/8fbaf0b9522648b89ddb657d3f511280?sid=962af908-8d4c-4a3d-9b24-6c54bc410691" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+
 
 #### Interprétation
 
@@ -149,15 +151,20 @@ Le dossier `histogramme_interpretation` comporte 3 images et 3 histogrammes :
 
 !!! note "Activité 3"
     - Visualisez les images et les histogrammes depuis le dossier `histogramme_interpretation`
-    - Associez chaque histogramme à la bonne image. Vous répondrez en faisant des phrases :<br>
+    - Associez chaque histogramme à la bonne image. Vous répondrez dans votre compte rendu en faisant des phrases :<br>
     *"L'histogramme numéro ... correspond à celui de l'image ... car ..."*
 
 !!! note "Activité 4"
 
-    Lancez une application de retouche d'image et vérifiez les histogrammes de chaque image. Vous pouvez utiliser au choix :
+    Cette activité consiste à vérifier vos choix de l'activité 3 en observant l'histogramme d'une photo depuis un logiciel de retouche d'image.
+    
+    1. Lancez une application de retouche d'image et observez l'histogramme de chacune des images *(image1, image2 et image3)*. Vous pouvez utiliser au choix :
 
-    - [:material-link: Pixlr](https://pixlr.com/fr/editor/){:target=_blank} *(application en ligne)* : Ajustement ▶ Niveaux...
-    - Gimp *(uniquement sur les ordinateurs du lycée)* : Couleurs ▶ Niveaux...
+        - [:material-link: Polarr](https://v3.polarr.co/){:target=_blank} *(application en ligne)* : L'histogramme est directement visible en haut à droite
+        - [:material-link: Pixlr](https://pixlr.com/fr/editor/){:target=_blank} *(application en ligne)* : Ajustement ▶ Niveaux...
+        - Gimp *(uniquement sur les ordinateurs du lycée)* : Couleurs ▶ Niveaux...
+
+    2. Ajoutez à votre compte rendu une capture d'écran d'un seul des histogrammes observés en précisant de quelle image il s'agit.
 
 ## Traitement d'image
 
@@ -217,6 +224,7 @@ Soit les courbes tonales suivantes :
 
     Pour modifier la courbe tonale, vous pouvez utiliser au choix :
 
+    - [:material-link: Polarr](https://v3.polarr.co/){:target=_blank} *(application en ligne)* : Courbes
     - [:material-link: Pixlr](https://pixlr.com/fr/editor/){:target=_blank} *(application en ligne)* : Ajustement ▶ Courbes...
     - Gimp *(uniquement sur les ordinateurs du lycée)* : Couleurs ▶ Courbes...
 
@@ -253,6 +261,7 @@ Soit les courbes tonales suivantes :
 
     Pour modifier les courbes, vous pouvez utiliser au choix :
 
+    - [:material-link: Polarr](https://v3.polarr.co/){:target=_blank} *(application en ligne)* : Courbes
     - [:material-link: Pixlr](https://pixlr.com/fr/editor/){:target=_blank} *(application en ligne)* : Ajustement ▶ Courbes...
     - Gimp *(uniquement sur les ordinateurs du lycée)* : Couleurs ▶ Courbes...
 
