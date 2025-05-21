@@ -75,7 +75,7 @@ travaux pratiques.
     3. Répondez à la question
     4. Ouvrez la console javascript (fonction *Inspecter la page* puis onglet *Console*)
     5. Rechargez la page et observez l'affichage de votre saisie dans la console
-    6. N'hésitez pas à expérimenter en modifiant le fichier *(avec un édietr
+    6. N'hésitez pas à expérimenter en modifiant le fichier *(avec un éditeur de texte)*
 
 ### Cas 2 - Lancement selon un événement
 
