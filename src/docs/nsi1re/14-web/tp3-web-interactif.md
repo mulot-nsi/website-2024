@@ -197,8 +197,8 @@ travaux pratiques.
     1. Téléchargez le fichier `exemple4.html` : [:material-download: télécharger](assets/exemple4.html){:download="exemple4.html"}
     2. Ouvrez le fichier dans un navigateur web
     3. Saisissez un long texte et observez le changement de style
-    4. Modifiez le code en changeant de style non plus en fonction de la longueur du texte mais si un ou plusieurs mots interdits (de votre choix) sont présents dans la saisie utilisateur
-    5. Bonus - Appliquez le style uniquement sur les mots interdits
+    4. Modifiez le code en changeant de style non plus en fonction de la longueur du texte mais si un mot interdit se trouve dans la saisie utilisateur
+    5. Bonus - Gérer plusieurs mots interdits à l'aide d'un tableau
 
 ## Mise en oeuvre
 
