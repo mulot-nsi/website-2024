@@ -146,7 +146,7 @@ travaux pratiques.
     2. Ouvrez le fichier dans un navigateur web
     3. Saisissez un texte et cliquez sur le bouton pour lancer le programme
     4. Observez et comprenez comment le javascript récupère la valeur du champ de saisie
-    5. Modifiez le code en ajoutant le champ **nom** et en affichant le prénom et le nom sur la page
+    5. Modifiez le code en ajoutant un champ de saisie du **nom** et en affichant le prénom et le nom sur la page au lancement du programme
 
 ### Cas 4 - Détection d'une saisie
 
