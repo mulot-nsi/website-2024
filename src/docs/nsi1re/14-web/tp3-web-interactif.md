@@ -1,6 +1,6 @@
 ---
-title: TP2 - Formulaire HTML
-description: Création d'un formulaire HTML et transmission de données
+title: TP3 - Web Interactif
+description: Interactivité sur une page web
 ---
 
 # Web Interactif
@@ -75,7 +75,7 @@ travaux pratiques.
     3. Répondez à la question
     4. Ouvrez la console javascript (fonction *Inspecter la page* puis onglet *Console*)
     5. Rechargez la page et observez l'affichage de votre saisie dans la console
-    6. N'hésitez pas à expérimenter en modifiant le fichier
+    6. N'hésitez pas à expérimenter en modifiant le fichier *(avec un édietr
 
 ### Cas 2 - Lancement selon un événement
 
@@ -109,7 +109,7 @@ travaux pratiques.
     2. Ouvrez le fichier dans un navigateur web
     3. Cliquez sur le bonton pour lancer le programme
     4. Observez et comprenez comment le javascript agit sur le contenu de la page
-    5. Modifiez le code de façon à ce qu'on puisse lancer le programme en cliquand n'importe où sur la page
+    5. Modifiez le code de façon à ce qu'on puisse lancer le programme en cliquant n'importe où sur la page
 
 
 ### Cas 3 - Récupération d'une saisie
@@ -146,7 +146,7 @@ travaux pratiques.
     2. Ouvrez le fichier dans un navigateur web
     3. Saisissez un texte et cliquez sur le bouton pour lancer le programme
     4. Observez et comprenez comment le javascript récupère la valeur du champ de saisie
-    5. Modifiez le code en ajoutant le champ **mom** et en affichant le prénom et le nom sur la page
+    5. Modifiez le code en ajoutant le champ **nom** et en affichant le prénom et le nom sur la page
 
 ### Cas 4 - Détection d'une saisie
 
