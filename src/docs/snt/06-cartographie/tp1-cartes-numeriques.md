@@ -57,9 +57,9 @@ Pour comprendre ce que chaque symbole signifie, il est essentiel de consulter la
 
     <h5>Consulter la légende de la carte</h5>
 
-    1. Consultez la légende de la carte en suivant l'une des deux méthodes suivantes :
-        - Clic droit sur la carte ▶ Afficher la légende
-        - Clic sur la 3ème icône en haut à droite de la carte
+    1. Consultez la légende de la carte en suivant **une seule** des deux méthodes suivantes :
+        - Clic droit sur la carte ▶ Afficher la légende ▶ Plan IGN
+        - Clic sur la 3ème icône bleue en haut à droite de la carte ▶ Plan IGN
     2. Êtes-vous capable de repérer les pistes cyclables autour du lycée ?
     3. Êtes-vous capable d'identifier ce que représente la longue ligne grise qui passe devant l'entrée du lycée et traverse le parking des bus ?
 
@@ -153,9 +153,11 @@ Tout utilisateur peut modifier, ajouter, et améliorer les cartes en fonction de
 
     <h5>Étape 2 - Contribution</h5>
 
-    1. Inscrivez-vous à [:material-link: OpenStreeMap](https://www.openstreetmap.org/){:target="_blank"}
-    2. Suivez le tutoriel jusqu'au bout
-    3. Ajoutez une **vraie** contribution pour un lieu que vous connaissez ou une observation depuis la vue aérienne.
+    1. Connectez-vous à [:material-link: OpenStreeMap](https://www.openstreetmap.org/){:target="_blank"}
+    2. Saisissez `mulot-nsi` comme nom d'utilisateur
+    3. Appelez votre enseignant pour le mot de passe
+    4. Suivez le tutoriel jusqu'au bout
+    5. Ajoutez une **vraie** contribution pour un lieu que vous connaissez ou une observation depuis la vue aérienne.
     Il n'y a pas de petites contributions ! Tout est utile comme par exemple :
 
         - la présence d'un parking vélo 
