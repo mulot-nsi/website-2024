@@ -16,7 +16,7 @@ Découvrir les traitements côté serveur en PHP et en Python
     5. Lancer l'application **Invite de commande**
     6. Exécuter la commande ci-dessous qui permet de rendre php accessible depuis n'importe quel dossier :
     ```
-    set PATH=%PATH%;C:%HOMEPATH%\Documents\php
+    set PATH=%PATH%;C:%HOMEPATH%\Downloads\php
     ```
     7. Vérifier que PHP soit bien accessible en lançant la commande :
     ```
@@ -49,8 +49,8 @@ Découvrir les traitements côté serveur en PHP et en Python
     3. Une fois dans le dossier, lancer un serveur PHP :
 
     ```
-    set PATH=%PATH%;C:%HOMEPATH%\Documents\php
-    php -d extension=C:%HOMEPATH%\Documents\php\ext\php_gd.dll -S localhost:8080
+    set PATH=%PATH%;C:%HOMEPATH%\Downloads\php
+    php -d extension=C:%HOMEPATH%\Downloads\php\ext\php_gd.dll -S localhost:8080
     ```
     4. Se rendre à l'adresse [http://localhost:8080](http://localhost:8080), une page avec pour titre **Page d'accueil** doit s'afficher
 
