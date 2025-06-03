@@ -24,9 +24,9 @@ Découvrir les traitements côté serveur en PHP et en Python
     ```
     8. Vous devez obtenir l'affichage suivant :
     ```
-    PHP 8.2.2 (cli) (built: Jan 31 2023 21:19:11) (ZTS Visual C++ 2019 x64)
+    PHP 8.4.7 (cli) (built: May  6 2025 14:14:22) (NTS Visual C++ 2022 x64)
     Copyright (c) The PHP Group
-    Zend Engine v4.2.2, Copyright (c) Zend Technologies
+    Zend Engine v4.4.7, Copyright (c) Zend Technologies
     ```
 
 ### Squelette de l'application
