@@ -10,10 +10,9 @@ Découvrir les traitements côté serveur en PHP et en Python
 
 !!! note "Instructions"
 
-    1. Télécharger l'archive ZIP de la version 8.4.7 de PHP depuis [la page officielle de téléchargement](https://windows.php.net/download/) (VS17 x64 Non Thread Safe)
+    1. Télécharger l'archive ZIP de la version 8.4.7 de PHP depuis [la page officielle de téléchargement](https://windows.php.net/download/){:target="_blank"} (VS17 x64 Non Thread Safe)
     2. Décompresser l'archive ZIP
     3. Renommer le répertoire `php-8.4.7-nts-Win32-vs17-x64` en `php`
-    4. Couper/coller le répertoire `php` vers le répertoire `Documents`
     5. Lancer l'application **Invite de commande**
     6. Exécuter la commande ci-dessous qui permet de rendre php accessible depuis n'importe quel dossier :
     ```
@@ -58,20 +57,20 @@ Découvrir les traitements côté serveur en PHP et en Python
 ### Exécution des traitements
 Le squelette comporte 3 traitements dont il vous faudra comprendre parfaitement le fonctionnement :
 
-- [Traitement 1](http://localhost:8080/exemple_traitement_1.php) - génération d'une réponse texte
-- [Traitement 2](http://localhost:8080/exemple_traitement_2.php) - génération d'une réponse HTML
-- [Traitement 3](http://localhost:8080/exemple_traitement_3.php) - génération d'une réponse image
+- [Traitement 1](http://localhost:8080/exemple_traitement_1.php){:target="_blank"} - génération d'une réponse texte
+- [Traitement 2](http://localhost:8080/exemple_traitement_2.php){:target="_blank"} - génération d'une réponse HTML
+- [Traitement 3](http://localhost:8080/exemple_traitement_3.php){:target="_blank"} - génération d'une réponse image
 
 
 !!! note "Instructions"
 
-    1. Se rendre sur [http://localhost:8080/exemple_traitement_1.php](http://localhost:8080/exemple_traitement_1.php)
+    1. Se rendre sur [http://localhost:8080/exemple_traitement_1.php](http://localhost:8080/exemple_traitement_1.php){:target="_blank"}
     2. Un message réclamant le paramètre **nom** doit s'afficher
     3. Fournir une valeur au paramètre **nom** directement via l'URL
     4. Un message réclamant que le paramètre **nom** soit fourni via la méthode POST doit s'afficher
     5. Modifier la page `index.php` afin créer le formulaire permettant d'envoyer le paramètre **nom** en utilisant la méthode POST
-    6. Modifier le formulaire de façon à appeler le [traitement numéro 2](http://localhost:8080/exemple_traitement_2.php) et observez le résultat
-    7. Modifier le formulaire de façon à appeler le [traitement numéro 3](http://localhost:8080/exemple_traitement_3.php) et observer le résultat
+    6. Modifier le formulaire de façon à appeler le [traitement numéro 2](http://localhost:8080/exemple_traitement_2.php){:target="_blank"} et observez le résultat
+    7. Modifier le formulaire de façon à appeler le [traitement numéro 3](http://localhost:8080/exemple_traitement_3.php){:target="_blank"} et observer le résultat
     8. Expérimenter en modifiant le formulaire et les traitements afin de bien comprendre le fonctionnement de l'ensemble
 
 ## Version Python
@@ -95,17 +94,17 @@ Le squelette comporte 3 traitements dont il vous faudra comprendre parfaitement 
 ### Exécution des traitements
 Le squelette comporte 3 traitements dont il vous faudra comprendre parfaitement le fonctionnement :
 
-- [Traitement 1](http://localhost:8080/exemple_traitement_1) - génération d'une réponse texte
-- [Traitement 2](http://localhost:8080/exemple_traitement_2) - génération d'une réponse HTML
-- [Traitement 3](http://localhost:8080/exemple_traitement_3) - génération d'une réponse image
+- [Traitement 1](http://localhost:8080/exemple_traitement_1){:target="_blank"} - génération d'une réponse texte
+- [Traitement 2](http://localhost:8080/exemple_traitement_2){:target="_blank"} - génération d'une réponse HTML
+- [Traitement 3](http://localhost:8080/exemple_traitement_3){:target="_blank"} - génération d'une réponse image
 
 !!! note "Instructions"
 
-    1. Se rendre sur [http://localhost:8080/exemple_traitement_1](http://localhost:8080/exemple_traitement_1)
+    1. Se rendre sur [http://localhost:8080/exemple_traitement_1](http://localhost:8080/exemple_traitement_1){:target="_blank"}
     2. Un message réclamant le paramètre **nom** doit s'afficher
     3. Fournir une valeur au paramètre **nom** directement via l'URL
     4. Un message réclamant que le paramètre **nom** soit fourni via la méthode POST doit s'afficher
     5. Modifier le template `templates\index.html` afin créer le formulaire permettant d'envoyer le paramètre **nom** en utilisant la méthode POST
-    6. Modifier le formulaire de façon à appeler le [traitement numéro 2](http://localhost:8080/exemple_traitement_2) et observez le résultat
-    7. Modifier le formulaire de façon à appeler le [traitement numéro 3](http://localhost:8080/exemple_traitement_3) et observer le résultat
+    6. Modifier le formulaire de façon à appeler le [traitement numéro 2](http://localhost:8080/exemple_traitement_2){:target="_blank"} et observez le résultat
+    7. Modifier le formulaire de façon à appeler le [traitement numéro 3](http://localhost:8080/exemple_traitement_3){:target="_blank"} et observer le résultat
     8. Expérimenter en modifiant le formulaire et les traitements afin de bien comprendre le fonctionnement de l'ensemble
