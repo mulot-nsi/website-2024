@@ -28,6 +28,7 @@ Découvrir les traitements côté serveur en PHP et en Python
     Copyright (c) The PHP Group
     Zend Engine v4.4.7, Copyright (c) Zend Technologies
     ```
+    9. Fermez l'invite de commande
 
 ### Squelette de l'application
 
@@ -52,7 +53,7 @@ Découvrir les traitements côté serveur en PHP et en Python
     set PATH=%PATH%;C:%HOMEPATH%\Downloads\php
     php -d extension=C:%HOMEPATH%\Downloads\php\ext\php_gd.dll -S localhost:8080
     ```
-    4. Se rendre à l'adresse [http://localhost:8080](http://localhost:8080), une page avec pour titre **Page d'accueil** doit s'afficher
+    4. Se rendre à l'adresse [http://localhost:8080](http://localhost:8080){:target="_blank"}, une page avec pour titre **Page d'accueil** doit s'afficher
 
 ### Exécution des traitements
 Le squelette comporte 3 traitements dont il vous faudra comprendre parfaitement le fonctionnement :
@@ -81,8 +82,7 @@ Le squelette comporte 3 traitements dont il vous faudra comprendre parfaitement 
 
     1. Télécharger le squelette d'application : [Télécharger](assets/version_python.zip)
     2. Décompresser l'archive ZIP
-    3. Renommer le dossier en `squelette_python`
-    4. Ouvrir l'ensemble des fichiers sous Thonny *(ou tout autre éditeur que vous maîtrisez)*
+    3. Ouvrir l'ensemble des fichiers sous Thonny *(ou tout autre éditeur que vous maîtrisez)*
 
 ### Lancement du serveur
 
