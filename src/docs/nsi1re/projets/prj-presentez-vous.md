@@ -131,6 +131,12 @@ Cependant, vous devez obligatoirement utiliser les éléments de la liste suivan
     | Métadonnée description           | `#!html <meta name="description" content="...">`           | Présent sur les deux pages. Description de votre page à saisir dans l'attribut `content`                                                        |
     | Liens vers une ressource CSS     | `#!html <link rel="stylesheet" href="">`                   | Présent sur les deux pages                                                                                                                      | 
 
+!!! danger "Élément et pratiques interdites"
+
+    - Vous n'êtes pas autorisé à utiliser la balise `#!html <style></style>` pour définir des styles directement à une page
+    - Vous d'êtes pas autorisé à utiliser l'attribut `style` pour définir le style d'un élément
+    - Vous n'êtes pas autorisé à intégrer des images externes à votre site : `#!html <img src="https://...">`
+
 ??? tip "Code HTML de base d'une page web"
 
     Pour rappel, voici le code HTML minimal permettant la création d'une page web :
