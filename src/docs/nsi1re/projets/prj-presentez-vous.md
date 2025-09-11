@@ -5,8 +5,8 @@ description: Projet de création d'une page web de présentation
 
 # Présentez-vous
 
-Page mise à jour le dimanche 15 septembre 2024 à 18h00 
-([:material-github: voir](https://github.com/mulot-nsi/website-2024/commit/ee60667ca75f95d8f9f91c62d89b929d24575e57){:target="_blank"})
+Page mise à jour le jeudi 11 septembre 2025 à 09h45 
+([:material-github: voir](https://github.com/mulot-nsi/website-2024/commit/20f24632ba1ae201a7dc8e4b6994ae7206302eac){:target="_blank"})
 
 ## Introduction
 
