@@ -54,6 +54,10 @@ Cet appareil multifonction fait office de commutateur (afin d'y connecter une ou
 On y voit également le réseau très simplifié du fournisseur d'accès à Internet (FAI) qui vous ouvre l'accès à Internet.
 Est aussi visible le réseau d'un hébergeur web, proposant un serveur où se trouve un ou plusieurs sites web.
 
+<figure markdown>
+  ![Aperçu du réseau Filius](images/dns_reseau.png)
+</figure>
+
 ### 1. Connecter un ordinateur
 
 Pour cette première étape, vous allez connecter un nouvel ordinateur à la Box en le configurant correctement.
@@ -149,6 +153,10 @@ L'hébergeur web dispose d'un serveur abritant un site web auquel vous allez ten
     Une page d'erreur s'affiche malgré le fait que le serveur soit bien connecté au réseau Internet
     et qu'un site web soit bien présent sur celui-ci.
 
+    <figure markdown>
+      ![Accès avec adresse IP](images/dns_ip_ko.png)
+    </figure>
+
 
 #### Vérification du serveur web
 
@@ -178,7 +186,9 @@ Connectez-vous au serveur de l'hébergeur web afin d'en vérifier le bon fonctio
     Vous devez comprendre qu'un **serveur web** est un **logiciel** installé et fonctionnant sur une machine elle-même appelée serveur.
     Cette machine stocke les pages web et les transmet à toute machine qui les lui demanderait via le protocole HTTP *(prochain chapitre de cette année)*.
 
-
+    <figure markdown>
+      ![Accès avec adresse IP](images/dns_ip_ok.png)
+    </figure>
 
 
 
@@ -207,6 +217,11 @@ Dans le cadre de notre réseau virtuel, la configuration n'est pas automatique e
     L'adresse est inaccessible.
     Nous allons maintenant vérifier la configuration du serveur DNS en nous connectant directement à ce dernier.
 
+    <figure markdown>
+      ![Accès avec adresse IP](images/dns_dns_ko.png)
+    </figure>
+
+
 #### Configuration du serveur DNS
 
 Vous voilà désormais en charge de la gestion d'un serveur DNS. Connectez-vous au serveur DNS pour corriger sa configuration.
@@ -219,7 +234,7 @@ Vous voilà désormais en charge de la gestion d'un serveur DNS. Connectez-vous 
     2. Connectez-vous au **serveur DNS** du Fournisseur d'Accès à Internet (FAI)
     3. Lancez le logiciel **Serveur DNS**
     
-    !!! info "super" 
+    !!! info "Important" 
     
         Le DNS est aussi un **logiciel informatique** installé sur une machine. Celui-ci ne comporte actuellement aucune référence au nom de domaine `mulot-nsi.fr`.
     
@@ -232,7 +247,9 @@ Vous voilà désormais en charge de la gestion d'un serveur DNS. Connectez-vous 
 
 ??? success "Résultat attendu"
 
-    Mettre une image
+    <figure markdown>
+      ![Accès avec adresse IP](images/dns_dns_configuration.png)
+    </figure>
 
 Vous allez maintenant vérifier le bon fonctionnement de la configuration DNS en vous rendant à l'adresse `http://mulot-nsi.fr` depuis l'ordinateur personnel.
 
@@ -243,6 +260,12 @@ Vous allez maintenant vérifier le bon fonctionnement de la configuration DNS en
     3. Lancez le logiciel **Navigateur web**
     4. Saisissez l'url `http://mulot-nsi.fr` et cliquez sur **afficher** 
     5. Observez le résultat, la page web d'accueil du site doit apparaître
+
+??? success "Résultat attendu"
+
+    <figure markdown>
+      ![Accès avec adresse IP](images/dns_dns_ok.png)
+    </figure>
 
 ### 5. Vérifier le DNS
 
@@ -267,5 +290,34 @@ Pour tester directement un serveur DNS, il est possible d'utiliser la commande `
     Address: 151.101.130.217
     ```
 
+
+
+
+## Évaluation
+
+Afin de vérifier votre compréhension de ces travaux pratiques, veuillez répondre au questionnaire Pronote suivant :
+
+!!! note "Questionnaire de vérification"
+
+    1. Connectez-vous à l'**ENT** : [:material-link: https://monlycee.net](https://monlycee.net){:target="_blank"}
+    2. Accédez à l'application **Pronote**
+    3. Depuis l'accueil, recherchez le QCM intitulé **SNT01 TP - Serveur DNS**
+    4. Cliquez sur le bouton 
+       **Exécuter le QCM**{:style="display:inline-block;color:#4a1b7f;background-color:#ebdbff;padding:5px 20px;border-radius:10px;"}
+
+
+## Bonus
+
+<h3>Modification de la page HTML</h3>
+
+Vous avez la possibilité de modifier le contenu du site web présent dans la simulation :
+
+!!! note "Modification du site web"
+    
+    1. Lancez la simulation
+    2. Connectez-vous au **Serveur** de l'hébergeur web
+    3. Lancez le logiciel **Éditeur de textes**
+    4. Ouvrez le fichier `webserver/index.html`
+    5. Modifiez le contenu et observez le résultat depuis le navigateur de l'ordinateur personnel
 
 
