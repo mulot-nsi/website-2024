@@ -65,8 +65,8 @@ Pour cette première étape, vous allez connecter un nouvel ordinateur à la Box
 !!! note "Configuration de l'ordinateur"
 
     1. Connectez l'**ordinateur perssonel** à la Box Internet à l'aide d'un cable ethernet
-    2. Attribuez l'adresse IP `192.168.1.10` à l'ordinateur
-    3. Définissez l'adresse IP de la Box Internet, `192.168.1.11`, comme Passerelle
+    2. Attribuez l'adresse IP `192.168.1.10` à l'ordinateur personnel
+    3. Attribuez l'adresse IP de la Box Internet `192.168.1.11`, à la **passerelle** de l'ordinateur personnel
 
 !!! info "Qu'est-ce que la passerelle ?"
 
