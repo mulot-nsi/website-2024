@@ -49,7 +49,7 @@ Dans le cadre de ces travaux pratiques, vous allez travailler sur un réseau Fil
 ## Activités
 
 Le réseau Filius représente un réseau domestique connecté à Internet à l'aide d'une **Box Internet**.
-Cet appareil multifonction fait office de commutateur (afin d'y connecter une ou plusieurs machines via Ethernet ou WIFI) et de routeur (afin de relier votre réseau domestique au réseau Internet).
+Cet appareil multifonction fait office de **commutateur** (ou switch, afin d'y connecter une ou plusieurs machines via Ethernet ou WIFI) et de **routeur** (afin de relier votre réseau local au réseau Internet).
 
 On y voit également le réseau très simplifié du fournisseur d'accès à Internet (FAI) qui vous ouvre l'accès à Internet.
 Est aussi visible le réseau d'un hébergeur web, proposant un serveur où se trouve un ou plusieurs sites web.
