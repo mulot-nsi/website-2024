@@ -18,6 +18,7 @@ nav:
           - snt/01-internet/index.md
           - TP1 - Naissance d'Internet: snt/01-internet/tp1-naissance-internet.md
           - TP2 - Simulation d'un réseau: snt/01-internet/tp2-simulation-reseau.md
+          - TP3 - Serveur DNS: snt/01-internet/tp3-serveur-dns.md
       - Web:
           - Le langage HTML:
               - snt/02-web/langage-html/index.md
