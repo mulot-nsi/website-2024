@@ -64,9 +64,11 @@ Pour cette première étape, vous allez connecter un nouvel ordinateur à la Box
 
 !!! note "Configuration de l'ordinateur"
 
-    1. Connectez l'**ordinateur perssonel** à la Box Internet à l'aide d'un cable ethernet
-    2. Attribuez l'adresse IP `192.168.1.10` à l'ordinateur personnel
-    3. Attribuez l'adresse IP de la Box Internet `192.168.1.11`, à la **passerelle** de l'ordinateur personnel
+    1. Lancez l'application **Filius**
+    2. Ouvrez le fichier `reseau_dns.fls` téléchargé en étape préparatoire
+    2. Connectez l'**ordinateur perssonel** à la Box Internet à l'aide d'un cable ethernet
+    3. Attribuez l'adresse IP `192.168.1.10` à l'ordinateur personnel
+    4. Attribuez l'adresse IP de la Box Internet `192.168.1.11`, à la **passerelle** de l'ordinateur personnel
 
 !!! info "Qu'est-ce que la passerelle ?"
 
@@ -93,8 +95,7 @@ Pour cela, vous allez effectuer un test de connectivité vers le serveur de l'h�
 
     En lançant la commande `ping`, vous devez obtenir un affichage comparable à celui-ci :
 
-    ``` hl_lines="8 8"
-    /> ping 151.101.130.217
+    ``` hl_lines="7 7"
     PING 151.101.130.217 (151.101.130.217)
     From 151.101.130.217 (151.101.130.217): icmp_seq=1 ttl=61 time=2547ms
     From 151.101.130.217 (151.101.130.217): icmp_seq=2 ttl=61 time=829ms
@@ -121,7 +122,6 @@ Pour cela, vous allez utiliser la commande `traceroute`.
     À vous de trouver à quels appareils correspondent les adresses IP 1, 2 et 3 en vérifiant celles des éléments du réseau.
 
     ```
-    /> traceroute 151.101.130.217
     Etablissement de la connexion avec 151.101.130.217 (en 20 sauts max.).
      1 192.168.1.1 
      2 77.192.150.1
@@ -318,6 +318,6 @@ Vous avez la possibilité de modifier le contenu du site web présent dans la si
     2. Connectez-vous au **Serveur** de l'hébergeur web
     3. Lancez le logiciel **Éditeur de textes**
     4. Ouvrez le fichier `webserver/index.html`
-    5. Modifiez le contenu et observez le résultat depuis le navigateur de l'ordinateur personnel
+    5. Modifiez le contenu écrit en langage HTML et observez le résultat depuis le navigateur de l'ordinateur personnel
 
 

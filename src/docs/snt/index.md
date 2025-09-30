@@ -12,6 +12,7 @@
 
 - [TP1 - Naissance d'Internet](01-internet/tp1-naissance-internet.md)
 - [TP2 - Simulation d'un réseau](01-internet/tp2-simulation-reseau.md)
+- [TP3 - Serveur DNS](01-internet/tp3-serveur-dns.md)
 
 ## Chapitre 2 - Web
 
