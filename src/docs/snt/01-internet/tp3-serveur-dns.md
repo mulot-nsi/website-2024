@@ -64,11 +64,11 @@ Pour cette première étape, vous allez connecter un nouvel ordinateur à la Box
 
 !!! note "Configuration de l'ordinateur"
 
-    1. Lancez l'application **Filius**
+    1. Lancez l'application **Filius** (en prenant soin de bien choisir la lan
     2. Ouvrez le fichier `reseau_dns.fls` téléchargé en étape préparatoire
-    2. Connectez l'**ordinateur perssonel** à la Box Internet à l'aide d'un cable ethernet
-    3. Attribuez l'adresse IP `192.168.1.10` à l'ordinateur personnel
-    4. Attribuez l'adresse IP de la Box Internet `192.168.1.1`, à la **passerelle** de l'ordinateur personnel
+    3. Connectez l'**ordinateur perssonel** à la Box Internet à l'aide d'un cable ethernet
+    4. Attribuez l'adresse IP `192.168.1.10` à l'ordinateur personnel
+    5. Configurez la **passerelle** de l'ordinateur personnel en lui attribuant l'adresse IP de la Box Internet : `192.168.1.1`
 
 !!! info "Qu'est-ce que la passerelle ?"
 
