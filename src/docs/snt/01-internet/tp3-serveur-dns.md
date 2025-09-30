@@ -11,7 +11,11 @@ Nous avons vu que toute machine connectée au réseau Internet dispose d'une adr
 Cependant, au quotidien, les adresses IP sont difficiles à mémoriser, tout comme il vous est difficile de mémoriser les numéros de téléphone de tous vos contacts.
 
 Pour y remédier, il existe un service appelé DNS *(Domain Name System)*. 
-Il permet de traduire un **nom de domaine** (une **adresse symbolique** comme `www.lemonde.fr`) en une adresse IP utilisable par les machines pour communiquer.
+Il permet de traduire à savoir une **adresse symbolique** comme `lemonde.fr` (aussi appelée **nom de domaine**), en une adresse IP utilisable par les machines pour communiquer.
+
+!!! danger "Attention"
+
+    Ces travaux pratiques sont **notés**. Assurez-vous de comprendre chaque concepts présentés afin d'être en mesure de répondre dans de bonnes conditions au QCM d'évaluation.
 
 ## Préparation
 
@@ -20,7 +24,14 @@ Il permet de traduire un **nom de domaine** (une **adresse symbolique** comme `w
 Vous allez créer des dossiers afin de ne pas mélanger vos productions numériques entre vos différentes matières et
 travaux pratiques.
 
-!!! note "Organisation de l'espace travail"
+!!! danger "Attention"
+
+    Soyez attentif aux onglets de bloc *Organisation de l'espace de travail* ci-après. L'organisation de votre espace de travail dépend de l'ordinateur que vous utilisez :
+    
+    - **:material-laptop: Ordinateur portable** : ordinateur Y13 distribué par la région
+    - **:material-desktop-tower: Ordinateur fixe** : ordinateur fixe du lycée
+
+!!! note "Organisation de l'espace de travail"
 
     === ":material-laptop: Ordinateur portable"
 
@@ -42,17 +53,17 @@ Dans le cadre de ces travaux pratiques, vous allez travailler sur un réseau Fil
 !!! note "Récupération du fichier"
 
     1. Téléchargez le fichier Filius : [:material-download: télécharger](assets/reseau_dns.fls){:download="reseau_dns.fls"}
-    2. Déplacez le fichier `reseau_dns.fls` dans le dossier `SNT\internet` en faisant un couper/coller (et non copier/coller) :
+    2. Déplacez le fichier `reseau_dns.fls` téléchargé dans le dossier `SNT\internet` en faisant un *couper/coller* (à la place d'un *copier/coller*) :
         - **Coupez** le fichier `reseau_dns.fls` <span class="shortcut">++ctrl+x++</span>
         - Collez le fichier dans le dossier `SNT\internet` <span class="shortcut">++ctrl+v++</span>
 
 ## Activités
 
 Le réseau Filius représente un réseau domestique connecté à Internet à l'aide d'une **Box Internet**.
-Cet appareil multifonction fait office de **commutateur** (ou switch, afin d'y connecter une ou plusieurs machines via Ethernet ou WIFI) et de **routeur** (afin de relier votre réseau local au réseau Internet).
+Cet appareil multifonction fait office de **commutateur** (ou switch, afin d'y connecter une ou plusieurs machines via Ethernet ou WIFI) et de **routeur** (afin de relier le réseau local de votre maison au réseau Internet).
 
-On y voit également le réseau très simplifié du fournisseur d'accès à Internet (FAI) qui vous ouvre l'accès à Internet.
-Est aussi visible le réseau d'un hébergeur web, proposant un serveur où se trouve un ou plusieurs sites web.
+On y voit également le réseau très simplifié du **Fournisseur d'Accès à Internet** (FAI) qui vous ouvre l'accès au réseau Internet.
+Est aussi visible le réseau d'un **hébergeur web**, disposant d'un **serveur** sur lequel se trouve un ou plusieurs sites web.
 
 <figure markdown>
   ![Aperçu du réseau Filius](images/dns_reseau.png)
@@ -64,15 +75,15 @@ Pour cette première étape, vous allez connecter un nouvel ordinateur à la Box
 
 !!! note "Configuration de l'ordinateur"
 
-    1. Lancez l'application **Filius** (en prenant soin de bien choisir la lan
+    1. Lancez l'application **Filius** (en prenant soin de bien choisir la langue **Française** au démarrage)
     2. Ouvrez le fichier `reseau_dns.fls` téléchargé en étape préparatoire
-    3. Connectez l'**ordinateur perssonel** à la Box Internet à l'aide d'un cable ethernet
+    3. Connectez l'**ordinateur personnel** à la Box Internet à l'aide d'un cable ethernet
     4. Attribuez l'adresse IP `192.168.1.10` à l'ordinateur personnel
     5. Configurez la **passerelle** de l'ordinateur personnel en lui attribuant l'adresse IP de la Box Internet : `192.168.1.1`
 
 !!! info "Qu'est-ce que la passerelle ?"
 
-    Pour rappel, la **passerelle** permet de spécifier la machine à qui envoyer les paquets si le destinataire ne fait pas partie du réseau.
+    Pour rappel, la **passerelle** permet de spécifier la machine à qui envoyer les paquets si le destinataire ne fait pas partie de votre réseau.
     
     Ainsi, si vous cherchez à communiquer avec une machine qui n'est pas connectée à votre Box Internet, vous chargez cette dernière de la trouver sur le réseau Internet.
 
@@ -87,9 +98,9 @@ Pour cela, vous allez effectuer un test de connectivité vers le serveur de l'h�
 !!! note "Vérification de l'accès à Internet"
 
     1. Lancez la simulation en cliquant le bouton **lecture** (le triangle vert)
-    2. Connectez-vous à l'ordinateur personnel
+    2. Connectez-vous à l'**ordinateur personnel**
     3. Installez l'application **Ligne de commande**
-    4. Effectuez un `ping` vers le serveur de l'hébergeur web d'adresse IP `151.101.130.217`
+    4. Testez la connectivité en effectuant un `ping` vers le serveur de l'hébergeur web d'adresse IP `151.101.130.217`
 
 ??? success "Résultat attendu"
 
@@ -111,15 +122,15 @@ Pour cela, vous allez utiliser la commande `traceroute`.
 !!! note "Vérification du chemin des paquets"
 
     1. Lancez la simulation
-    2. Connectez vous à l'ordinateur personnel
+    2. Connectez vous à l'**ordinateur personnel**
     3. Lancez l'application **Ligne de commande**
-    4. Effectuez un `traceroute` ers le serveur de l'hébergeur web d'adresse IP `151.101.130.217`
+    4. Effectuez un `traceroute` vers le serveur de l'hébergeur web d'adresse IP `151.101.130.217`
     5. Plusieurs adresses IP sont visibles, à quoi correspondent les adresses 1, 2 et 3 ?
 
 ??? success "Résultat attendu"
 
     En lançant la commande `traceroute`, vous devez obtenir un affichage comparable à celui ci-dessous. 
-    À vous de trouver à quels appareils correspondent les adresses IP 1, 2 et 3 en vérifiant celles des éléments du réseau.
+    À vous de trouver à quel type d'appareil correspondent les adresses IP 1, 2 et 3 en les retrouvant parmi les appareils du réseau.
 
     ```
     Etablissement de la connexion avec 151.101.130.217 (en 20 sauts max.).
@@ -143,7 +154,7 @@ L'hébergeur web dispose d'un serveur abritant un site web auquel vous allez ten
 !!! note "Accès au site web"
 
     1. Lancez la simulation
-    2. Connectez vous à l'ordinateur personnel
+    2. Connectez vous à l'**ordinateur personnel**
     3. Installez l'application **Navigateur web** et lancez-la
     4. Saisissez l'url `http://151.101.130.217` (sans le *s* à *http*)
     5. Cliquez sur **Afficher** et observez le résultat. Une erreur doit se produire.
@@ -161,21 +172,21 @@ L'hébergeur web dispose d'un serveur abritant un site web auquel vous allez ten
 #### Vérification du serveur web
 
 Vous êtes désormais en charge de l'administration d'un serveur web. 
-Connectez-vous au serveur de l'hébergeur web afin d'en vérifier le bon fonctionnement :
+Vous allez vous connecter au serveur de l'hébergeur web afin d'en vérifier le bon fonctionnement :
 
 !!! note "Administration du serveur web"
 
     <h5>Depuis le serveur web</h5>
 
     1. Lancez la simulation
-    2. Connectez-vous à la machime **Serveur** de l'hébergeur web
+    2. Connectez-vous à la machime **Serveur** de l'**hébergeur web**
     3. Vérifiez que le logiciel **Serveur web** soit bien installé
-    4. Cliquez sur l'icône de ce dernier 
+    4. Cliquez sur l'icône de ce logiciel 
     5. Si celui-ci est arrêté, cliquez sur le bouton **Démarrer**
 
     <h5>Depuis l'ordinateur personnel</h5>
 
-    1. Connectez-vous maintenant à l'ordinateur personnet
+    1. Connectez-vous ensuite à l'**ordinateur personnel**
     2. Lancez le **Navigateur web**
     3. Saisissez l'url `http://151.101.130.217` et appuyez sur **Afficher**
     4. Observez le résultat
@@ -196,21 +207,24 @@ Connectez-vous au serveur de l'hébergeur web afin d'en vérifier le bon fonctio
 
 #### Configuration de l'ordinateur personnel
 
-Le **DNS** pour **Domain Name System** eest un service permettant de traduire une adresse symbolique (ou nom de domaine) telle que `mulot-nsi.fr` en une adresse IP.
+Le **DNS** pour **Domain Name System** est un service permettant de traduire une adresse symbolique (ou nom de domaine) telle que `mulot-nsi.fr` en une adresse IP.
 
-Il existe chez votre Fournisseur d'Accès à Internet (FAI) une machine faisant office de serveur DNS.
-C'est votre Box Internet qui configure automatiquement le serveur DNS à tout appareil qui s'y connecte (via un protocole appelé DHCP).
-Dans le cadre de notre réseau virtuel, la configuration n'est pas automatique et devra se faire manuellement.
+!!! info "Le serveur DNS"
+
+    Il existe chez votre Fournisseur d'Accès à Internet (FAI) une machine faisant office de serveur DNS.
+    C'est votre Box Internet qui configure automatiquement le serveur DNS à tout appareil qui s'y connecte (votre téléphone ou un ordinateur via un protocole appelé **DHCP**).
+    
+    Dans le cadre de notre réseau virtuel, la configuration du DNS n'est pas automatique et devra se faire manuellement.
 
 !!! note "Configuration de l'ordinateur personnel"
 
     1. Quittez la simulation
-    2. Consultez la configuration réseau de l'ordinateur personnel
-    3. Définissez l'adresse IP du **serveur DNS** du fournisseur d'acceès `77.192.150.254`, comme **serveur DNS**    
+    2. Consultez la configuration réseau de l'**ordinateur personnel**
+    3. Complétez le paramètre réseau **Serveur DNS** de l'ordinateur portable avec l'adresse IP sur serveur DNS du FAI : `77.192.150.254`    
     4. Lancez la simulation
-    5. Connectez-vous à l'ordinateur personnel
+    5. Connectez-vous à l'**ordinateur personnel**
     5. Lancez le logiciel **Navigateur web** et accédez à l'url `http://mulot-nsi.fr` 
-    6. Observez le résultat, une erreur devrait se produire.
+    6. Observez le résultat, une erreur devrait encore se produire.
 
 ??? success "Résultat attendu"
 
@@ -247,6 +261,10 @@ Vous voilà désormais en charge de la gestion d'un serveur DNS. Connectez-vous 
 
 ??? success "Résultat attendu"
 
+    L'association entre le nom de domaine `mulot-nsi.fr` et l'adresse IP `151.101.130.217` a été ajoutée au serveur DNS.
+    C'est un peu comme si vous aviez ajouté un contact à votre téléphone en associant son nom à son numéro de téléphone.
+    Il vous est ainsi possible de le contacter directement par son nom.
+
     <figure markdown>
       ![Accès avec adresse IP](images/dns_dns_configuration.png)
     </figure>
@@ -271,12 +289,24 @@ Vous allez maintenant vérifier le bon fonctionnement de la configuration DNS en
 
 Pour tester directement un serveur DNS, il est possible d'utiliser la commande `nslookup`. Celle-ci permet de faire une **résolution DSN**, c'est-à-dire trouver l'adresse IP à partir d'un nom de domaine.
 
-!!! note "Utilisation de le commande `nslookup`"
+!!! note "Utilisation de la commande `nslookup`"
 
-    1. Lancez la simulation
-    2. Connectez-vous à l'**ordinateur personnel**
-    3. Lancez le logiciel **Ligne de commande**
-    4. Effectuez un `nslookup` avec comme paramètre le domaine `mulot-nsi.fr`
+    === ":material-laptop: Ordinateur portable"
+
+        1. Lancez la simulation
+        2. Connectez-vous à l'**ordinateur personnel**
+        3. Lancez le logiciel **Ligne de commande**
+        4. Effectuez un `nslookup` avec comme paramètre le domaine `mulot-nsi.fr`
+
+    === ":material-desktop-tower: Ordinateur fixe"
+
+        La verion de Filius du lycée ne dispose pas de la commande `nslookup` à la place, vous aller lancer cette commande **réellement**.
+
+        1. Lancez l'application `cmd` de Windows
+        2. Effectuez un `nslookup` avec comme paramètre le domaine `mulot-nsi.fr`
+
+
+
 
 ??? success "Résultat attendu"
 
@@ -320,4 +350,9 @@ Vous avez la possibilité de modifier le contenu du site web présent dans la si
     4. Ouvrez le fichier `webserver/index.html`
     5. Modifiez le contenu écrit en langage HTML et observez le résultat depuis le navigateur de l'ordinateur personnel
 
+<h3>Activités ludiques</h3>
 
+Exercez-vous à la programmation :
+
+- Programmation Python sur [:material-link: Pyrates](https://py-rates.fr/){:target="_blank"}
+- Exécution d'algorithmes sur [:material-link: Compute-it](https://compute-it.toxicode.fr/){:target="_blank"}
