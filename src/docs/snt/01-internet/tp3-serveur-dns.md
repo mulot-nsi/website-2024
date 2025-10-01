@@ -211,9 +211,11 @@ Le **DNS** pour **Domain Name System** est un service permettant de traduire une
 
 !!! info "Le serveur DNS"
 
-    Il existe chez votre Fournisseur d'Accès à Internet (FAI) une machine faisant office de serveur DNS.
-    C'est votre Box Internet qui configure automatiquement le serveur DNS à tout appareil qui s'y connecte (votre téléphone ou un ordinateur via un protocole appelé **DHCP**).
+    Le serveur DNS est un ordinateur capable de fournir le service DNS. Il en existe un chez votre Fournisseur d'Accès à Internet (FAI).
+    En vous connectant par le WIFI ou un câble ethernet à votre Box, celle-ci indique automatiquement à votre appareil l'adresse IP du serveur DNS (via un protocole appelé **DHCP**).
     
+    Vous avez la possibilité de choisir un serveur DNS autre que celui de votre FAI, tel que [:material-link: DNS0.EU](https://www.dns0.eu/fr){:target="_blank"}, en modifiant les paramètres réseau de votre appareil.            
+
     Dans le cadre de notre réseau virtuel, la configuration du DNS n'est pas automatique et devra se faire manuellement.
 
 !!! note "Configuration de l'ordinateur personnel"
