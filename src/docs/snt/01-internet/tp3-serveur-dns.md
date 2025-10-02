@@ -312,17 +312,35 @@ Pour tester directement un serveur DNS, il est possible d'utiliser la commande `
 
 ??? success "Résultat attendu"
 
-    ``` hl_lines="7 7"
-    /> nslookup mulot-nsi.fr
-    Server: 77.192.150.254
-    Address: 77.192.150.254
+    === ":material-laptop: Ordinateur portable"
+
+        La commande `nslookup` a permis d'interroger le serveur DNS et ainsi obtenir l'adresse IP du domaine `mulot-nsi.fr`
+        Vous trouverez indiqués l'adresse IP du serveur DNS `77.192.150.254` interrogé et l'adresse IP du serveur web `151.101.130.217`.
+        
+        ``` hl_lines="7 7"
+        /> nslookup mulot-nsi.fr
+        Server: 77.192.150.254
+        Address: 77.192.150.254
+        
+        Non-authoritative Answer:
+        Name: mulot-nsi.fr.
+        Address: 151.101.130.217
+        ```
     
-    Non-authoritative Answer:
-    Name: mulot-nsi.fr.
-    Address: 151.101.130.217
-    ```
-
-
+    === ":material-desktop-tower: Ordinateur fixe"
+    
+        La commande `nslookup` a permis d'interroger le serveur DNS du lycée et ainsi obtenir la vraie adresse IP du domaine `mulot-nsi.fr`
+        Vous trouverez indiqués l'adresse IP du serveur DNS `77.192.150.254` interrogé et l'adresse IP du serveur web `151.101.130.217`.
+        
+        ``` hl_lines="7 7"
+        /> nslookup mulot-nsi.fr
+        Server: BACHELARD-SRV1.bachelard.local
+        Address: 172.16.100.5
+        
+        Réponse ne faisant pas autorité:
+        Name: mulot-nsi.fr
+        Address: 76.76.21.21
+        ```
 
 
 ## Évaluation
