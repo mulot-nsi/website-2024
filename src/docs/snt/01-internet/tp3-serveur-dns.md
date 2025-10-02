@@ -15,7 +15,7 @@ Il permet de traduire à savoir une **adresse symbolique** comme `lemonde.fr` (a
 
 !!! danger "Attention"
 
-    Ces travaux pratiques sont **notés**. Assurez-vous de comprendre chaque concepts présentés afin d'être en mesure de répondre dans de bonnes conditions au QCM d'évaluation.
+    Ces travaux pratiques sont **notés**. Assurez-vous de **tout lire** et **bien comprendre** chaque concept présenté afin d'être en mesure de répondre dans de bonnes conditions au QCM d'évaluation.
 
 ## Préparation
 
