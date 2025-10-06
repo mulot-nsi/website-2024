@@ -52,8 +52,8 @@ Dans le cadre de ces travaux pratiques, vous allez travailler sur un réseau Fil
 
 !!! note "Récupération du fichier"
 
-    1. Téléchargez le fichier Filius : [:material-download: télécharger](assets/reseau_dns.fls){:download="reseau_dns.fls"}
-    2. Retournez dans l'application <i class="icon file-explorer"></i> **Explorateur de fichiers**
+    1. Téléchargez le fichier Filius en cliquand sur le lien suivant : [:material-download: télécharger](assets/reseau_dns.fls){:download="reseau_dns.fls"}
+    2. Accédez au dossier **téléchargement** via le navigateur ou l'application <i class="icon file-explorer"></i> **Explorateur de fichiers**
     3. Déplacez le fichier `reseau_dns.fls` téléchargé dans le dossier `SNT\internet` en faisant un *couper/coller* (à la place d'un *copier/coller*) :
         - **Coupez** le fichier `reseau_dns.fls` <span class="shortcut">++ctrl+x++</span>
         - Collez le fichier dans le dossier `SNT\internet` <span class="shortcut">++ctrl+v++</span>
