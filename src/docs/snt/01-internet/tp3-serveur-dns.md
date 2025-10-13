@@ -52,7 +52,7 @@ Dans le cadre de ces travaux pratiques, vous allez travailler sur un réseau Fil
 
 !!! note "Récupération du fichier"
 
-    1. Téléchargez le fichier Filius en cliquand sur le lien suivant : [:material-download: télécharger](assets/reseau_dns.fls){:download="reseau_dns.fls"}
+    1. Téléchargez le fichier Filius en cliquant sur le lien suivant : [:material-download: télécharger](assets/reseau_dns.fls){:download="reseau_dns.fls"}
     2. Accédez au dossier **téléchargement** via le navigateur ou l'application <i class="icon file-explorer"></i> **Explorateur de fichiers**
     3. Déplacez le fichier `reseau_dns.fls` téléchargé dans le dossier `SNT\internet` en faisant un *couper/coller* (à la place d'un *copier/coller*) :
         - **Coupez** le fichier `reseau_dns.fls` <span class="shortcut">++ctrl+x++</span>
@@ -80,7 +80,7 @@ Pour cette première étape, vous allez connecter un nouvel ordinateur à la Box
     2. Ouvrez le fichier `reseau_dns.fls` téléchargé en étape préparatoire
     3. Connectez l'**ordinateur personnel** à la Box Internet à l'aide d'un cable ethernet
     4. Attribuez l'adresse IP `192.168.1.10` à l'ordinateur personnel
-    5. Configurez la **passerelle** de l'ordinateur personnel en lui attribuant l'adresse IP de la Box Internet : `192.168.1.1`
+    5. Configurez la **passerelle** de **l'ordinateur personnel** en lui attribuant l'adresse IP `192.168.1.1`, qui correspond à celle de la Box Internet
 
 !!! info "Qu'est-ce que la passerelle ?"
 
@@ -94,7 +94,7 @@ Pour cette première étape, vous allez connecter un nouvel ordinateur à la Box
 ### 2. Tester la connectivité
 
 Votre ordinateur est connecté à la Box Internet. Vous allez maintenant vérifier s'il a bien accès à Internet.
-Pour cela, vous allez effectuer un test de connectivité vers le serveur de l'hébergeur web.
+Pour cela, vous allez effectuer un **test de connectivité** vers le serveur de l'hébergeur web.
 
 !!! note "Vérification de l'accès à Internet"
 
@@ -150,7 +150,7 @@ Pour cela, vous allez utiliser la commande `traceroute`.
 #### Navigation sur le Web
 
 Maintenant que l'ordinateur personnel est connecté à Internet, vous allez consulter un site web.
-L'hébergeur web dispose d'un serveur abritant un site web auquel vous allez tenter d'accéder.
+**L'hébergeur web** dispose d'un serveur abritant un site web auquel vous allez tenter d'accéder.
 
 !!! note "Accès au site web"
 
@@ -173,7 +173,7 @@ L'hébergeur web dispose d'un serveur abritant un site web auquel vous allez ten
 #### Vérification du serveur web
 
 Vous êtes désormais en charge de l'administration d'un serveur web. 
-Vous allez vous connecter au serveur de l'hébergeur web afin d'en vérifier le bon fonctionnement :
+Vous allez vous connecter au serveur de **l'hébergeur web** afin d'en vérifier le bon fonctionnement :
 
 !!! note "Administration du serveur web"
 
