@@ -75,7 +75,7 @@ Selon la configuration de votre ordinateur au moins deux des navigateurs web ci-
     Il s'agit d'une interface en ligne à partir de laquelle il vous sera possible d'échanger avec un technicien.
     Ce service est accessible du **lundi au vendredi de 9h-12h et de 13h30-18h**.
 
-    Ajoutez la page suivante à vos favoris : [:material-link: Assistance](https://assistanceidf.zendesk.com/hc/fr/articles/360019182080-FAQ-Acc%C3%A8der-au-Chat){:target="_blank"}
+    Ajoutez la page suivante à vos favoris : [:material-link: Assistance](https://idf.hisqool.com/support/){:target="_blank"}
 
 ### La suite bureautique
 
