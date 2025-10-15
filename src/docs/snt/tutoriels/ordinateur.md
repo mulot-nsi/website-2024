@@ -106,6 +106,8 @@ votre mot de passe ENT.
     3. Enregistez votre document dans le dossier `Documents\SNT\Tutoriels` créé en début de TP
     4. Fermez l'application Word
 
+<!--
+
 ### Le courrier électronique
 
 Il vous est possible d'accéder à vos emails en vous connectant à l'ENT depuis un navigateur web.
@@ -138,6 +140,8 @@ Vous allez configurer celle-ci afin d'y ajouter votre boîte mail du **lycée**.
         | Type de connexion sécurisée | SSL/TLS (recommandé)                    |   
 
     7. Cliquez sur **Continuer** et patientez le temps de la synchronisation
+
+-->
 
 ### La sauvegarde sur le Cloud
 
@@ -215,12 +219,17 @@ Pour contourner ce problème, les services de stockage sur le *cloud* fournissen
 
 !!! note "Instructions"
 
-    1. Lancez un navigateur web
-    2. Accédez au site du service OneDrive : [:material-link: https://www.onedrive.com](https://www.onedrive.com){:target="_blank"}
-    3. Connectez-vous en utilisant votre adresse email de l'ENT<br>
+    1. Connectez-vous à **l'ordinateur fixe du lycée**
+    2. Lancez un navigateur web
+    3. Accédez au site du service OneDrive : [:material-link: https://www.onedrive.com](https://www.onedrive.com){:target="_blank"}
+    4. Connectez-vous en utilisant votre adresse email de l'ENT<br>
        *:material-comment-alert: pour rappel, celle-ci est de la forme `prenom.nom@monlycee.net`*
-    4. Une fois connecté, accédez à la section **Mes fichiers**
-    5. Essayez de retrouver le dossier SNT crée en début de travaux pratiques
+    5. Une fois connecté, accédez à la section **Mes fichiers**
+    6. Retrouver le dossier SNT crée en début de travaux pratiques
+    7. Téléversez-y les fichiers et dossiers présents dans votre dossier personnel du réseau du lycée
+    8. Vérifiez la bonne apparition des fichiers sur votre **ordinateur portable**
+
+<!--
 
 ### Le dossier personnel
 
@@ -243,3 +252,5 @@ par **M. Salamat**.
 
     4. Vérifiez la présence de votre dossier personnel du lycée dans la séction **Ce PC**
     5. Copiez/collez vos travaux de SNT du début d'année dans le dossier `Documents\SNT` de votre ordinateur
+
+-->
