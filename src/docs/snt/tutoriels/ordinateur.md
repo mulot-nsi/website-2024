@@ -33,7 +33,6 @@ travaux pratiques.
 
         1. Lancez l'application <i class="icon file-explorer"></i> **Explorateur de fichiers**
         2. Dans le dossier `Documents`, s'il n'y a pas de dossier nommé `SNT`, créez-le
-        3. Dans le dossier `SNT`, s'il n'y a pas de dossier nommé `Tutoriels`, créez-le
 
     === ":material-desktop-tower: Ordinateur fixe"
 
@@ -91,7 +90,7 @@ votre mot de passe ENT.
 !!! note "Activation"
 
     1. Lancez l'application Word
-    2. Si le choix des types de fichier par défaut vous est proposé, choisissez **Formats Office Open XML**
+    2. Si un choix de type de fichier par défaut vous est proposé, choisissez **Formats Office Open XML**
     2. Vérifiez votre état de connexion en haut à droite de la fenêtre
     3. Si vous n'êtes pas connecté, connectez-vous en utilisant votre adresse email de l'ENT<br>
        *:material-comment-alert: pour rappel, celle-ci est de la forme `prenom.nom@monlycee.net`*
@@ -103,7 +102,7 @@ votre mot de passe ENT.
 
     1. Créez un nouveau document Word
     2. Écrivez le texte de votre choix
-    3. Enregistez votre document dans le dossier `Documents\SNT\Tutoriels` créé en début de TP
+    3. Enregistez votre document dans le dossier `Documents\SNT` créé en début de TP
     4. Fermez l'application Word
 
 <!--

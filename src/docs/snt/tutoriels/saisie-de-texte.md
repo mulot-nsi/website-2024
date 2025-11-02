@@ -107,7 +107,7 @@ Elle se trouve générale dans la section *Insertion* des logiciels de traitemen
     1. Lancez l'application de traitement de texte de votre choix
     2. Trouvez la fonction d'insertion de caractères spéciaux
     3. Insérez quelques caractères spéciaux
-    4. Enregistrez le fichier dans le répertoire **Tutoriels** en le nommant **special**
+    4. Enregistrez le fichier dans le dossier **Tutoriels** en le nommant **special**
 
 ### Majuscules accentuées
 
