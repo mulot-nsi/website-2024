@@ -22,9 +22,9 @@ nav:
       - Web:
           - Le langage HTML:
               - snt/02-web/langage-html/index.md
-              - Analyse d'une page web : snt/02-web/langage-html/activite1.md
-              - Programmation HTML : snt/02-web/langage-html/activite2.md
-              - Création d'une page web : snt/02-web/langage-html/activite3.md
+              - Découverte : snt/02-web/langage-html/activite1.md
+              - Programmation : snt/02-web/langage-html/activite2.md
+              - Première page web : snt/02-web/langage-html/activite3.md
           - Le Langage CSS:
               - snt/02-web/langage-css/index.md
               - Activité 1A : snt/02-web/langage-css/activite1a.md

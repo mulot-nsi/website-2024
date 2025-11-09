@@ -1,14 +1,21 @@
 ---
 title: Le Web - TP1 Le langage HTML
-description: Découverte du langage HTML
+description: Première page web en langage HTML
 ---
 
-# Création d'une page web
+# Première page web
 
 ## Introduction
 
 Toutes les pages que vous consultez sur le web sont construites avec un même langage informatique : le HTML *(HyperText Markup Language)*. 
 Cette activité a pour objectif de vous faire découvrir ce langage étape par étape en créant votre première page web en la modifiant.
+
+!!! danger "Activité Capytale"
+
+    Cette activité doit être réalisée sous Capytale qui nécessite un accès fonctionnel à l'ENT.
+
+    - J'ai accès à l'ENT, je clique sur le lien : [:material-link: SNT02 - Première page HTML](https://capytale2.ac-paris.fr/web/c/04cb-7927708){:target="_blank"}
+    - **Je n'ai pas accès à l'ENT**, je continue à suivre les instructions de cette page
 
 ## Préparation
 
@@ -271,7 +278,7 @@ suivants :
 
     === ":material-code-tags: Code"
         ```html
-        <img src="intouchables.jpg" alt="Affiche du film Intouchables">
+        <img src="image_800x600.jpg" alt="Affiche du film Intouchables">
         ```
     === ":material-application-outline: Affichage"
         ![Affiche du film Intouchables](images/intouchables.jpg)
