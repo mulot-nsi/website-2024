@@ -14,8 +14,8 @@ Cette activité a pour objectif de vous faire découvrir ce langage étape par �
 
     Cette activité doit être réalisée sous Capytale qui nécessite un accès fonctionnel à l'ENT.
 
-    - J'ai accès à l'ENT, je clique sur le lien : [:material-link: SNT02 - Première page HTML](https://capytale2.ac-paris.fr/web/c/04cb-7927708){:target="_blank"}
-    - **Je n'ai pas accès à l'ENT**, je continue à suivre les instructions de cette page
+    - **Mon accès à l'ENT fonctionne**, je fais l'activité en suivant les consignes directement sur Capytale. Je m'y rends via le lien [:material-link: SNT02 - Première page HTML](https://capytale2.ac-paris.fr/web/c/845d-7983402){:target="_blank"}, me connecte, puis clique sur le bouton **Go !**
+    - **Mon accès à l'ENT ne fonctionne pas**, et uniquement dans ce cas, je continue à suivre les instructions de cette page
 
 ## Préparation
 
