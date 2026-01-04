@@ -259,7 +259,7 @@ Une fois votre fichier ZIP créé, vous pouvez le déposer sur Pronote.
 
 !!! info "Dépot du travail sur Pronote"
 
-    1. Connectez-vous à l'ENT : [:material-link: https://ent.iledefrance.fr](https://ent.iledefrance.fr){:target="_blank"}
+    1. Connectez-vous à l'ENT : [:material-link: https://monlycee.net/](https://monlycee.net/){:target="_blank"}
     3. Accédez à l'application **Pronote**
     4. Depuis l'accueil, recherchez le devoir **SNT02 Projet - Mini-site web**
     5. Cliquez sur le bouton <span class="pronote-button">Déposer ma copie</span>
