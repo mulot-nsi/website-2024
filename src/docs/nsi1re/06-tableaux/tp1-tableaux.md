@@ -178,7 +178,7 @@ Afin de découvrir ce qui se déroule en mémoire, vous avez deux possibilités 
 
 !!! question "Question"
 
-    Comment expliquuez-vous que la variable `t1` ait finalement la même valeur que la variable `t2` ?
+    Comment expliquez-vous que la variable `t1` ait finalement la même valeur que la variable `t2` ?
     Répondez par un commentaire à la fin du fichier `ex13_stockage.py`.
 
 
