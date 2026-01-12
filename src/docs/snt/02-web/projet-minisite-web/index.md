@@ -40,7 +40,7 @@ Pour en savoir plus sur les infractions potentielles, consultez la page
 
 <div class="grid cards" markdown>
 
--   :material-keyboard-outline:{ .lg .middle } **1. Préparation**
+-   :material-laptop:{ .lg .middle } **1. Préparation**
 
     ---
 
@@ -49,16 +49,16 @@ Pour en savoir plus sur les infractions potentielles, consultez la page
     [:octicons-arrow-right-24: Préparation](preparation.md)
 
 
--   :material-keyboard-outline:{ .lg .middle } **2. Développement**
+-   :material-code-block-tags:{ .lg .middle } **2. Développement**
 
     ---
 
     Consignes pour le travail à réaliser.
 
-    [:octicons-arrow-right-24: Développement](activite1b.md)
+    [:octicons-arrow-right-24: Développement](developpement.md)
 
 
--   :material-keyboard-outline:{ .lg .middle } **3.Envoi**
+-   :material-upload:{ .lg .middle } **3. Envoi**
 
     ---
 
@@ -66,7 +66,7 @@ Pour en savoir plus sur les infractions potentielles, consultez la page
 
     [:octicons-arrow-right-24: Envoi](envoi.md)    
 
--   :material-keyboard-outline:{ .lg .middle } **4. Questions fréquentes**
+-   :material-comment-question-outline:{ .lg .middle } **4. Questions fréquentes**
 
     ---
 
