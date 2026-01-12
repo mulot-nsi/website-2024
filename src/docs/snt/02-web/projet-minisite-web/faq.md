@@ -3,7 +3,7 @@ title: Le Web - Projet - Minisite web
 description: Création d'un minisite web
 ---
 
-# Minisite web - Questions fréquentes
+# Questions fréquentes
 
 ## Création du minisite
 

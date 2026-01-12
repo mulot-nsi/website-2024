@@ -30,7 +30,12 @@ nav:
               - Activité 1A : snt/02-web/langage-css/activite1a.md
               - Activité 1B : snt/02-web/langage-css/activite1b.md
           - Confidentialité: snt/02-web/tp3-confidentialite.md
-          - Projet - Minisite web: snt/02-web/prj-minisite.md
+          - Projet - Minisite web:
+              - snt/02-web/projet-minisite-web/index.md
+              - 1. Préparation: snt/02-web/projet-minisite-web/preparation.md
+              - 2. Développement: snt/02-web/projet-minisite-web/developpement.md
+              - 3. Envoi: snt/02-web/projet-minisite-web/envoi.md
+              - 4. Questions fréquentes: snt/02-web/projet-minisite-web/faq.md
       - Réseaux sociaux:
           - TP1 - Modélisation: snt/03-reseaux-sociaux/tp1-modelisation.md
       - Données structurées:
