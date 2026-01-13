@@ -42,7 +42,7 @@ description: Création d'un minisite web
 !!! info "Comment créer un fichier ZIP ?"
 
     Tout est détaillé dans l'énoncé du projet : 
-    [:material-link: Envoi du travail](https://www.mulot-nsi.fr/snt/02-web/prj-minisite/#envoi-du-travail){:target="_blank"}<br>
+    [:material-link: Envoi du travail](https://www.mulot-nsi.fr/snt/02-web/projet-minisite-web/#envoi-du-travail){:target="_blank"}<br>
     En cas de difficultés, beaucoup de vos camarades s'en sortent très bien. Demandez-leur !
 
 !!! info "Nous avons fait le site à plusieurs, qui doit déposer le fichier ZIP ?"
