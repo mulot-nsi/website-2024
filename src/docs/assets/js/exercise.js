@@ -3,6 +3,7 @@ class ExerciseForm {
         this.form = document.getElementById(formId);
         this.formHash = '';
         this.storageKey = '';
+        this.responseId = '';
         this.init();
     }
 
@@ -19,7 +20,6 @@ class ExerciseForm {
             return;
         }
         this.storageKey = `exercise_${exerciseIdField.value}`;
-        console.log(this.storageKey);
     }
 
     loadSavedData() {
@@ -27,6 +27,11 @@ class ExerciseForm {
         if (savedData) {
             const data = JSON.parse(savedData);
             Object.entries(data).forEach(([name, value]) => {
+                if (name === 'id') {
+                    this.responseId = value;
+                    return;
+                }
+
                 const input = this.form.querySelector(`[name="${name}"]`);
                 if (input) {
                     input.value = value;
@@ -113,9 +118,18 @@ class ExerciseForm {
     }
 
     saveFormData() {
+        console.log('Saving form data...');
+        console.log('Response ID:', this.responseId);
+        
         const formData = this.getFormData();
+        
+        if (this.responseId) {
+            formData.id = this.responseId;
+            console.log(formData);
+        }
         localStorage.setItem(this.storageKey, JSON.stringify(formData));
-        console.log('Données sauvegardées:', formData);
+        
+        console.log('Data saved to localStorage');
     }
 
     async sendForm() {
@@ -126,6 +140,16 @@ class ExerciseForm {
 
         this.formHash = newFormHash;
         const formData = new FormData(this.form);
+        for (const key of [...formData.keys()]) {
+            if (key.startsWith('_')) {
+                formData.delete(key);
+            }
+        }
+
+        if (this.responseId) {
+            formData.append('id', this.responseId);
+        }
+
         const action = this.form.getAttribute('action');
 
         const response = await fetch(action, {
@@ -135,6 +159,10 @@ class ExerciseForm {
 
         if (!response.ok) {
             console.error(`Erreur HTTP: ${response.status}`);
+        } else {
+            const responseId = await response.text();
+            this.responseId = responseId;
+            console.log(this.responseId);
         }
     }
 
@@ -150,7 +178,7 @@ class ExerciseForm {
         const data = {};
         const formElements = this.form.elements;
         for (let element of formElements) {
-            if (element.name) {
+            if (element.name && !element.name.startsWith('_')) {
                 data[element.name] = element.value;
             }
         }

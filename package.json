@@ -4,6 +4,7 @@
   },
   "dependencies": {
     "@neondatabase/serverless": "^0.10.4",
-    "@vercel/blob": "^1.0.0"
+    "@vercel/blob": "^1.0.0",
+    "grist-api": "^0.1.7"
   }
 }

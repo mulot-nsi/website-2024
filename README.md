@@ -10,18 +10,25 @@ Nouvelle version du site web pour l'année scolaire 2023-2024.
 
 ## Développement
 
+### Développement MkDocs
 Initialisation de l'environnement de développement :
 ```shell
 mkdir .venv
 poetry install --no-root
 ```
 
-
-
 Lancement du serveur de développement :
 
 ```bash
 (cd src ; mkdocs serve)
+```
+
+### Test des cloud functions
+
+Dans cette situation, il est nécessaire de lancer le serveur Vercel en local.
+
+```bash
+vercel dev
 ```
 
 ## Déploiement

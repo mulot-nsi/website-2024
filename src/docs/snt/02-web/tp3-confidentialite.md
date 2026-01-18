@@ -3,8 +3,8 @@ title: La confidentialité
 description: Savoir configurer son navigateur web
 ---
 
-<form id="exercise" method="POST" markdown="1" action="/api/save">
-<input type="hidden" name="exercise_id" value="snt_web_confidentialite">
+<form id="exercise" method="POST" markdown="1" action="/api/grist_save">
+<input type="hidden" name="exercise_id" value="SNT_TP_confidentialite">
 
 # La confidentialité
 
@@ -33,36 +33,14 @@ Pas d'inquiétude pour la sauvegarde : vos réponses sont automatiquement enregi
 !!! info "Indentifiez-vous"
     <div>
         <label for="firstname">Prénom</label>
-        <input id="firstname" type="text" name="firstname">
+        <input id="firstname" type="text" name="Saisie_Prenom">
     </div>
     
     <div>
         <label for="lastname">Nom</label>
-        <input id="lastname" type="text" name="lastname">
+        <input id="lastname" type="text" name="Saisie_Nom">
     </div>
     
-    <div>
-        <label for="group">Classe</label>
-        <select id="group" name="group">
-            <option value="SEC01">Seconde 1</option>
-            <option value="SEC02">Seconde 2</option>
-            <option value="SEC03">Seconde 3</option>
-            <option value="SEC04">Seconde 4</option>
-            <option value="SEC05">Seconde 5</option>
-            <option value="SEC06">Seconde 6</option>
-            <option value="SEC07">Seconde 7</option>
-            <option value="SEC08">Seconde 8</option>
-            <option value="SEC09">Seconde 9</option>
-            <option value="SEC10">Seconde 10</option>
-            <option value="SEC11">Seconde 11</option>
-            <option value="SEC12">Seconde 12</option>
-            <option value="SEC13">Seconde 13</option>
-            <option value="SEC14">Seconde 14</option>
-            <option value="SEC15">Seconde 15</option>
-            <option value="SEC16">Seconde 16</option>
-        </select>
-    </div>
-
 ## Les moteurs de recherche
 
 ### Identifier le moteur de recherche
@@ -82,10 +60,10 @@ Vous allez commencer par simplement faire le choix d'un navigateur web et effect
 
 !!! question "Questions"
     1 - Quel navigateur web utilisez-vous pour ces travaux pratiques ?<br>
-    <input type="text" name="q1">
+    <input type="text" name="Q1">
 
     2 - Avec quel moteur de recherche votre navigateur web a-t-il traité votre requête ?<br>
-    <input type="text" name="q2">
+    <input type="text" name="Q2">
 
 ### Changer de moteur de recherche
 
@@ -130,7 +108,7 @@ vous allez modifier le moteur de recherche utilisé par défaut par votre naviga
 
 !!! question "Question"
     3 - Décrivez les changements observés après avoir modifié les paramètres de votre navigateur et testé des recherches
-    <textarea name="q3"></textarea>
+    <textarea name="Q3"></textarea>
 
 ### Utilisation de vos données par les moteurs de recherche
 
@@ -216,13 +194,13 @@ propriétaires de ces moteurs.
     4 - **En résumant**, quelles sont les données collectées par Google et comment le justifie-t-il ?
     Google se contente-t-il des données obtenues par son moteur de recherche ou en collecte-t-il ailleurs ?
     Donnez en exemple la donnée collectée que vous trouvez la plus surprenante.
-    <textarea name="q4" rows="3"></textarea>
+    <textarea name="Q4" rows="3"></textarea>
 
     5 - Quelles sont les données collectées par Qwant et comment le justifie-t-il ?
-    <textarea name="q5" rows="3"></textarea>
+    <textarea name="Q5" rows="3"></textarea>
 
     6 - Quels avantages et inconvénients voyez-vous à utiliser chacun de ces moteurs de recherche ?
-    <textarea name="q6" rows="3"></textarea>
+    <textarea name="Q6" rows="3"></textarea>
 
 ## Les cookies
 
@@ -236,7 +214,7 @@ Enfin, les cookies sont renvoyés au serveur lors de chaque requête HTTP.
 
 !!! question "Question"
     7 - Selon vos connaissances, quelle est l'utilité des cookies ? À quoi servent-ils lorsque vous naviguez sur le web ?
-    <textarea name="q7" rows="3"></textarea>
+    <textarea name="Q7" rows="3"></textarea>
 
 ### Les cookies nécessaires
 
@@ -284,10 +262,10 @@ Essayons de découvrir pour quelle raison en observant les conséquences de sa s
 
 !!! question "Questions"
     8 - Quelle conséquence a eu la suppression des cookies ?
-    <input type="text" name="q8">
+    <input type="text" name="Q8">
 
     9 - Quelle explication donneriez-vous à l'utilisation des cookies par l'ENT ?
-    <input type="text" name="q9">
+    <input type="text" name="Q9">
 
 ### Les cookies tiers
 
@@ -309,7 +287,7 @@ pour la personnalisation des contenus ou pour la publicité ciblée.
 
 !!! question "Question"
     10 - Donnez un exemple de cookie tiers déposé sur le site web du journal Le Monde
-    <input type="text" name="q10">
+    <input type="text" name="Q10">
 
 ### Contrôler les cookies
 
@@ -359,17 +337,17 @@ Vous allez modifier les paramètres de confidentialité de votre navigateur et o
 
 !!! question "Questions"
     11 - Qu'observez-vous au niveau des cookies après avoir modifié les paramètres du navigateur ?
-    <input type="text" name="q11">
+    <input type="text" name="Q11">
 
     12 - Souhaiteriez-vous être moins pisté par les sites web ? Si oui, pour quelle raison ?
-    <input type="text" name="q12">
+    <input type="text" name="Q12">
 
     13 - La politique de confidentialité de Qwant évoque « une vision du Web sans bulle de filtre ».<br>
     Qu'est-ce qu'une **bulle de filtre** et voyez-vous un danger à ce phénomène ?<br>
     *(vous pouvez effectuer une recherche sur le Web mais ne faites pas de copier/coller pour répondre)*
-    <textarea name="q13" rows="3"></textarea>
+    <textarea name="Q13" rows="3"></textarea>
 
 !!! target "Bilan"
     Concluez en détaillant ce que vous avez appris de ces travaux pratiques. 
-    <textarea name="conclusion" rows="3"></textarea>
+    <textarea name="Conclusion" rows="3"></textarea>
 </form>
