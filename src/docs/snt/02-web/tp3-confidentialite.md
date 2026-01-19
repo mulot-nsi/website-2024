@@ -103,7 +103,8 @@ vous allez modifier le moteur de recherche utilisé par défaut par votre naviga
         
         - Se rendre dans **:material-cog-outline: Paramètres** *(de l'application Edge)*
         - Se rendre dans **:material-lock-outline: Confidentialité, recherche et services**
-        - Se rendre dans **Barre d'adresse et recherche** *(faire défiler jusqu'en bas pour voir l'entrée)*
+        - Se rendre dans **Expériences de recherche et connectées**
+        - Se rendre dans **Barre d'adresse et recherche**
         - Choisir un autre moteur de recherche pour **Moteur de recherche utilisé dans la barre d'adresses**
 
 !!! question "Question"
