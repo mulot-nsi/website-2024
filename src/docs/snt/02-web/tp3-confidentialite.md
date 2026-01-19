@@ -334,6 +334,7 @@ Vous allez modifier les paramètres de confidentialité de votre navigateur et o
 
         - Se rendre dans **:material-cog-outline: Paramètres**
         - Se rendre dans **:material-lock-outline: Confidentialité, recherche et services**
+        - Se rendre dans **Prévention du suivi**
         - Choisir **Strict** comme **Protection contre le suivi**
 
 !!! question "Questions"
