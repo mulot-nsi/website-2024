@@ -108,7 +108,7 @@ vous allez modifier le moteur de recherche utilisé par défaut par votre naviga
         - Choisir un autre moteur de recherche pour **Moteur de recherche utilisé dans la barre d'adresses**
 
 !!! question "Question"
-    3 - Décrivez les changements observés après avoir modifié les paramètres de votre navigateur et testé des recherches
+    3 - Décrivez les changements observés au niveau du navigateur, après avoir modifié les paramètres *(autrement dit, qu'est-ce qui permet de vous assurer que le moteur de recherche a bien été changé ?)*
     <textarea name="Q3"></textarea>
 
 ### Utilisation de vos données par les moteurs de recherche
