@@ -19,7 +19,7 @@ description: Création d'un minisite web
     <strong>Introduction au langage CSS</strong><br>
     Travaux pratiques consistant à mettre en forme une page Web depuis l'environnement de programmation Capytale.<br>
     [:material-text-box-outline: Énoncé](./langage-css/activite1a.md){ .md-button target="_blank" }
-    [:material-video: Correction](https://tube-sciences-technologies.apps.education.fr/w/iHRMSAobxSdASFLEt3FUm6){ .md-button target="_blank" }
+    [:material-video: Correction](https://tube-sciences-technologies.apps.education.fr/w/dppjRMyWvtj39SSYaVThYs){ .md-button target="_blank" }
 
 
 
