@@ -16,7 +16,7 @@ au format ZIP. Suivez les instructions selon l'ordinateur utilisé :
 
         1. Lancez l'application <i class="icon file-explorer"></i> **Explorateur de fichiers** 
           <span class="keys shortcut"><kbd>:fontawesome-brands-windows:</kbd><span>+</span><kbd>E</kbd></span>
-        2. Accédez au dossier `SNT\web`
+        2. Accédez au dossier `SNT\web` *(ou le dossier contenant le dossier de votre minisite)*
         3. Ajoutez le mot-clé **public** au dossier de votre minisite si vous souhaitez qu'il soit potentiellement mis en ligne.<br>
            Exemple: `berners_lee_cailliau_minisite` deviendrait `berners_lee_cailliau_minisite_public` 
         4. Effectuez un clic droit sur le dossier `xxx_minisite` afin d'afficher son menu contextuel
