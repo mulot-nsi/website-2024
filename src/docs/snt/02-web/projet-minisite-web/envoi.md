@@ -20,7 +20,7 @@ au format ZIP. Suivez les instructions selon l'ordinateur utilisé :
         3. Ajoutez le mot-clé **public** au dossier de votre minisite si vous souhaitez qu'il soit potentiellement mis en ligne.<br>
            Exemple: `berners_lee_cailliau_minisite` deviendrait `berners_lee_cailliau_minisite_public` 
         4. Effectuez un clic droit sur le dossier `xxx_minisite` afin d'afficher son menu contextuel
-        5. Choisissez l'option :material-folder-zip-outline: **Compresser dans un fichier ZIP**
+        5. Choisissez l'option :material-folder-zip-outline: **Compresser vers... ▸ Fichier ZIP**
 
     === ":material-desktop-tower: Ordinateur fixe"
 
