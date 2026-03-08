@@ -1,6 +1,6 @@
 ---
 title: Caractéristiques d'un graphe
-description: Calcul des caractéristiques d'un graphe
+description: Détermination des caractéristiques d'un graphe
 ---
 
 # Caractéristiques d'un graphe
@@ -18,7 +18,7 @@ réseau en faisant intervenir le moins d'intermédiaires possible.
 
     Le travail réalisé dans le cadre de ces travaux pratiques est à rendre en fin de séance selon les modalités décrites dans la section **Envoi du travail**.
     
-## Tableau des caractéristiques
+## Appplication
 
 Pour trouver le centre du graphe, il vous faut déterminer l'ensemble des distances puis l'écartement de chaque sommet.
 Une fois le(s) centre(s) trouvé(s), il vous restera à préciser le rayon et le diamètre du graphe.

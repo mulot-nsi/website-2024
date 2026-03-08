@@ -1,9 +1,9 @@
 ---
-title: TP1 - Modélisation
-description: Modélisation d'un réseau social
+title: Création d'un graphe
+description: Modélisation d'un réseau social sous forme de graphe
 ---
 
-# Modélisation d'un réseau social
+# Création d'un graphe
 
 ## Introduction
 
