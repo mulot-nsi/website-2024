@@ -12,15 +12,14 @@ Nouvelle version du site web pour l'année scolaire 2023-2024.
 
 ### Développement MkDocs
 Initialisation de l'environnement de développement :
-```shell
-mkdir .venv
-poetry install --no-root
+```bash
+uv sync
 ```
 
 Lancement du serveur de développement :
 
 ```bash
-(cd src ; mkdocs serve)
+(cd src ; uv run mkdocs serve)
 ```
 
 ### Test des cloud functions
@@ -44,15 +43,6 @@ Les paramètres de build et de déploiement sont les suivants :
 |------------------|------------------------------------|
 | Framework Preset | Other                              |
 | Root Directory   | `src`                              |
-| Build Command    | `mkdocs build`                     |
+| Build Command    | `uv run mkdocs build`              |
 | Output Directory | `site`                             |
-| Install Command  | `pip3 install -r requirements.txt` |
-
-### Points d'attentions
-
-Avant tout déploiement, s'assurer que le fichier `requirements.txt` soit bien à jour.
-Pour celà, lancer la commande ci-dessous depuis la racine du projet :
-
-```bash
-poetry export --without-hashes > src/requirements.txt
-```
+| Install Command  | `uv sync`                          |
