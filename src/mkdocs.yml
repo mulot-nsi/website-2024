@@ -22,13 +22,13 @@ nav:
       - Web:
           - Le langage HTML:
               - snt/02-web/langage-html/index.md
-              - Découverte : snt/02-web/langage-html/activite1.md
-              - Programmation : snt/02-web/langage-html/activite2.md
-              - Première page web : snt/02-web/langage-html/activite3.md
+              - Découverte: snt/02-web/langage-html/activite1.md
+              - Programmation: snt/02-web/langage-html/activite2.md
+              - Première page web: snt/02-web/langage-html/activite3.md
           - Le Langage CSS:
               - snt/02-web/langage-css/index.md
-              - Activité 1A : snt/02-web/langage-css/activite1a.md
-              - Activité 1B : snt/02-web/langage-css/activite1b.md
+              - Activité 1A: snt/02-web/langage-css/activite1a.md
+              - Activité 1B: snt/02-web/langage-css/activite1b.md
           - Confidentialité: snt/02-web/tp3-confidentialite.md
           - Projet - Minisite web:
               - snt/02-web/projet-minisite-web/index.md
@@ -37,7 +37,10 @@ nav:
               - 3. Envoi: snt/02-web/projet-minisite-web/envoi.md
               - 4. Questions fréquentes: snt/02-web/projet-minisite-web/faq.md
       - Réseaux sociaux:
-          - TP1 - Modélisation: snt/03-reseaux-sociaux/tp1-modelisation.md
+          - Étude d'un réseau social:
+              - snt/03-reseaux-sociaux/tp-etude-reseau-social/index.md
+              - Activité 1: snt/03-reseaux-sociaux/tp-etude-reseau-social/activite1.md
+              - Activité 2: snt/03-reseaux-sociaux/tp-etude-reseau-social/activite2.md
       - Données structurées:
           - TP1 - Données ouvertes: snt/04-donnees-structurees/tp1-donnees-ouvertes.md
           - TP2 - Les métadonnées: snt/04-donnees-structurees/tp2-metadonnees.md
@@ -62,8 +65,8 @@ nav:
           - Décomposition: nsi1re/04-fonctions/tp1-decompostion-en-sous-problemes.md
           - Programmation défensive:
               - nsi1re/04-fonctions/programmation-defensive/index.md
-              - Activité 1 : nsi1re/04-fonctions/programmation-defensive/activite1.md
-              - Activité 2 : nsi1re/04-fonctions/programmation-defensive/activite2.md
+              - Activité 1: nsi1re/04-fonctions/programmation-defensive/activite1.md
+              - Activité 2: nsi1re/04-fonctions/programmation-defensive/activite2.md
           - Remédiation: nsi1re/04-fonctions/remediation.md
       - Chapitre 6 - Les tableaux:
           - TP1 - Tableaux: nsi1re/06-tableaux/tp1-tableaux.md
@@ -86,12 +89,11 @@ nav:
       - Projets:
           - Projet - Présentez-vous: nsi1re/projets/prj-presentez-vous.md
           - Projet - Paysage aléatoire: nsi1re/projets/prj-paysage.md
-          - Projet - Collection : nsi1re/projets/prj-collection.md
+          - Projet - Collection: nsi1re/projets/prj-collection.md
           - Projet - Tableau 2D: nsi1re/projets/prj-tableau-2d.md
 not_in_nav: |
   snt/02-web/prj-minisite-faq.md
-  dev/form.md  
-
+  dev/form.md
 
 # Configuration du thème
 theme:
