@@ -61,10 +61,6 @@ Une fois le(s) centre(s) trouvé(s), il vous restera à préciser le rayon et le
         - Il y a une distance de 1 entre *Cillian M.* et *Tom H.* car ils sont directement liés par une arête
     4. Complétez le tableau
 
-    <div style="position: relative; padding-top: 56.25%;"><iframe title="SNT - Réseaux sociaux - Caractéristiques" width="100%" height="100%" src="https://tube-sciences-technologies.apps.education.fr/videos/embed/7ff5da4a-4847-420f-b3a9-af227522c01f?warningTitle=0&amp;p2p=0" frameborder="0" allowfullscreen="" sandbox="allow-same-origin allow-scripts allow-popups allow-forms" style="position: absolute; inset: 0px;"></iframe></div>
-
-
-
 !!! warning "Attention"
 
     Pensez à enregistrer **fréquemment** votre travail. Nommez correctement votre fichier en précisant votre classe, votre
