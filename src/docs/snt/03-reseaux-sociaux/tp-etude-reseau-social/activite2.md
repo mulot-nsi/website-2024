@@ -77,7 +77,7 @@ Une fois votre tableau complété, vous pouvez le déposer sur Pronote.
 
     1. Connectez-vous à l'ENT : [:material-link: https://monlycee.net](https://monlycee.net/){:target="_blank"}
     3. Accédez à l'application **Pronote**
-    4. Depuis l'accueil, recherchez le devoir **SNT03 - Caractéristiques d'un graphe**
+    4. Depuis l'accueil, recherchez le devoir **SNT03 - 2. Caractéristiques d'un graphe**
     5. Cliquez sur le bouton <span class="pronote-button">Déposer ma copie</span>
     6. Cliquez sur le bouton **Un seul fichier (*.pdf, *.doc, ...)**
     7. Déposez votre fichier tableur

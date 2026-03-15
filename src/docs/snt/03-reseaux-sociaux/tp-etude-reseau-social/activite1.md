@@ -76,6 +76,8 @@ trois personnes se connaissent.
         - Type de diagramme : **Simple**
         - Question secrète : **Quel est mon mot préféré ?**
         - Réponse secrète : **SNT**
+    4. Construisez le graphe des relations entre les acteurs<br>
+       *(si besoin, consultez la vidéo ci-dessous illustrant la création des premiers sommets du graphe)* 
 
 !!! help "Aide à la construction du graphe"
 
@@ -84,23 +86,24 @@ trois personnes se connaissent.
     Dans la vidéo, nous créons une arête entre **Christian Bale** et **Michael Caine** car ceux-ci se connaissent pour avoir jouer ensemble dans le film **Le Prestige**.
     Cette vidéo est un exemple et vous devez bien entendu construire un graphe avec tous les individus.
 
-!!! note "Consigne"
+## Envoi du travail
 
-    Une fois votre graphe terminé, il vous faut l'exporter :
+Une fois votre graphe terminé, il vous faut l'exporter afin de le déposer sur Pronote.
+
+!!! note "Consigne"
 
     1. Cliquez sur l'icône de partage :material-share-variant: située en haut à droite
     2. Cliquez sur le bouton **Exporter**
     3. Déplacez l'image téléchargée, **sans la renommée**, dans le dossier de travail `SNT\Réseaux sociaux`
 
-## Envoi du travail
 
-Une fois votre grape exporté en image et téléchargé, vous pouvez le déposer sur Pronote.
+Une fois votre graphe exporté en image et téléchargé, vous pouvez le déposer sur Pronote.
 
 !!! info "Dépot du travail sur Pronote"
 
     1. Connectez-vous à l'ENT : [:material-link: https://monlycee.net](https://monlycee.net/){:target="_blank"}
     2. Accédez à l'application **Pronote**
-    3. Depuis l'accueil, recherchez le devoir **SNT03 - Création d'un graphe**
+    3. Depuis l'accueil, recherchez le devoir **SNT03 - 1. Création d'un graphe**
     4. Cliquez sur le bouton <span class="pronote-button">Déposer ma copie</span>
     5. Cliquez sur le bouton **Un seul fichier (*.pdf, *.doc, ...)**
-    6. Déposez votre graphe au format PNG
+    6. Déposez votre graphe *(au format PNG si l'export est correct)*

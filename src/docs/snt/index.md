@@ -23,7 +23,7 @@
 
 ## Chapitre 3 - Les réseaux sociaux
 
-- [TP1 - Modélisation](03-reseaux-sociaux/tp1-modelisation.md)
+- [Étude d'un réseau social](03-reseaux-sociaux/tp-etude-reseau-social/index.md)
 
 ## Chapitre 4 - Les données structurées
 
