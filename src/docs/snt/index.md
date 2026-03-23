@@ -24,6 +24,7 @@
 ## Chapitre 3 - Les réseaux sociaux
 
 - [Étude d'un réseau social](03-reseaux-sociaux/tp-etude-reseau-social/index.md)
+- [Impacts des réseaux sociaux](03-reseaux-sociaux/tp-impacts-reseaux-sociaux.md)
 
 ## Chapitre 4 - Les données structurées
 
