@@ -25,12 +25,13 @@ Ces travaux pratiques ont pour objectif de vous faire découvrir l'impact des al
 
     1. Connectez-vous à l'ENT : [:material-link: https://monlycee.net](https://monlycee.net/){:target="_blank"}
     2. Rendez vous dans le **Médiacentre**
-    3. Accédez à l'application **Cafeyne**
-    4. Accédez à la section **Catalogue**
-    4. Recherchez le magazine **Challenges**
-    5. Recherchez dans les archives le numéro 887 du **18 septembre 2025**
-    6. Consultez-le et rendez-vous à la **page 81**
-    7. Lisez l'article intitulé **La fabrique de l'addiction**
+    3. Accdédez à la section **Ressources**
+    4. Trouvez et accédez à l'application **Cafeyn**
+    5. Accédez à la section **Catalogue**
+    6. Recherchez le magazine **Challenges**
+    7. Recherchez dans les archives le numéro 887 du **18 septembre 2025**
+    8. Consultez-le et rendez-vous à la **page 81**
+    9. Lisez l'article intitulé **La fabrique de l'addiction**
 
 ## Évaluation
 
