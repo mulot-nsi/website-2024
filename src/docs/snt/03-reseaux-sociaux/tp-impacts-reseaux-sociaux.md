@@ -25,7 +25,7 @@ Ces travaux pratiques ont pour objectif de vous faire découvrir l'impact des al
 
     1. Connectez-vous à l'ENT : [:material-link: https://monlycee.net](https://monlycee.net/){:target="_blank"}
     2. Rendez vous dans le **Médiacentre**
-    3. Accdédez à la section **Ressources**
+    3. Accédez à la section **Ressources**
     4. Trouvez et accédez à l'application **Cafeyn**
     5. Accédez à la section **Catalogue**
     6. Recherchez le magazine **Challenges**
