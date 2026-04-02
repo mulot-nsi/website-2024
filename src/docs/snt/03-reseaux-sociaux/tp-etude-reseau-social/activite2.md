@@ -39,7 +39,7 @@ Une fois le(s) centre(s) trouvé(s), il vous restera à préciser le rayon et le
     votre propre graphe :
 
     - **A** - Les distances (nombre minimum d'arêtes entre un sommet et tous les autres du graphe)
-    - **B** - Les écartements (la plus distance d'un sommet)
+    - **B** - Les écartements (la plus grande distance d'un sommet)
     - **C** - Le ou les centres (sommet(s) dont l'écartement est le plus petit)
     - **D** - Le rayon (plus petit écartement) et le diamètre (plus grand écartement)
 
