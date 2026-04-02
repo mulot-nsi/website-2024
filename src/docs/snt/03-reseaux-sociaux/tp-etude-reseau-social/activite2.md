@@ -38,10 +38,10 @@ Une fois le(s) centre(s) trouvé(s), il vous restera à préciser le rayon et le
     La numérotation en surimpression correspond à la liste des caractéristiques mentionnées plus haut et à déterminer pour
     votre propre graphe :
 
-    1. Les distances *(nombre minimum d'arêtes reliant deux sommets)*
-    2. Les écartements *(la plus grande distance** entre un sommet et les autres sommets du graphe)*
-    3. Le ou les centres *(sommet(s) dont l'écartement** est le plus petit)*  
-    4. Le rayon et le diamètre *(plus petit et plus grand écartement)*  
+    - **A** - Les distances (nombre minimum d'arêtes entre un sommet et tous les autres du graphe)
+    - **B** - Les écartements (la plus distance d'un sommet)
+    - **C** - Le ou les centres (sommet(s) dont l'écartement est le plus petit)
+    - **D** - Le rayon (plus petit écartement) et le diamètre (plus grand écartement)
 
     <figure markdown>
         ![selecteur_type](images/specification_table.png){:style="max-width:100%;border:1px solid black;"}
@@ -61,14 +61,6 @@ Une fois le(s) centre(s) trouvé(s), il vous restera à préciser le rayon et le
         - Il y a une distance de 1 entre *Cillian M.* et *Tom H.* car ils sont directement liés par une arête
     4. Complétez le tableau
 
-!!! warning "Attention"
-
-    Pensez à enregistrer **fréquemment** votre travail. Nommez correctement votre fichier en précisant votre classe, votre
-    nom ainsi qu'un mot-clé en rapport avec son contenu. Exemple :
-
-    - `SEC01_Mark_Zukerberg_caracteristiques.ods` *(.ods est l'extension des fichiers LibreOffice Calc)*<br />
-    - `SEC01_Mark_Zukerberg_caracteristiques.xlsx` *(.xlsx est l'extension des fichiers Microsoft Excel)*
-
 ## Envoi du travail
 
 Une fois votre tableau complété, vous pouvez le déposer sur Pronote.
@@ -77,7 +69,7 @@ Une fois votre tableau complété, vous pouvez le déposer sur Pronote.
 
     1. Connectez-vous à l'ENT : [:material-link: https://monlycee.net](https://monlycee.net/){:target="_blank"}
     3. Accédez à l'application **Pronote**
-    4. Depuis l'accueil, recherchez le devoir **SNT03 - 2. Caractéristiques d'un graphe**
+    4. Depuis l'accueil, recherchez le devoir intitulé **SNT03 - 2. Caractéristiques d'un graphe**
     5. Cliquez sur le bouton <span class="pronote-button">Déposer ma copie</span>
     6. Cliquez sur le bouton **Un seul fichier (*.pdf, *.doc, ...)**
     7. Déposez votre fichier tableur
