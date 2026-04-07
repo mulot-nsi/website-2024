@@ -21,18 +21,6 @@ Vous allez travailler à la fois sur votre ordinateur portable et l'ordinateur f
     1. Connectez-vous à l'ordinateur du lycée
     2. Revenez sur votre ordinateur portable et effectuez les travaux pratiques jusqu'à ce qu'il vous soit demandé d'utiliser l'ordinateur du lycée
 
-### Sondage
-
-Afin de mieux connaître vos usages numériques, veuillez répondre au sondage ENT intitulé **Stockage sur le cloud**.
-
-!!! note "Instructions"
-
-    1. [:material-link: Connectez-vous à l'ENT](https://ent.iledefrance.fr/){:target="_blank"}
-    2. Accédez à l'application **Formulaires**
-    3. Accédez à la section **Mes réponses**
-    4. Accédez au sondage **Stockage sur le cloud**
-    5. Répondez aux questions et n'oubliez pas de cliquer sur **Terminer et envoyer** sur la page récapitulative
-
 ### Activation sur l'ordinateur
 
 !!! target "Objectif"
