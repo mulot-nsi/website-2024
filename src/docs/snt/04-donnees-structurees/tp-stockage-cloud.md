@@ -18,21 +18,21 @@ Vous allez travailler à la fois sur votre ordinateur portable et l'ordinateur f
 
 !!! note "Instructions"
 
-    1. Connectez-vous à l'ordinateur du lycée
-    2. Revenez sur votre ordinateur portable et effectuez les travaux pratiques jusqu'à ce qu'il vous soit demandé d'utiliser l'ordinateur du lycée
+    1. Connectez-vous à l'**ordinateur fixe** du lycée
+    2. Revenez sur votre **ordinateur portable** et effectuez les travaux pratiques jusqu'à ce qu'il vous soit demandé d'utiliser l'ordinateur fixe du lycée
 
 ### Activation sur l'ordinateur
 
 !!! target "Objectif"
     
     S'assurer du bon fonctionnement de la synchronisation sur votre ordinateur portable.
-    Si n'avez pas votre ordinateur portable et que vous n'utilisez que l'ordinateur du lycée, passez directement à la section [:material-link: Activation sur le téléphone](#activation-sur-le-telephone)
+    Si n'avez pas votre ordinateur portable et que vous n'utilisez que l'ordinateur fixe du lycée, passez directement à la section [:material-link: Activation sur le téléphone](#activation-sur-le-telephone)
 
 !!! note "Instructions"
 
-    1. Lancez l'application **Drive monlycée.net**
-    2. Cliquez sur **Suivant**, le navigateur web devrait s'ouvrir en vous demandant de vous connecter à votre compte ENT
-    3. Suivez les instructions afin d'autoriser l'accès à votre compte ENT
+    1. Lancez le logiciel « **Drive monlycée.net** »<br>(il est déjà installé sur votre ordinateur, faites une recherche dans le menu démarrer en saisissant "drive")
+    2. Cliquez sur **Suivant**, le navigateur web devrait s'ouvrir afin de vous connecter à votre compte ENT
+    3. Suivez les instructions pour autoriser l'accès à votre compte ENT
     4. La synchronisation devrait se lancer automatiquement et un dossier **Drive monlycee.net** devrait être visible dans l'explorateur de fichiers de votre ordinateur portable
 
 ??? warning "Vous n'avez pas l'application **Drive monlycée.net**"
@@ -50,6 +50,8 @@ Vous allez travailler à la fois sur votre ordinateur portable et l'ordinateur f
 !!! target "Objectif"
     
     Installer l'application **Drive monlycée.net** sur le téléphone afin de pourvoir l'utiliser pour consulter ou déposer des documents.
+
+    Si vous n'êtes pas en possession de votre téléphone portable ou si vous m'êtes pas autorisé à installer des applications sur votre téléphone, passez directement à la section [:material-link: Mise en pratique](#mise-en-pratique)
 
 !!! note "Instructions"
 
@@ -72,11 +74,11 @@ Pour contourner ce problème, les services de stockage sur le *cloud* fournissen
 
 !!! note "Instructions"
 
-    1. Utilisez maintenant l'ordinateur du lycée
+    1. Utilisez maintenant l'**ordinateur fixe** du lycée
     2. Lancez un navigateur web et [:material-link: Connectez-vous à l'ENT](https://ent.iledefrance.fr/){:target="_blank"}
-    3. Accédez à l'application **Mon drive Monlycée**
-    4. Déposez le contenu de votre dossier personnel du réseau du lycée dans le dossier sur **Mon drive Monlycée**
-    5. Vérifiez que les fichiers déposés sont bien visibles depuis votre ordinateur portable et votre téléphone
+    3. Accédez à l'application « **Mon drive Monlycée** »
+    4. Téléversez le contenu de votre dossier personnel du réseau du lycée (celui qui a votre nom) dans le dossier **Tous les fichiers** sur Mon drive Monlycée
+    5. Vérifiez que les fichiers déposés sont bien visibles depuis votre **ordinateur portable** et votre **téléphone**
 
 ### Partage
 
@@ -92,8 +94,9 @@ Vous pouvez également autoriser des utilisateurs à modifier les dossiers et le
     1. Accédez à l'application **Mon drive Monlycée** depuis un navigateur web
     2. Créez un dossier intitulé `Test partage`
     3. Cliquez sur l'icône de partage du dossier (l'icône en forme de personne avec un +)
-    4. Partagez le dossier à l'un de vos camarades en saisissant son adresse e-mail ENT
-
+    4. Partagez le dossier à l'un de vos camarades en saisissant son adresse e-mail ENT (prenom.nom@monlycee.net)
+    5. Demandez à votre camarade d'accèpter le partage du dossier via la section « Partages > Partages en attente » de l'application **Mon drive Monlycée**
+    6. Creez un fichier texte dans le dossier partagé et vérifiez que votre camarade peut le voir et le modifier en même temps que vous
 
 ### Test des fonctionnalités
 
