@@ -43,7 +43,10 @@ nav:
               - Activité 2: snt/03-reseaux-sociaux/tp-etude-reseau-social/activite2.md
           - Impact des réseaux sociaux: snt/03-reseaux-sociaux/tp-impacts-reseaux-sociaux.md
       - Données structurées:
-          - TP1 - Données ouvertes: snt/04-donnees-structurees/tp1-donnees-ouvertes.md
+          - TP1 - Données ouvertes:
+              - snt/04-donnees-structurees/tp-donnees-ouvertes/index.md
+              - Activité 1: snt/04-donnees-structurees/tp-donnees-ouvertes/activite1.md
+              - Activité 2: snt/04-donnees-structurees/tp-donnees-ouvertes/activite2.md
           - TP2 - Les métadonnées: snt/04-donnees-structurees/tp2-metadonnees.md
           - TP3 - Stockage sur le Cloud: snt/04-donnees-structurees/tp-stockage-cloud.md
       - Photographie numérique:

@@ -1,13 +1,13 @@
 ---
-title: TP1 - Données ouvertes
-description: Découverte des données ouvertes et des traitements sur tableau
+title: Tableur
+description: Manipulation de données à l'aide d'un tableur
 ---
 
-# Données ouvertes
+# Tableur
 
 ## Introduction
 
-Ces travaux pratiques ont pour objectif de vous faire découvrir ce que sont les données ouvertes *(Open Data)* et vous faire manipuler des données à l'aide d'un tableur.
+Ces travaux pratiques ont pour objectif de vous faire manipuler des données à l'aide d'une application tableur.
 
 ## Préparation
 
@@ -16,107 +16,27 @@ travaux pratiques.
 
 !!! note "Organisation de l'espace travail"
 
+    === ":material-cloud: Mon drive Monlycée"
+
+        1. Connectez-vous à l'ENT : [:material-link: https://monlycee.net/](https://monlycee.net/){:target="_blank"}
+        2. Accédez à l'application **Mon drive monlycée**
+        3. Accédez au dossier `SNT > Données structurées`
+        4. Ouvrez le fichier `liste_des_films_plus_million_entrees.xlsx` déposé en [Activité 1](activite1.md)
+
     === ":material-laptop: Ordinateur portable"
 
         1. Lancez l'application <i class="icon file-explorer"></i> **Explorateur de fichiers**
-        2. Dans le dossier `Document`, s'il n'y a pas de dossier nommé `SNT`, créez-le
-        3. Dans le dossier `SNT`, créez-le dossier `Données structurées`
-        4. Dans le dossier `Données structurées`, créez-le dossier `TP1 - Données ouvertes`
+        2. Accédez au dossier `Document`
+        3. Accédez au dossier `SNT\Données structurées`
+        4. Ouvrez le fichier `liste_des_films_plus_million_entrees.xlsx` téléchargé en [Activité 1](activite1.md)
 
     === ":material-desktop-tower: Ordinateur fixe"
 
         1. Depuis le bureau, double-cliquez sur l'icône intitulée **Zone personnelle**
-        2. Dans la **zone personnelle**, s'il n'y a pas de dossier nommé `SNT`, créez-le
-        3. Dans le dossier `SNT`, créez-le dossier `Données structurées`
-        4. Dans le dossier `Données structurées`, créez-le dossier `TP1 - Données ouvertes`
+        2. Accédez au dossier `SNT\Données structurées`
+        3. Ouvrez le fichier `liste_des_films_plus_million_entrees.xlsx` téléchargé en [Activité 1](activite1.md)
 
-## Les données ouvertes
-
-### Découverte du site data.gouv.fr
-
-!!! note "Consigne"
-
-    1. Rendez-vous sur le site [:material-link: data.gouv.fr](https://data.gouv.fr){:target="_blank"}
-    2. Repérez le menu principal (le bandeau de liens en haut de page ou bien l'icône :material-menu:)
-    3. Depuis le menu principal, cliquez sur l'entrée **Démarrer sur data.gouv.fr** puis **Qu'est-ce que data.gouv.fr ?**
-    4. Lisez le contenu de la page intitulée **À propos de data.gouv.fr**
-
-!!! question "Question"
-
-    Qu'est-ce que **data.gouv.fr** et dans quel but ce site a-t-il été créé ?
-
-??? success "Réponse"
-
-    Data.gouv.fr est la plateforme officielle française où l'État partage gratuitement ses données avec tous les citoyens.
-    Ce site a été créé pour favoriser la transparence gouvernementale et permettre à chacun d'accéder et réutiliser ces informations.
-    En tant qu'élève, vous pouvez y trouver des données utiles comme les résultats du bac, les taux d'emploi en sortie d'études, les indices de position sociale dans les lycées, ...
-
-
-
-
-### Découverte d'un jeu de données
-
-#### :material-link-variant: Accès aux jeux de données
-
-!!! note "Consigne"
-    
-    1. Retournez sur la page d'accueil [:material-link: data.gouv.fr](https://data.gouv.fr){:target="_blank"}
-    2. Cliquez sur l'entrée **Découvrez les jeux de données**
-    3. Une fois sur la page **Jeux de données**, trouvez la mention du nombre total de jeux de données disponibles
-
-!!! question "Question"
-    
-    Quel est le nombre total de jeux de données disponibles sur le site data.gouv.fr ?
-
-??? success "Réponse"
-
-    En mars 2025, le site data.gouv.fr disposait de **61 522** jeux de données.
-
-#### :material-magnify: Recherche d'un jeu de données
-
-!!! note "Consigne"
-    
-    1. Restez sur la page [:material-link: Jeux de données](https://www.data.gouv.fr/fr/datasets/){:target="_blank"}
-    2. Effectuez la recherche de jeux de données suivante : `films million entrées`<br>
-       :material-comment-alert: **Attention :** ne confondez pas avec le champ de recherche du site
-    3. Cliquez sur le résultat intitulé [Films ayant réalisé plus d'un million d'entrées](https://www.data.gouv.fr/fr/datasets/films-ayant-realise-plus-dun-million-dentrees/){:target="_blank"}
-    4. Trouvez sur la page descriptive du jeu de données les réponses aux questions ci-après
-
-!!! question "Questions"
-    
-    - Qui a produit et partagé ce jeu de données ?
-    - Quelle est la période couverte par ces données ?<br>
-      :material-comment-alert: Consultez le contenu de l'onglet **Informations** pour répondre à cette question
-
-??? success "Réponses"
-
-    - Ce jeu de données a été produites et partagées par le CNC *(Centre National du Cinéma et de l'image animée)*
-    - Il est indiqué que la période couverte par le jeu de données est **2003 à 2013**.
-      Cependant ce jeu de données a été mis à jour en 2024. Vous constaterez en l'étudiant que la période couverte est finalement **2003 à 2022**.
-
-#### :material-download: Téléchargement des données
-
-!!! note "Consigne"
-
-    1. Restez sur la page [:material-link: Films ayant réalisé plus d'un million d'entrées](https://www.data.gouv.fr/fr/datasets/films-ayant-realise-plus-dun-million-dentrees/){:target="_blank"}
-    2. Accédez à l'onglet **Fichiers**
-    3. Cliquez sur le bouton :material-download:XLSX pour télécharger le fichier<br> 
-       :material-comment-alert: Le format `xlsx` correspond au format de l'application Microsoft Excel
-
-!!! danger "Le téléchargement ne fonctionne pas ?"
-
-    En cas de problème de téléchargement, le fichier est directement disponible ici :<br />
-    [:material-download: Films ayant réalisé plus d'un million d'entrées](assets/liste_des_films_plus_million_entrees.xlsx){:target="_blank"}
-
-!!! note "Consigne"
-
-    1. **Fermez le fichier téléchargé** si celui-ci s'est automatiquement ouvert<br>
-       :material-comment-alert: Il ne vous sera pas possible de le déplacer par la suite s'il est ouvert
-    2. Déplacez le fichier vers le dossier de travail `SNT\Données structurées\TP1 - Données ouvertes`
-    3. Double-cliquez sur le fichier pour l'ouvrir<br>
-       :material-comment-alert: L'application Microsoft Excel ou LibreOffice Calc doit se lancer
-
-## Les tableurs
+## Application
 
 !!! info "Fonctionnement d'un tableur"
 
@@ -146,37 +66,36 @@ travaux pratiques.
 
     - Quel film a fait le plus d'entrées en 2020 ?
     - Quel film français a fait le plus d'entrées en 2013 ?
-    - Quelle est la nationalité du film ayant fait le plus d'entrées en 2023 ?
+    - Quelle est la nationalité du film ayant fait le plus d'entrées en 2024 ?
 
 ??? success "Réponses"
 
     - Le film ayant fait le plus d'entrées en 2020 est **Tenet**
     - Le film français ayant fait le plus d'entrées en 2013 est **Les Profs**
-    - Le film ayant fait le plus d'entrées en 2023 est **américain** 
+    - Le film ayant fait le plus d'entrées en 2024 est **français** 
 
 ### Filtrage des données
 
 #### Activer les filtres
 
-!!! warning "Attention"
-
-    Si le classeur est en **mode protégé**, cliquer sur **Activer la modification** avant d'aller plus loin.
-
-    <figure markdown>
-        ![selecteur_type](images/mode_protege.png){:style="max-width:100%;"}
-    </figure>
-
 !!! note "Consigne"
 
-    1. **Activez la modification** si le classeur est en mode protégé
-    2. Rendez-vous sur la feuille de calcul de l'année **2018**
-    3. Sélectionnez l'intégralité de la 7<sup>ème</sup> ligne en cliquant sur la **cellule grisée** située en bordure gauche et contenant le numéro 7.
-       Cette ligne contient les en-têtes du tableau<br>
+    1. Rendez-vous sur la feuille de calcul de l'année **2018**
+    2. Sélectionnez l'intégralité de la 7<sup>ème</sup> ligne en cliquant sur la **cellule grisée** située en bordure gauche et contenant le numéro 7.
+       Cette ligne contient les **en-têtes du tableau**<br>
        :material-comment-alert: **Attention :** Ne confondez pas avec la ligne décrivant le film classé 7<sup>ème</sup>
-    4. Activez les tris et les filtres en sélectionnant la fonction appropriée selon le logiciel utilisé<br>
+    3. Activez les tris et les filtres en sélectionnant la fonction appropriée selon le logiciel utilisé<br>
        :material-comment-alert: consultez l'aide ci-dessous
 
 !!! help "Aide - Activer les filtres"
+
+    === ":material-table: Mon drive Monlycée"
+
+        - *Barre de menu* ▸ Données ▸ AutoFiltre :material-filter:
+
+        <figure markdown>
+            ![Filtres](images/filtres.png){:style="max-width:75%;border:1px solid black;"}
+        </figure>
 
     === ":material-microsoft-excel: Microsoft Excel"
 
@@ -224,6 +143,9 @@ travaux pratiques.
     3. Saisissez-y la formule `=SOUS.TOTAL(3;C8:C49)`<br>
        :material-comment-alert: Respectez bien chaque élément de ponctuation (`=`, `;` et `:`)<br>
        :material-comment-alert: Une fois la formule saisie, le nombre de films affichés devrait apparaître dans la cellule `C51`.
+         <figure markdown>
+            ![Formules](images/formules.png){:style="max-width:75%;border:1px solid black;"}
+        </figure>
 
 !!! info "Explications"
 
@@ -300,20 +222,32 @@ travaux pratiques.
 
 ## Nouveau jeu de données
 
-!!! note "Consigne"
+!!! note "Consigne - Téléchargement des données"
 
     1. Rendez-vous sur la page des jeux de données de [:material-link: data.gouv.fr](https://www.data.gouv.fr/fr/datasets/){:target="_blank"}
     2. Dans le champ de recherche, saisissez les mots-clés : `salles cinéma`
     3. Accédez au jeu de données **Les salles de cinéma en Île-de-France**<br>
        :material-comment-alert: Celui fourni par la région Île-de-France et mis à jour le 6 décembre 2021
-    4. Téléchargez le fichier au format `csv` et ouvrez-le avec un tableur
-    5. **En utilisant les fonctionnalités de filtrage et de calcul**, répondez aux questions ci-après<br>
-       :material-comment-alert: **Attention :** Conservez vos réponses dans un fichier texte ou sur une feuille, elles vous seront utiles pour répondre à un QCM Pronote.
+    4. Téléchargez le fichier au format `csv` sans l'ouvrir
 
 !!! danger "Le téléchargement ne fonctionne pas ?"
 
     En cas de problème de téléchargement, le fichier est directement disponible ici :<br />
     [:material-download: Les salles de cinéma en Île-de-France](assets/les_salles_de_cinemas_en_ile-de-france.csv){:target="_blank"}
+
+!!! note "Consigne - Ouverture du fichier"
+
+    1. Déposez le fichier dans le dossier de travail `SNT > Données structurées`
+    2. Ouvrez-le avec un tableur en cliquant dessus
+    3. À l'ouverture du fichier, choisir « Unicode UTF-8 » comme jeu de caractère et uniquement le « point-virgule » comme séparateur
+        <figure markdown>
+            ![Fichier CSV](images/csv.png){:style="max-width:50%;border:1px solid black;"}
+        </figure>
+
+    6. **En utilisant les fonctionnalités de filtrage et de calcul**, répondez aux questions ci-après<br>
+       :material-comment-alert: **Attention :** Conservez vos réponses dans un fichier texte ou sur une feuille, elles vous seront utiles pour répondre à un QCM Pronote.
+
+
 
 !!! question "Questions"
 
