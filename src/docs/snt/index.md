@@ -28,7 +28,7 @@
 
 ## Chapitre 4 - Les données structurées
 
-- [TP1 - Données ouvertes](04-donnees-structurees/tp1-donnees-ouvertes.md)
+- [TP1 - Données ouvertes](04-donnees-structurees/tp-donnees-ouvertes/index.md)
 - [TP2 - Métadonnées](04-donnees-structurees/tp2-metadonnees.md)
 - [TP3 - Stockage sur le Cloud](04-donnees-structurees/tp-stockage-cloud.md)
 
