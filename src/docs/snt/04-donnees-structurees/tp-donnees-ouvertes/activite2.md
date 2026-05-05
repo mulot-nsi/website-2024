@@ -233,18 +233,13 @@ travaux pratiques.
 !!! danger "Le téléchargement ne fonctionne pas ?"
 
     En cas de problème de téléchargement, le fichier est directement disponible ici :<br />
-    [:material-download: Les salles de cinéma en Île-de-France](assets/les_salles_de_cinemas_en_ile-de-france.csv){:target="_blank"}
+    [:material-download: Les salles de cinéma en Île-de-France](assets/les_salles_de_cinemas_en_ile-de-france.ods){:target="_blank"}
 
 !!! note "Consigne - Ouverture du fichier"
 
     1. Déposez le fichier dans le dossier de travail `SNT > Données structurées`
     2. Ouvrez-le avec un tableur en cliquant dessus
-    3. À l'ouverture du fichier, choisir « Unicode UTF-8 » comme jeu de caractère et uniquement le « point-virgule » comme séparateur
-        <figure markdown>
-            ![Fichier CSV](images/csv.png){:style="max-width:50%;border:1px solid black;"}
-        </figure>
-
-    6. **En utilisant les fonctionnalités de filtrage et de calcul**, répondez aux questions ci-après<br>
+    3. **En utilisant les fonctionnalités de filtrage et de calcul**, répondez aux questions ci-après<br>
        :material-comment-alert: **Attention :** Conservez vos réponses dans un fichier texte ou sur une feuille, elles vous seront utiles pour répondre à un QCM Pronote.
 
 
