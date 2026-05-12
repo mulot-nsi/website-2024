@@ -26,11 +26,17 @@ travaux pratiques.
 
     === ":material-laptop: Ordinateur portable"
 
+        !!! danger "Important"
+            Utilisez en priorité « Mon drive Monlycée » même avec votre ordinateur portable. 
+
         1. Lancez l'application <i class="icon file-explorer"></i> **Explorateur de fichiers**
         2. Dans le dossier `Document`, s'il n'y a pas de dossier nommé `SNT`, créez-le
         3. Dans le dossier `SNT`, créez-le dossier `Données structurées`
 
     === ":material-desktop-tower: Ordinateur fixe"
+
+        !!! danger "Important"
+            Utilisez en priorité « Mon drive Monlycée » même l'ordinateur fixe.
 
         1. Depuis le bureau, double-cliquez sur l'icône intitulée **Zone personnelle**
         2. Dans la **zone personnelle**, s'il n'y a pas de dossier nommé `SNT`, créez-le
@@ -44,14 +50,14 @@ travaux pratiques.
 
     1. Rendez-vous sur le site [:material-link: data.gouv.fr](https://data.gouv.fr){:target="_blank"}
     2. Repérez le menu principal (le bandeau de liens en haut de page ou bien l'icône :material-menu:)
-    3. Cliquez sur l'entrée **Démarrer sur data.gouv.fr**
+    3. Cliquez sur l'entrée « **Démarrer sur data.gouv.fr** »
 
         <figure markdown>
             ![Menu principal](images/menu_principal.png){:style="max-width:75%;border:1px solid black;"}
         </figure>
 
-    4. Cliquez ensuite sur l'entrée **Qu'est-ce que data.gouv.fr ?**
-    5. Lisez le contenu de la page intitulée **À propos de data.gouv.fr**
+    4. Cliquez ensuite sur l'entrée « **Qu'est-ce que data.gouv.fr ?** »
+    5. Lisez le contenu de la page intitulée « **À propos de data.gouv.fr** »
 
 !!! question "Question"
 
@@ -79,8 +85,8 @@ travaux pratiques.
 !!! note "Consigne"
     
     1. Retournez sur la page d'accueil [:material-link: data.gouv.fr](https://data.gouv.fr){:target="_blank"}
-    2. Cliquez sur l'entrée **Données** du menu principal
-    3. Une fois sur la page **Rechercher un jeu de données**, trouvez la mention du nombre de jeux de données disponibles
+    2. Cliquez sur l'entrée « **Données** » du menu principal
+    3. Une fois sur la page intitulée « **Rechercher un jeu de données** », trouvez la mention du nombre de jeux de données disponibles
 
 !!! question "Question"
     
@@ -97,7 +103,7 @@ travaux pratiques.
     1. Restez sur la page [:material-link: Rechercher un jeu de données](https://www.data.gouv.fr/datasets){:target="_blank"}
     2. Effectuez la recherche du jeu de données intitulé : `films million entrées`<br>
        :material-comment-alert: **Attention :** ne confondez pas avec le champ de recherche du site
-    3. Cliquez sur le résultat intitulé [Films ayant réalisé plus d'un million d'entrées](https://www.data.gouv.fr/datasets/films-ayant-realise-plus-dun-million-dentrees){:target="_blank"}
+    3. Cliquez sur le résultat intitulé « [Films ayant réalisé plus d'un million d'entrées](https://www.data.gouv.fr/datasets/films-ayant-realise-plus-dun-million-dentrees){:target="_blank"} »
 
         <figure markdown>
             ![Jeu de données](images/jeu_donnees.png){:style="max-width:75%;border:1px solid black;"}

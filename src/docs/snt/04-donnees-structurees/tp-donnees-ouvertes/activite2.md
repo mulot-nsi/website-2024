@@ -228,7 +228,8 @@ travaux pratiques.
     2. Dans le champ de recherche, saisissez les mots-clés : `salles cinéma`
     3. Accédez au jeu de données **Les salles de cinéma en Île-de-France**<br>
        :material-comment-alert: Celui fourni par la région Île-de-France et mis à jour le 6 décembre 2021
-    4. Téléchargez le fichier au format `csv` sans l'ouvrir
+    4. Téléchargez le fichier au format `csv` sans l'ouvrir<br>
+       :material-alert: **Attention :** en cas de problème de téléchargement, suivez les instructions ci-dessous
 
 !!! danger "Le téléchargement ne fonctionne pas ?"
 
